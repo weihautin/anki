@@ -1,4 +1,5 @@
 #!/bin/bash
+# 主要是針對designer的資料夾轉換成python檔案:wq
 #
 # generate python files based on the designer ui files. pyuic4 and pyrcc4
 # should be on the path.

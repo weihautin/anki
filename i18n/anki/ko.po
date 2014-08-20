@@ -1,0 +1,4077 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the BSD license
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-08-05 12:59+0900\n"
+"PO-Revision-Date: 2014-08-18 08:05+0000\n"
+"Last-Translator: jnnk <Unknown>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Launchpad-Export-Date: 2014-08-19 06:11+0000\n"
+"X-Generator: Launchpad (build 17156)\n"
+"Language: \n"
+
+#: ../dtop/aqt/sound.py:18
+msgid "  Stop"
+msgstr "  정지"
+
+#: ../dtop/aqt/clayout.py:122
+#, python-format
+msgid " (1 of %d)"
+msgstr " (1/%d)"
+
+#: ../dtop/aqt/clayout.py:342
+msgid " (off)"
+msgstr " (꺼짐)"
+
+#: ../dtop/aqt/clayout.py:340
+msgid " (on)"
+msgstr " (켜짐)"
+
+#: ../dtop/aqt/deckbrowser.py:323
+#, python-format
+msgid " It has %d card."
+msgid_plural " It has %d cards."
+msgstr[0] " %d카드가 들어 있습니다."
+
+#: ../dtop/aqt/forms/dconf.py:347 ../dtop/aqt/forms/dconf.py:359
+#: ../dtop/aqt/forms/dconf.py:360 ../dtop/aqt/forms/dconf.py:376
+msgid "%"
+msgstr "%"
+
+#: ../dtop/anki/stats.py:623 ../dtop/anki/stats.py:630
+msgid "% Correct"
+msgstr "% 정답"
+
+#: ../dtop/anki/stats.py:853
+#, python-format
+msgid "%(a)0.1f %(b)s/day"
+msgstr "%(a)0.1f %(b)s/일"
+
+#: ../dtop/anki/stats.py:364
+#, python-format
+msgid "%(a)0.1fs (%(b)s)"
+msgstr ""
+
+#: ../dtop/aqt/browser.py:1359
+#, python-format
+msgid "%(a)d of %(b)d note updated"
+msgid_plural "%(a)d of %(b)d notes updated"
+msgstr[0] "%(a)d/%(b)d노트를 업데이트 했습니다."
+
+#: ../dtop/aqt/sync.py:77
+#, python-format
+msgid "%(a)dkB up, %(b)dkB down"
+msgstr "%(a)dkB 업로드, %(b)dkB 다운로드"
+
+#: ../dtop/anki/stats.py:343
+#, python-format
+msgid "%(tot)s %(unit)s"
+msgstr "%(tot)s %(unit)s"
+
+#: ../dtop/anki/stats.py:361
+#, python-format
+msgid "%.01f cards/minute"
+msgstr "%.01f 카드/분"
+
+#: ../dtop/anki/stats.py:236 ../dtop/aqt/clayout.py:139
+#: ../dtop/aqt/main.py:1011
+#, python-format
+msgid "%d card"
+msgid_plural "%d cards"
+msgstr[0] "%d카드"
+
+#: ../dtop/aqt/main.py:1022
+#, python-format
+msgid "%d card deleted."
+msgid_plural "%d cards deleted."
+msgstr[0] "%d카드를 삭제했습니다."
+
+#: ../dtop/aqt/exporting.py:106
+#, python-format
+msgid "%d card exported."
+msgid_plural "%d cards exported."
+msgstr[0] "%d카드를 내보냈습니다."
+
+#: ../dtop/anki/importing/anki2.py:323
+#: ../dtop/anki/importing/supermemo_xml.py:182
+#, python-format
+msgid "%d card imported."
+msgid_plural "%d cards imported."
+msgstr[0] "%d카드를 가져왔습니다."
+
+#: ../dtop/aqt/reviewer.py:73
+#, python-format
+msgid "%d card studied in"
+msgid_plural "%d cards studied in"
+msgstr[0] "%d카드를 공부한 시간"
+
+#: ../dtop/aqt/deckconf.py:149
+#, python-format
+msgid "%d deck updated."
+msgid_plural "%d decks updated."
+msgstr[0] "%d뭉치를 업데이트했습니다."
+
+#: ../dtop/aqt/browser.py:1406
+#, python-format
+msgid "%d group"
+msgid_plural "%d groups"
+msgstr[0] "%d그룹"
+
+#: ../dtop/anki/sync.py:801
+#, python-format
+msgid "%d media change to upload"
+msgid_plural "%d media changes to upload"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../dtop/anki/sync.py:848
+#, python-format
+msgid "%d media file downloaded"
+msgid_plural "%d media files downloaded"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../dtop/aqt/browser.py:1120 ../dtop/aqt/browser.py:1407
+#: ../dtop/aqt/browser.py:1413 ../dtop/aqt/fields.py:97
+#: ../dtop/aqt/models.py:72
+#, python-format
+msgid "%d note"
+msgid_plural "%d notes"
+msgstr[0] "%d노트"
+
+#: ../dtop/anki/importing/noteimp.py:196
+#, python-format
+msgid "%d note added"
+msgid_plural "%d notes added"
+msgstr[0] "%d노트를 추가했습니다."
+
+#: ../dtop/anki/importing/mnemo.py:91
+#, python-format
+msgid "%d note imported."
+msgid_plural "%d notes imported."
+msgstr[0] "%d노트를 가져왔습니다."
+
+#: ../dtop/anki/importing/noteimp.py:205
+#, python-format
+msgid "%d note unchanged"
+msgid_plural "%d notes unchanged"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../dtop/anki/importing/noteimp.py:197
+#, python-format
+msgid "%d note updated"
+msgid_plural "%d notes updated"
+msgstr[0] "%d노트를 업데이트했습니다."
+
+#: ../dtop/anki/stats.py:230
+#, python-format
+msgid "%d review"
+msgid_plural "%d reviews"
+msgstr[0] "%d복습"
+
+#: ../dtop/aqt/browser.py:562
+#, python-format
+msgid "%d selected"
+msgid_plural "%d selected"
+msgstr[0] "%d개 선택"
+
+#: ../dtop/aqt/exporting.py:71
+#, python-format
+msgid "%s already exists on your desktop. Overwrite it?"
+msgstr "%s 파일은 이미 데스크톱에 존재합니다. 덮어쓸까요?"
+
+#: ../dtop/anki/models.py:220
+#, python-format
+msgid "%s copy"
+msgstr "%s 복사"
+
+#: ../dtop/anki/utils.py:53
+#, python-format
+msgid "%s day"
+msgid_plural "%s days"
+msgstr[0] "%s일"
+
+#: ../dtop/anki/utils.py:62
+#, python-format
+msgid "%s day<!--after-->"
+msgid_plural "%s days<!--after-->"
+msgstr[0] "%s일<!--after-->"
+
+#: ../dtop/aqt/browser.py:1120
+#, python-format
+msgid "%s deleted."
+msgstr "%s 삭제됨."
+
+#: ../dtop/anki/utils.py:54
+#, python-format
+msgid "%s hour"
+msgid_plural "%s hours"
+msgstr[0] "%s시간"
+
+#: ../dtop/anki/utils.py:63
+#, python-format
+msgid "%s hour<!--after-->"
+msgid_plural "%s hours<!--after-->"
+msgstr[0] "%s시간<!--after-->"
+
+#: ../dtop/anki/utils.py:55
+#, python-format
+msgid "%s minute"
+msgid_plural "%s minutes"
+msgstr[0] "%s분"
+
+#: ../dtop/aqt/reviewer.py:75
+#, python-format
+msgid "%s minute."
+msgid_plural "%s minutes."
+msgstr[0] "%s분."
+
+#: ../dtop/anki/utils.py:64
+#, python-format
+msgid "%s minute<!--after-->"
+msgid_plural "%s minutes<!--after-->"
+msgstr[0] "%s분<!--after-->"
+
+#: ../dtop/anki/utils.py:52
+#, python-format
+msgid "%s month"
+msgid_plural "%s months"
+msgstr[0] "%s개월"
+
+#: ../dtop/anki/utils.py:61
+#, python-format
+msgid "%s month<!--after-->"
+msgid_plural "%s months<!--after-->"
+msgstr[0] "%s달<!--after-->"
+
+#: ../dtop/anki/utils.py:56 ../dtop/aqt/main.py:843
+#, python-format
+msgid "%s second"
+msgid_plural "%s seconds"
+msgstr[0] "%s초"
+
+#: ../dtop/anki/utils.py:65
+#, python-format
+msgid "%s second<!--after-->"
+msgid_plural "%s seconds<!--after-->"
+msgstr[0] "%s초<!--after-->"
+
+#: ../dtop/aqt/main.py:1012
+#, python-format
+msgid "%s to delete:"
+msgstr "삭제할 %s:"
+
+#: ../dtop/anki/utils.py:51
+#, python-format
+msgid "%s year"
+msgid_plural "%s years"
+msgstr[0] "%s년"
+
+#: ../dtop/anki/utils.py:60
+#, python-format
+msgid "%s year<!--after-->"
+msgid_plural "%s years<!--after-->"
+msgstr[0] "%s년<!--after-->"
+
+#: ../dtop/anki/utils.py:72
+#, python-format
+msgid "%sd"
+msgstr "%s일"
+
+#: ../dtop/anki/utils.py:73
+#, python-format
+msgid "%sh"
+msgstr "%s시간"
+
+#: ../dtop/anki/utils.py:74
+#, python-format
+msgid "%sm"
+msgstr "%s분"
+
+#: ../dtop/anki/utils.py:71
+#, python-format
+msgid "%smo"
+msgstr "%s달"
+
+#: ../dtop/anki/utils.py:75
+#, python-format
+msgid "%ss"
+msgstr "%s초"
+
+#: ../dtop/anki/utils.py:70
+#, python-format
+msgid "%sy"
+msgstr "%s년"
+
+#: ../dtop/aqt/forms/main.py:148
+msgid "&About..."
+msgstr "정보(&A)..."
+
+#: ../dtop/aqt/forms/main.py:142
+msgid "&Add-ons"
+msgstr "추가 기능(&A)"
+
+#: ../dtop/aqt/forms/main.py:156
+msgid "&Check Database..."
+msgstr "데이터베이스 검사(&C)..."
+
+#: ../dtop/aqt/forms/browser.py:298
+msgid "&Cram..."
+msgstr "벼락치기(&C)..."
+
+#: ../dtop/aqt/forms/browser.py:273 ../dtop/aqt/forms/main.py:139
+msgid "&Edit"
+msgstr "편집(&E)"
+
+#: ../dtop/aqt/forms/main.py:161
+msgid "&Export..."
+msgstr "내보내기(&E)..."
+
+#: ../dtop/aqt/forms/main.py:140
+msgid "&File"
+msgstr "파일(&F)"
+
+#: ../dtop/aqt/forms/browser.py:282
+msgid "&Find"
+msgstr "찾기(&F)"
+
+#: ../dtop/aqt/forms/browser.py:274
+msgid "&Go"
+msgstr "이동(&G)"
+
+#: ../dtop/aqt/forms/browser.py:290
+msgid "&Guide"
+msgstr "지침서(&G)"
+
+#: ../dtop/aqt/forms/main.py:157
+msgid "&Guide..."
+msgstr "지침서(&G)..."
+
+#: ../dtop/aqt/forms/browser.py:275 ../dtop/aqt/forms/main.py:138
+msgid "&Help"
+msgstr "도움말(&H)"
+
+#: ../dtop/aqt/forms/main.py:163
+msgid "&Import..."
+msgstr "가져오기(&I)..."
+
+#: ../dtop/aqt/forms/browser.py:281
+msgid "&Invert Selection"
+msgstr "선택 항목 반전(&I)"
+
+#: ../dtop/aqt/forms/browser.py:286
+msgid "&Next Card"
+msgstr "다음 카드(&N)"
+
+#: ../dtop/aqt/forms/main.py:153
+msgid "&Open Add-ons Folder..."
+msgstr "추가 기능 폴더 열기(&O)..."
+
+#: ../dtop/aqt/forms/main.py:145
+msgid "&Preferences..."
+msgstr "환경 설정(&P)..."
+
+#: ../dtop/aqt/forms/browser.py:288
+msgid "&Previous Card"
+msgstr "이전 카드(&P)"
+
+#: ../dtop/aqt/forms/browser.py:276
+msgid "&Reschedule..."
+msgstr "일정 재조정(&R)..."
+
+#: ../dtop/aqt/forms/main.py:154
+msgid "&Support Anki..."
+msgstr "앙키 후원(&S)..."
+
+#: ../dtop/aqt/forms/main.py:159
+msgid "&Switch Profile..."
+msgstr "프로필 전환(&S)..."
+
+#: ../dtop/aqt/forms/main.py:141
+msgid "&Tools"
+msgstr "도구(&T)"
+
+#: ../dtop/aqt/forms/browser.py:279 ../dtop/aqt/forms/main.py:149
+msgid "&Undo"
+msgstr "실행 취소(&U)"
+
+#: ../dtop/anki/importing/csvfile.py:42
+#, python-format
+msgid "'%(row)s' had %(num1)d fields, expected %(num2)d"
+msgstr "'%(row)s'째 줄의 필드는 %(num1)d개. 예상한 필드는 %(num2)d개."
+
+#: ../dtop/anki/stats.py:169
+#, python-format
+msgid "(%s correct)"
+msgstr "(%s 정답)"
+
+#: ../dtop/anki/sched.py:1219
+msgid "(end)"
+msgstr ""
+
+#: ../dtop/aqt/browser.py:293
+msgid "(filtered)"
+msgstr "(여과됨)"
+
+#: ../dtop/aqt/browser.py:250
+msgid "(learning)"
+msgstr "(익히는 중)"
+
+#: ../dtop/aqt/browser.py:248 ../dtop/aqt/browser.py:254
+msgid "(new)"
+msgstr "(새 카드)"
+
+#: ../dtop/aqt/deckconf.py:170
+#, python-format
+msgid "(parent limit: %d)"
+msgstr "(부모 제한: %d)"
+
+#: ../dtop/aqt/browser.py:1081
+msgid "(please select 1 card)"
+msgstr ""
+
+#: ../dtop/aqt/forms/customstudy.py:113 ../dtop/aqt/forms/customstudy.py:114
+#: ../dtop/aqt/forms/customstudy.py:115
+msgid "..."
+msgstr "..."
+
+#: ../dtop/aqt/importing.py:300
+msgid ""
+".anki2 files are not designed for importing. If you're trying to restore "
+"from a backup, please see the 'Backups' section of the user manual."
+msgstr ""
+".anki2 파일은 가져오기 용으로 제작되지 않았습니다. 백업 파일에서 복구를 하려면, 사용 설명서에서 '백업' 항목을 참고하세요."
+
+#: ../dtop/aqt/forms/main.py:166
+msgid "/"
+msgstr "/"
+
+#: ../dtop/aqt/browser.py:932
+msgid "0d"
+msgstr "0일"
+
+#: ../dtop/aqt/forms/dyndconf.py:103
+msgid "1 10"
+msgstr "1 10"
+
+#: ../dtop/anki/stats.py:730 ../dtop/aqt/forms/stats.py:89
+msgid "1 month"
+msgstr "1개월"
+
+#: ../dtop/anki/stats.py:731 ../dtop/aqt/forms/stats.py:90
+msgid "1 year"
+msgstr "1년"
+
+#: ../dtop/anki/stats.py:627
+msgid "10AM"
+msgstr "10AM"
+
+#: ../dtop/anki/stats.py:628
+msgid "10PM"
+msgstr "10PM"
+
+#: ../dtop/anki/stats.py:628
+msgid "3AM"
+msgstr "3AM"
+
+#: ../dtop/anki/stats.py:627
+msgid "4AM"
+msgstr "4AM"
+
+#: ../dtop/anki/stats.py:628
+msgid "4PM"
+msgstr "4PM"
+
+#: ../dtop/aqt/sync.py:170
+msgid ""
+"504 gateway timeout error received. Please try temporarily disabling your "
+"antivirus."
+msgstr "504 gateway timeout 오류가 발생했습니다. 안티바이러스를 잠시 꺼보세요."
+
+#: ../dtop/anki/stats.py:690
+msgid ":"
+msgstr ":"
+
+#: ../dtop/aqt/about.py:43
+msgid "<!--about diag--> and"
+msgstr "<!--about diag--> 그리고"
+
+#: ../dtop/anki/stats.py:163 ../dtop/aqt/deckbrowser.py:165
+#, python-format
+msgid "<!--studied-->%d card"
+msgid_plural "<!--studied-->%d cards"
+msgstr[0] "<!--studied-->%d카드"
+
+#: ../dtop/aqt/forms/preferences.py:240
+msgid "<a href=\"backups\">Open backup folder</a>"
+msgstr "<a href=\"backups\">백업 폴더 열기</a>"
+
+#: ../dtop/aqt/about.py:27
+#, python-format
+msgid "<a href='%s'>Visit website</a>"
+msgstr "<a href='%s'>공식 웹사이트 방문</a>"
+
+#: ../dtop/anki/stats.py:336
+#, python-format
+msgid "<b>%(pct)d%%</b> (%(x)s of %(y)s)"
+msgstr "<b>%(pct)d%%</b> (%(x)s/%(y)s)"
+
+#: ../dtop/aqt/browser.py:913
+msgid "<b>%Y-%m-%d</b> @ %H:%M"
+msgstr "<b>%Y-%m-%d</b> @ %H:%M"
+
+#: ../dtop/aqt/forms/preferences.py:236
+msgid ""
+"<b>Backups</b><br>Anki will create a backup of your collection each time it "
+"is closed or synchronized."
+msgstr "<b>백업</b><br>앙키는 사용자의 모음집을 종료하거나 동기화할 때마다 백업을 만듭니다."
+
+#: ../dtop/aqt/forms/exporting.py:83
+msgid "<b>Export format</b>:"
+msgstr "<b>내보내기 형식</b>:"
+
+#: ../dtop/aqt/forms/findreplace.py:80
+msgid "<b>Find</b>:"
+msgstr "<b>찾을 말</b>:"
+
+#: ../dtop/aqt/forms/browseropts.py:82
+msgid "<b>Font Size</b>:"
+msgstr "<b>글꼴 크기</b>:"
+
+#: ../dtop/aqt/forms/browseropts.py:81
+msgid "<b>Font</b>:"
+msgstr "<b>글꼴</b>:"
+
+#: ../dtop/aqt/forms/findreplace.py:82
+msgid "<b>In</b>:"
+msgstr "<b>대상</b>:"
+
+#: ../dtop/aqt/forms/exporting.py:84
+msgid "<b>Include</b>:"
+msgstr "<b>포함</b>:"
+
+#: ../dtop/aqt/forms/browseropts.py:83
+msgid "<b>Line Size</b>:"
+msgstr "<b>줄 간격</b>:"
+
+#: ../dtop/aqt/forms/findreplace.py:81
+msgid "<b>Replace With</b>:"
+msgstr "<b>바꿀 말</b>:"
+
+#: ../dtop/aqt/forms/preferences.py:230
+msgid "<b>Synchronisation</b>"
+msgstr "<b>동기화</b>"
+
+#: ../dtop/aqt/preferences.py:95
+msgid ""
+"<b>Synchronization</b><br>\n"
+"Not currently enabled; click the sync button in the main window to enable."
+msgstr ""
+"<b>동기화</b><br>\n"
+"현재 사용하지 않고 있습니다. 프로그램 기본 창에서 동기화 버튼을 눌러서 활성화하세요."
+
+#: ../dtop/aqt/sync.py:195
+#, python-format
+msgid ""
+"<h1>Account Required</h1>\n"
+"A free account is required to keep your collection synchronized. Please <a "
+"href=\"%s\">sign up</a> for an account, then enter your details below."
+msgstr ""
+"<h1>계정이 필요합니다</h1>\n"
+"무료 계정이 있어야 사용자의 모음집을 동기화할 수 있습니다. <a href=\"%s\">사용자 등록</a>을 한 뒤, 필요한 정보를 "
+"아래에 입력하세요."
+
+#: ../dtop/aqt/update.py:55
+#, python-format
+msgid "<h1>Anki Updated</h1>Anki %s has been released.<br><br>"
+msgstr "<h1>앙키 업데이트</h1>앙키 %s 버전이 공개되었습니다.<br><br>"
+
+#: ../dtop/aqt/importing.py:223
+msgid "<ignored>"
+msgstr "<무시>"
+
+#: ../dtop/aqt/main.py:1091
+msgid "<non-unicode text>"
+msgstr "<비 유니코드 텍스트>"
+
+#: ../dtop/aqt/browser.py:520 ../dtop/aqt/browser.py:791
+msgid "<type here to search; hit enter to show current deck>"
+msgstr "<찾을 내용을 이 곳에 입력하세요. 이대로 엔터 키를 누르면 현재 뭉치를 표시합니다.>"
+
+#: ../dtop/aqt/about.py:49
+msgid ""
+"A big thanks to all the people who have provided suggestions, bug reports "
+"and donations."
+msgstr "제안, 버그 신고, 기부를 해주신 모든 분께 감사드립니다."
+
+#: ../dtop/anki/stats.py:678
+msgid ""
+"A card's <i>ease</i> is the size of the next interval when you answer "
+"\"good\" on a review."
+msgstr "카드의 <i>수월함</i>은 \"알맞음\" 평가 버튼에 지정된 다음 복습 간격의 크기로 나타납니다."
+
+#: ../dtop/aqt/exporting.py:102
+msgid "A file called collection.apkg was saved on your desktop."
+msgstr "collection.apkg이라는 이름의 파일을 바탕화면에 저장했습니다."
+
+#: ../dtop/anki/decks.py:270
+msgid "A filtered deck cannot have subdecks."
+msgstr "여과된 뭉치는 하위 뭉치를 가질 수 없습니다."
+
+#: ../dtop/aqt/sync.py:131
+msgid ""
+"A problem occurred while syncing media. Please use Tools>Check Media, then "
+"sync again to correct the issue."
+msgstr "미디어를 동기화하는 도중 문제가 발생했습니다. 도구>미디어 검사를 실행한 뒤, 다시 동기화하여 이 문제를 해결하세요."
+
+#: ../dtop/anki/importing/csvfile.py:53
+#, python-format
+msgid "Aborted: %s"
+msgstr ""
+
+#: ../dtop/aqt/forms/about.py:54
+msgid "About Anki"
+msgstr "앙키 소개"
+
+#: ../dtop/aqt/addcards.py:22 ../dtop/aqt/addcards.py:55
+#: ../dtop/aqt/browser.py:1702 ../dtop/aqt/deckconf.py:76
+#: ../dtop/aqt/models.py:36 ../dtop/aqt/studydeck.py:30
+#: ../dtop/aqt/toolbar.py:46 ../dtop/aqt/forms/addcards.py:74
+#: ../dtop/aqt/forms/fields.py:112 ../dtop/aqt/forms/profiles.py:89
+msgid "Add"
+msgstr "추가"
+
+#: ../dtop/aqt/addcards.py:57
+msgid "Add (shortcut: ctrl+enter)"
+msgstr "추가 (단축키: ctrl+enter)"
+
+#: ../dtop/aqt/clayout.py:161 ../dtop/aqt/forms/addfield.py:84
+msgid "Add Field"
+msgstr "필드 추가"
+
+#: ../dtop/aqt/editor.py:762
+msgid "Add Media"
+msgstr "미디어 넣기"
+
+#: ../dtop/aqt/studydeck.py:32
+msgid "Add New Deck (Ctrl+N)"
+msgstr "새 뭉치 추가 (Ctrl+N)"
+
+#: ../dtop/aqt/forms/addmodel.py:55
+msgid "Add Note Type"
+msgstr "노트 유형 추가"
+
+#: ../dtop/anki/stdmodels.py:51
+msgid "Add Reverse"
+msgstr "반대 방향 추가"
+
+#: ../dtop/aqt/browser.py:1173 ../dtop/aqt/browser.py:1710
+msgid "Add Tags"
+msgstr "태그 추가"
+
+#: ../dtop/aqt/clayout.py:71
+msgid "Add new card"
+msgstr "새 카드 추가"
+
+#: ../dtop/aqt/forms/addfield.py:90
+msgid "Add to:"
+msgstr "삽입 위치:"
+
+#: ../dtop/aqt/models.py:176
+#, python-format
+msgid "Add: %s"
+msgstr "추가: %s"
+
+#: ../dtop/anki/stats.py:28 ../dtop/aqt/addcards.py:165
+msgid "Added"
+msgstr "추가됨"
+
+#: ../dtop/aqt/browser.py:804
+msgid "Added Today"
+msgstr "오늘 추가"
+
+#: ../dtop/anki/importing/noteimp.py:115
+#, python-format
+msgid "Added duplicate with first field: %s"
+msgstr ""
+
+#: ../dtop/aqt/reviewer.py:643
+msgid "Again"
+msgstr "다시"
+
+#: ../dtop/aqt/browser.py:806
+msgid "Again Today"
+msgstr "오늘 다시"
+
+#: ../dtop/anki/stats.py:167
+#, python-format
+msgid "Again count: %s"
+msgstr ""
+
+#: ../dtop/aqt/exporting.py:30
+msgid "All Decks"
+msgstr "모든 뭉치"
+
+#: ../dtop/aqt/browser.py:1327
+msgid "All Fields"
+msgstr "모든 필드"
+
+#: ../dtop/aqt/forms/customstudy.py:123
+msgid "All cards in random order (cram mode)"
+msgstr ""
+
+#: ../dtop/aqt/main.py:207
+msgid ""
+"All cards, notes, and media for this profile will be deleted. Are you sure?"
+msgstr "현재 프로필의 모든 카드, 노트, 미디어 파일이 삭제됩니다. 계속 진행하겠습니까?"
+
+#: ../dtop/aqt/forms/importing.py:112
+msgid "Allow HTML in fields"
+msgstr "필드 안에 HTML 허용"
+
+#: ../dtop/aqt/errors.py:92
+#, python-format
+msgid ""
+"An error occurred in an add-on.<br>\n"
+"Please post on the add-on forum:<br>%s<br>"
+msgstr ""
+"추가 기능에서 오류가 발생했습니다.<br>\n"
+"추가 기능 포럼에 보고하세요:<br>%s<br>"
+
+#: ../dtop/aqt/errors.py:69
+msgid ""
+"An error occurred while accessing the database.\n"
+"\n"
+"Possible causes:\n"
+"\n"
+"- Antivirus, firewall, backup, or synchronization software may be   "
+"interfering with Anki. Try disabling such software and see if the   problem "
+"goes away.\n"
+"- Your disk may be full.\n"
+"- The Documents/Anki folder may be on a network drive.\n"
+"- Files in the Documents/Anki folder may not be writeable.\n"
+"- Your hard disk may have errors.\n"
+"\n"
+"It's a good idea to run Tools>Check Database to ensure your collection is "
+"not corrupt.\n"
+msgstr ""
+"데이터베이스에 접근 도중 오류가 발생했습니다.\n"
+"\n"
+"가능한 유발 원인:\n"
+"\n"
+"- 바이러스 백신 프로그램, 방화벽, 백업, 또는 동기화 소프트웨어가 앙키를 방해할 수도 있습니다. 그러한 소프트웨어를 꺼보시고,  해당 "
+"문제가 사라지는지 확인하세요.\n"
+"- 하드디스크가 꽉 찼을 수도 있습니다.\n"
+"- 내 문서/앙키 폴더가 네트워크 폴더에 존재할 수 도 있습니다.\n"
+"- 내 문서/앙키 폴더가 쓰기 불가 상태일 수도 있습니다.\n"
+"- 하드디스크에 오류가 있을 수도 있습니다.\n"
+"\n"
+"\"도구>데이터베이스 검사\"를 실행해서 모음집이 깨진 것은 아닌지 확인하는 것도 좋은 방법입니다.\n"
+
+#: ../dtop/aqt/editor.py:842
+#, python-format
+msgid "An error occurred while opening %s"
+msgstr ""
+
+#: ../dtop/aqt/errors.py:85
+msgid ""
+"An error occurred. It may have been caused by a harmless bug, <br>\n"
+"or your deck may have a problem.\n"
+"<p>To confirm it's not a problem with your deck, please run\n"
+"<b>Tools &gt; Check Database</b>.\n"
+"<p>If that doesn't fix the problem, please copy the following<br>\n"
+"into a bug report:"
+msgstr ""
+
+#: ../dtop/aqt/stats.py:66
+msgid "An image was saved to your desktop."
+msgstr "이미지 파일을 바탕 화면에 저장했습니다."
+
+#: ../dtop/aqt/forms/main.py:137 ../dtop/aqt/forms/setgroup.py:49
+#: ../dtop/aqt/forms/setlang.py:50
+msgid "Anki"
+msgstr "앙키"
+
+#: ../dtop/anki/importing/__init__.py:17
+msgid "Anki 1.2 Deck (*.anki)"
+msgstr "앙키 1.2 뭉치 (*.anki)"
+
+#: ../dtop/aqt/upgrade.py:113
+msgid ""
+"Anki 2 stores your decks in a new format. This wizard will automatically\n"
+"convert your decks to that format. Your decks will be backed up before\n"
+"the upgrade, so if you need to revert to the previous version of Anki, your\n"
+"decks will still be usable."
+msgstr ""
+"앙키 2는 새로운 형식으로 뭉치를 저장합니다. 이 마법사는 사용자의 뭉치를\n"
+"새 형식에 맞게 변환할 것입니다. 사용자의 뭉치는 업그레이드를 하기 전에\n"
+"백업되기 때문에, 이전 버전의 앙키로 돌아가야 될 경우, 여전히 옛 뭉치을\n"
+"사용할 수 있습니다."
+
+#: ../dtop/anki/exporting.py:106
+msgid "Anki 2.0 Deck"
+msgstr "앙키 2.0 뭉치"
+
+#: ../dtop/aqt/upgrade.py:65
+msgid ""
+"Anki 2.0 only supports automatic upgrading from Anki 1.2. To load old decks, "
+"please open them in Anki 1.2 to upgrade them, and then import them into Anki "
+"2.0."
+msgstr ""
+"앙키 2.0로 자동 업그레이드하는 것은 앙키 1.2부터만 지원합니다. 더 이전 버전의 뭉치를 열려면, 우선 앙키 1.2에서 열어서 "
+"업그레이드한 다음, 다시 앙키 2.0으로 불러오세요."
+
+#: ../dtop/anki/exporting.py:226
+msgid "Anki Deck Package"
+msgstr "앙키 뭉치 꾸러미"
+
+#: ../dtop/aqt/profiles.py:172
+msgid ""
+"Anki could not rename your profile because it could not rename the profile "
+"folder on disk. Please ensure you have permission to write to Documents/Anki "
+"and no other programs are accessing your profile folders, then try again."
+msgstr ""
+"앙키가 하드디스크에 있는 프로필 폴더의 이름을 바꿀 수 없습니다. 내 문서/Anki 폴더에 쓰기 권한을 가지고 있는지 확인하고, 다른 "
+"프로그램이 프로필 폴더를 접근 중은 아닌지 확인한 후 다시 시도하세요."
+
+#: ../dtop/aqt/stats.py:68
+msgid ""
+"Anki could not save the image. Please check that you have permission to "
+"write to your desktop."
+msgstr ""
+
+#: ../dtop/aqt/clayout.py:321
+msgid ""
+"Anki couldn't find the line between the question and answer. Please adjust "
+"the template manually to switch the question and answer."
+msgstr "질문과 답을 구분하는 선을 찾을 수 없습니다. 서식을 수동으로 수정해서 질문과 답을 바꾸세요."
+
+#: ../dtop/aqt/about.py:21
+msgid ""
+"Anki is a friendly, intelligent spaced learning system. It's free and open "
+"source."
+msgstr "앙키는 사용하기 편하고, 영리한 분산 학습 시스템입니다. 무료로 제공하는 오픈 소스 프로그램입니다."
+
+#: ../dtop/aqt/about.py:23
+msgid ""
+"Anki is licensed under the AGPL3 license. Please see the license file in the "
+"source distribution for more information."
+msgstr "앙키는 AGPL3 라이센스를 따릅니다.  더 자세한 정보는 소스 배포판의 라이센스 파일을 참고하세요."
+
+#: ../dtop/aqt/upgrade.py:27
+msgid ""
+"Anki wasn't able to load your old config file. Please use File>Import to "
+"import your decks from previous Anki versions."
+msgstr "옛 설정 파일을 열 수 없습니다. 파일>가져오기를 선택해서 이전 버전의 앙키 뭉치를 가져오세요."
+
+#: ../dtop/aqt/sync.py:85
+msgid "AnkiWeb ID or password was incorrect; please try again."
+msgstr "앙키웹 아이디나 비밀번호가 틀렸습니다. 다시 시도하세요."
+
+#: ../dtop/aqt/sync.py:206
+msgid "AnkiWeb ID:"
+msgstr "앙키웹 아이디:"
+
+#: ../dtop/aqt/sync.py:156
+msgid ""
+"AnkiWeb encountered an error. Please try again in a few minutes, and if the "
+"problem persists, please file a bug report."
+msgstr "앙키웹에 문제가 생겼습니다. 몇 분 뒤 다시 시도해 봐도, 문제가 계속될 경우, 오류 보고를 해주세요."
+
+#: ../dtop/aqt/sync.py:167
+msgid "AnkiWeb is too busy at the moment. Please try again in a few minutes."
+msgstr "현재 앙키웹에 과도한 접속이 이루어지고 있습니다. 몇 분 뒤 다시 시도하세요."
+
+#: ../dtop/aqt/sync.py:165
+msgid "AnkiWeb is under maintenance. Please try again in a few minutes."
+msgstr "AnkiWeb은 현재 점검 중입니다. 몇 분 후에 다시 시도하세요."
+
+#: ../dtop/aqt/browser.py:485
+msgid "Answer"
+msgstr "답"
+
+#: ../dtop/anki/stats.py:522
+msgid "Answer Buttons"
+msgstr "평가 버튼"
+
+#: ../dtop/anki/stats.py:293 ../dtop/anki/stats.py:530
+#: ../dtop/anki/stats.py:624
+msgid "Answers"
+msgstr "답"
+
+#: ../dtop/aqt/sync.py:175
+msgid ""
+"Antivirus or firewall software is preventing Anki from connecting to the "
+"internet."
+msgstr "앙키가 인터넷에서 접속하는 것을 안티바이러스나 방화벽 소프트웨어가 막고 있습니다."
+
+#: ../dtop/aqt/browser.py:1659
+msgid ""
+"Any cards mapped to nothing will be deleted. If a note has no remaining "
+"cards, it will be lost. Are you sure you want to continue?"
+msgstr "어디에도 배정되지 않은 카드는 모두 삭제됩니다. 카드가 존재하지 않는 노트는 사라집니다. 계속 진행하겠습니까?"
+
+#: ../dtop/anki/importing/noteimp.py:137
+#, python-format
+msgid "Appeared twice in file: %s"
+msgstr "파일에서 두 번 등장합니다: %s"
+
+#: ../dtop/aqt/deckbrowser.py:327
+#, python-format
+msgid "Are you sure you wish to delete %s?"
+msgstr "%s 뭉치를 삭제하시겠습니까?"
+
+#: ../dtop/aqt/clayout.py:137
+msgid "At least one card type is required."
+msgstr "최소한 하나의 카드 유형이 필요합니다."
+
+#: ../dtop/aqt/deckconf.py:248 ../dtop/aqt/dyndeckconf.py:113
+msgid "At least one step is required."
+msgstr "적어도 하나의 단계는 반드시 필요합니다."
+
+#: ../dtop/aqt/editor.py:393
+msgid "Attach pictures/audio/video (F3)"
+msgstr "이미지/오디오/비디오 넣기 (F3)"
+
+#: ../dtop/aqt/forms/dconf.py:381
+msgid "Automatically play audio"
+msgstr "자동으로 오디오 재생"
+
+#: ../dtop/aqt/forms/preferences.py:232
+msgid "Automatically sync on profile open/close"
+msgstr "프로필을 열고 닫을 때 자동 동기화"
+
+#: ../dtop/anki/stats.py:231
+msgid "Average"
+msgstr "평균"
+
+#: ../dtop/anki/stats.py:56
+msgid "Average Time"
+msgstr "평균 시간"
+
+#: ../dtop/anki/stats.py:363
+msgid "Average answer time"
+msgstr "평균 답변 시간"
+
+#: ../dtop/anki/stats.py:675
+msgid "Average ease"
+msgstr "평균 수월함"
+
+#: ../dtop/anki/stats.py:348
+msgid "Average for days studied"
+msgstr "공부한 기간 동안 평균"
+
+#: ../dtop/anki/stats.py:482
+msgid "Average interval"
+msgstr "평균 복습 간격"
+
+#: ../dtop/anki/stdmodels.py:18 ../dtop/anki/stdmodels.py:22
+#: ../dtop/anki/stdmodels.py:37 ../dtop/anki/stdmodels.py:55
+#: ../dtop/aqt/forms/addfield.py:89
+msgid "Back"
+msgstr "뒷면"
+
+#: ../dtop/aqt/forms/preview.py:52
+msgid "Back Preview"
+msgstr "뒷면 미리보기"
+
+#: ../dtop/aqt/forms/template.py:120
+msgid "Back Template"
+msgstr "뒷면 서식"
+
+#: ../dtop/aqt/forms/preferences.py:243
+msgid "Backups"
+msgstr "백업"
+
+#: ../dtop/anki/stdmodels.py:15 ../dtop/anki/stdmodels.py:27
+#: ../dtop/aqt/forms/preferences.py:229
+msgid "Basic"
+msgstr "기본"
+
+#: ../dtop/anki/stdmodels.py:35
+msgid "Basic (and reversed card)"
+msgstr "기본 (역방향 카드 포함)"
+
+#: ../dtop/anki/stdmodels.py:50
+msgid "Basic (optional reversed card)"
+msgstr "기본 (선택적 역방향 카드)"
+
+#: ../dtop/aqt/editor.py:367
+msgid "Bold text (Ctrl+B)"
+msgstr "굵은 글씨 (Ctrl+B)"
+
+#: ../dtop/aqt/addons.py:142 ../dtop/aqt/toolbar.py:47
+msgid "Browse"
+msgstr "탐색"
+
+#: ../dtop/aqt/forms/main.py:155
+msgid "Browse && Install..."
+msgstr "둘러보고 설치하기..."
+
+#: ../dtop/aqt/forms/browser.py:269
+msgid "Browser"
+msgstr "탐색기"
+
+#: ../dtop/aqt/browser.py:558
+#, python-format
+msgid "Browser (%(cur)d card shown; %(sel)s)"
+msgid_plural "Browser (%(cur)d cards shown; %(sel)s)"
+msgstr[0] "탐색기 (%(cur)d카드 표시; %(sel)s)"
+
+#: ../dtop/aqt/clayout.py:346 ../dtop/aqt/forms/browserdisp.py:80
+msgid "Browser Appearance"
+msgstr "탐색기에서 표시할 때"
+
+#: ../dtop/aqt/forms/browseropts.py:80
+msgid "Browser Options"
+msgstr "탐색기 옵션"
+
+#: ../dtop/aqt/dyndeckconf.py:18
+msgid "Build"
+msgstr "모으기"
+
+#: ../dtop/aqt/browser.py:1711
+msgid "Bulk Add Tags (Ctrl+Shift+T)"
+msgstr "여러 태그 추가 (Ctrl+Shift+T)"
+
+#: ../dtop/aqt/browser.py:1714
+msgid "Bulk Remove Tags (Ctrl+Alt+T)"
+msgstr "여러 태그 삭제 (Ctrl+Alt+T)"
+
+#: ../dtop/aqt/reviewer.py:759 ../dtop/aqt/reviewer.py:765
+msgid "Bury"
+msgstr "덮기"
+
+#: ../dtop/aqt/reviewer.py:695
+msgid "Bury Card"
+msgstr ""
+
+#: ../dtop/aqt/reviewer.py:696
+msgid "Bury Note"
+msgstr "노트 덮기"
+
+#: ../dtop/aqt/forms/dconf.py:354
+msgid "Bury related new cards until the next day"
+msgstr ""
+
+#: ../dtop/aqt/forms/dconf.py:365
+msgid "Bury related reviews until the next day"
+msgstr ""
+
+#: ../dtop/aqt/importing.py:107
+msgid ""
+"By default, Anki will detect the character between fields, such as\n"
+"a tab, comma, and so on. If Anki is detecting the character incorrectly,\n"
+"you can enter it here. Use \\t to represent tab."
+msgstr ""
+"기본적으로 앙키는 탭이나 쉼표 같은 필드 구분 문자를 자동으로 감지합니다.\n"
+"만약 앙키가 구분 문자를 제대로 감지하지 못한다면,\n"
+"이곳에 구분 문자를 직접 입력하세요. 탭은 \\t로 표현하세요."
+
+#: ../dtop/aqt/sync.py:248
+msgid "Cancel"
+msgstr "취소"
+
+#: ../dtop/aqt/browser.py:486
+msgid "Card"
+msgstr "카드"
+
+#: ../dtop/aqt/clayout.py:297
+#, python-format
+msgid "Card %d"
+msgstr "카드 %d"
+
+#: ../dtop/anki/stdmodels.py:20
+msgid "Card 1"
+msgstr "카드 1"
+
+#: ../dtop/anki/stdmodels.py:36 ../dtop/anki/stdmodels.py:54
+msgid "Card 2"
+msgstr "카드 2"
+
+#: ../dtop/anki/stats.py:64
+msgid "Card ID"
+msgstr "카드 ID"
+
+#: ../dtop/aqt/browser.py:1704
+msgid "Card Info (Ctrl+Shift+I)"
+msgstr "카드 정보 (Ctrl+Shift+I)"
+
+#: ../dtop/aqt/forms/browser.py:301
+msgid "Card List"
+msgstr "카드 목록"
+
+#: ../dtop/anki/stats.py:60
+msgid "Card Type"
+msgstr "카드 유형"
+
+#: ../dtop/aqt/clayout.py:30
+msgid "Card Types"
+msgstr "카드 유형"
+
+#: ../dtop/aqt/clayout.py:43
+#, python-format
+msgid "Card Types for %s"
+msgstr "%s의 카드 유형"
+
+#: ../dtop/aqt/reviewer.py:762
+msgid "Card buried."
+msgstr ""
+
+#: ../dtop/aqt/reviewer.py:741
+msgid "Card suspended."
+msgstr "카드가 보류되었습니다."
+
+#: ../dtop/aqt/reviewer.py:683
+msgid "Card was a leech."
+msgstr "카드가 거머리였습니다."
+
+#: ../dtop/anki/stats.py:740 ../dtop/aqt/forms/changemodel.py:124
+msgid "Cards"
+msgstr "카드"
+
+#: ../dtop/anki/stats.py:681
+msgid "Cards Types"
+msgstr "카드 유형"
+
+#: ../dtop/aqt/browser.py:1141
+msgid "Cards can't be manually moved into a filtered deck."
+msgstr "여과된 뭉치에 카드를 수동으로 옮겨 넣을 수 없습니다."
+
+#: ../dtop/anki/exporting.py:44
+msgid "Cards in Plain Text"
+msgstr "텍스트 파일로 정리한 카드"
+
+#: ../dtop/aqt/overview.py:105
+msgid ""
+"Cards will be automatically returned to their original decks after you "
+"review them."
+msgstr "공부한 카드는 자동으로 원래 있던 뭉치로 돌아갑니다."
+
+#: ../dtop/aqt/editor.py:364 ../dtop/aqt/models.py:45
+msgid "Cards..."
+msgstr "카드..."
+
+#: ../dtop/anki/consts.py:74
+msgid "Center"
+msgstr "가운데"
+
+#: ../dtop/aqt/importing.py:225
+msgid "Change"
+msgstr "수정"
+
+#: ../dtop/aqt/browser.py:1582
+#, python-format
+msgid "Change %s to:"
+msgstr "'%s'에서:"
+
+#: ../dtop/aqt/browser.py:1135 ../dtop/aqt/browser.py:1144
+#: ../dtop/aqt/browser.py:1708
+msgid "Change Deck"
+msgstr "뭉치 바꾸기"
+
+#: ../dtop/aqt/browser.py:1665 ../dtop/aqt/forms/changemodel.py:121
+msgid "Change Note Type"
+msgstr "노트 유형 바꾸기"
+
+#: ../dtop/aqt/modelchooser.py:31
+msgid "Change Note Type (Ctrl+N)"
+msgstr "노트 유형 바꾸기 (Ctrl+N)"
+
+#: ../dtop/aqt/forms/browser.py:292
+msgid "Change Note Type..."
+msgstr "노트 유형 바꾸기..."
+
+#: ../dtop/aqt/editor.py:383
+msgid "Change colour (F8)"
+msgstr "색깔 바꾸기 (F8)"
+
+#: ../dtop/aqt/forms/preferences.py:221
+msgid "Change deck depending on note type"
+msgstr "노트 유형에 따라 뭉치 바꾸기"
+
+#: ../dtop/aqt/browser.py:491
+msgid "Changed"
+msgstr "변경"
+
+#: ../dtop/aqt/forms/main.py:151
+msgid "Check &Media..."
+msgstr "미디어 검사(&M)..."
+
+#: ../dtop/aqt/forms/main.py:152
+msgid "Check the files in the media directory"
+msgstr "미디어 디렉토리에 있는 파일 점검"
+
+#: ../dtop/aqt/sync.py:110
+msgid "Checking..."
+msgstr "검사 중..."
+
+#: ../dtop/aqt/deckchooser.py:77 ../dtop/aqt/modelchooser.py:70
+msgid "Choose"
+msgstr "선택"
+
+#: ../dtop/aqt/deckchooser.py:78
+msgid "Choose Deck"
+msgstr "뭉치 선택"
+
+#: ../dtop/aqt/modelchooser.py:70
+msgid "Choose Note Type"
+msgstr "노트 유형 선택"
+
+#: ../dtop/aqt/customstudy.py:81
+msgid "Choose Tags"
+msgstr ""
+
+#: ../dtop/aqt/models.py:181
+#, python-format
+msgid "Clone: %s"
+msgstr "복제: %s"
+
+#: ../dtop/aqt/addcards.py:60 ../dtop/aqt/clayout.py:175
+#: ../dtop/aqt/forms/browser.py:309
+msgid "Close"
+msgstr "닫기"
+
+#: ../dtop/aqt/addcards.py:196
+msgid "Close and lose current input?"
+msgstr "입력한 내용을 포기하고 창을 닫을까요?"
+
+#: ../dtop/anki/stdmodels.py:67 ../dtop/anki/stdmodels.py:74
+#: ../dtop/anki/stdmodels.py:87 ../dtop/anki/storage.py:190
+msgid "Cloze"
+msgstr "빈칸"
+
+#: ../dtop/aqt/editor.py:386
+msgid "Cloze deletion (Ctrl+Shift+C)"
+msgstr "빈칸 뚫기 (Ctrl+Shift+C)"
+
+#: ../dtop/aqt/forms/getaddons.py:61
+msgid "Code:"
+msgstr "코드:"
+
+#: ../dtop/anki/collection.py:686
+msgid "Collection is corrupt. Please see the manual."
+msgstr "모음집이 깨졌습니다. 사용 설명서를 참고하세요."
+
+#: ../dtop/aqt/importing.py:137
+msgid "Colon"
+msgstr "쌍점"
+
+#: ../dtop/aqt/importing.py:131
+msgid "Comma"
+msgstr "쉼표"
+
+#: ../dtop/aqt/forms/preferences.py:239
+msgid "Compress backups (slower)"
+msgstr "백업 압축(느림)"
+
+#: ../dtop/aqt/forms/main.py:146
+msgid "Configure interface language and options"
+msgstr "인터페이스 언어 및 기타 옵션 설정"
+
+#: ../dtop/aqt/preferences.py:152
+msgid "Confirm password:"
+msgstr "비밀번호 확인:"
+
+#: ../dtop/anki/sched.py:1163
+msgid "Congratulations! You have finished this deck for now."
+msgstr "축하합니다! 현재까지 이 뭉치에서 만기된 모든 카드를 공부했습니다."
+
+#: ../dtop/aqt/sync.py:50
+msgid "Connecting..."
+msgstr "연결 중..."
+
+#: ../dtop/aqt/sync.py:177
+msgid ""
+"Connection timed out. Either your internet connection is experiencing "
+"problems, or you have a very large file in your media folder."
+msgstr ""
+
+#: ../dtop/aqt/reviewer.py:78
+msgid "Continue"
+msgstr ""
+
+#: ../dtop/aqt/editor.py:1209 ../dtop/aqt/webview.py:87
+msgid "Copy"
+msgstr "복사하기"
+
+#: ../dtop/anki/stats.py:181
+#, python-format
+msgid "Correct answers on mature cards: %(a)d/%(b)d (%(c).1f%%)"
+msgstr ""
+
+#: ../dtop/anki/stats.py:550
+#, python-format
+msgid "Correct: <b>%(pct)0.2f%%</b><br>(%(good)d of %(tot)d)"
+msgstr "정답률: <b>%(pct)0.2f%%</b><br>(%(good)d/%(tot)d)"
+
+#: ../dtop/aqt/sync.py:148
+msgid ""
+"Couldn't connect to AnkiWeb. Please check your network connection and try "
+"again."
+msgstr "앙키웹에 연결할 수 없습니다. 네트워크 연결 상태를 확인하고 다시 시도하세요."
+
+#: ../dtop/aqt/editor.py:788
+msgid "Couldn't record audio. Have you installed lame and sox?"
+msgstr "녹음을 할 수 없습니다. lame과 sox를 설치했습니까?"
+
+#: ../dtop/aqt/exporting.py:97
+#, python-format
+msgid "Couldn't save file: %s"
+msgstr "파일을 저장할 수 없습니다: %s"
+
+#: ../dtop/anki/stats.py:290 ../dtop/anki/stats.py:304
+msgid "Cram"
+msgstr "몰아보기"
+
+#: ../dtop/aqt/deckbrowser.py:340
+msgid "Create Deck"
+msgstr "뭉치 만들기"
+
+#: ../dtop/aqt/forms/main.py:168
+msgid "Create Filtered Deck..."
+msgstr "여과된 뭉치 만들기..."
+
+#: ../dtop/aqt/browser.py:489
+msgid "Created"
+msgstr "생성"
+
+#: ../dtop/aqt/editor.py:375
+msgid "Ctrl+="
+msgstr "Ctrl+="
+
+#: ../dtop/aqt/forms/browser.py:278
+msgid "Ctrl+A"
+msgstr "Ctrl+A"
+
+#: ../dtop/aqt/forms/browser.py:297
+msgid "Ctrl+Alt+F"
+msgstr "Ctrl+Alt+F"
+
+#: ../dtop/aqt/editor.py:389
+msgid "Ctrl+Alt+Shift+C"
+msgstr "Ctrl+Alt+Shift+C"
+
+#: ../dtop/aqt/editor.py:367
+msgid "Ctrl+B"
+msgstr "Ctrl+B"
+
+#: ../dtop/aqt/deckchooser.py:30
+msgid "Ctrl+D"
+msgstr "Ctrl+D"
+
+#: ../dtop/aqt/forms/main.py:162
+msgid "Ctrl+E"
+msgstr "Ctrl+E"
+
+#: ../dtop/aqt/forms/browser.py:283
+msgid "Ctrl+F"
+msgstr "Ctrl+F"
+
+#: ../dtop/aqt/editor.py:369 ../dtop/aqt/forms/main.py:164
+msgid "Ctrl+I"
+msgstr "Ctrl+I"
+
+#: ../dtop/aqt/editor.py:362
+msgid "Ctrl+L"
+msgstr "Ctrl+L"
+
+#: ../dtop/aqt/modelchooser.py:32 ../dtop/aqt/forms/browser.py:287
+msgid "Ctrl+N"
+msgstr "Ctrl+N"
+
+#: ../dtop/aqt/forms/browser.py:289 ../dtop/aqt/forms/main.py:147
+msgid "Ctrl+P"
+msgstr "Ctrl+P"
+
+#: ../dtop/aqt/forms/main.py:144
+msgid "Ctrl+Q"
+msgstr "Ctrl+Q"
+
+#: ../dtop/aqt/editor.py:377
+msgid "Ctrl+R"
+msgstr "Ctrl+R"
+
+#: ../dtop/aqt/editor.py:373
+msgid "Ctrl+Shift+="
+msgstr "Ctrl+Shift+="
+
+#: ../dtop/aqt/forms/browser.py:295
+msgid "Ctrl+Shift+A"
+msgstr "Ctrl+Shift+A"
+
+#: ../dtop/aqt/editor.py:385
+msgid "Ctrl+Shift+C"
+msgstr "Ctrl+Shift+C"
+
+#: ../dtop/aqt/forms/browser.py:285
+msgid "Ctrl+Shift+F"
+msgstr "Ctrl+Shift+F"
+
+#: ../dtop/aqt/forms/browser.py:302
+msgid "Ctrl+Shift+L"
+msgstr "Ctrl+Shift+L"
+
+#: ../dtop/aqt/forms/browser.py:293
+msgid "Ctrl+Shift+M"
+msgstr "Ctrl+Shift+M"
+
+#: ../dtop/aqt/browser.py:396 ../dtop/aqt/forms/browser.py:272
+#: ../dtop/aqt/forms/main.py:160
+msgid "Ctrl+Shift+P"
+msgstr "Ctrl+Shift+P"
+
+#: ../dtop/aqt/forms/browser.py:300
+msgid "Ctrl+Shift+R"
+msgstr "Ctrl+Shift+R"
+
+#: ../dtop/aqt/editor.py:371
+msgid "Ctrl+U"
+msgstr "Ctrl+U"
+
+#: ../dtop/aqt/forms/browser.py:310
+msgid "Ctrl+W"
+msgstr "Ctrl+W"
+
+#: ../dtop/aqt/forms/browser.py:280 ../dtop/aqt/forms/main.py:150
+msgid "Ctrl+Z"
+msgstr "Ctrl+Z"
+
+#: ../dtop/anki/stats.py:213
+msgid "Cumulative"
+msgstr "누적"
+
+#: ../dtop/anki/stats.py:312
+#, python-format
+msgid "Cumulative %s"
+msgstr "누적 %s"
+
+#: ../dtop/anki/stats.py:294
+msgid "Cumulative Answers"
+msgstr "누적 답변"
+
+#: ../dtop/anki/stats.py:222
+msgid "Cumulative Cards"
+msgstr "누적 카드"
+
+#: ../dtop/aqt/browser.py:803
+msgid "Current Deck"
+msgstr "현재 뭉치"
+
+#: ../dtop/aqt/forms/changemodel.py:122
+msgid "Current note type:"
+msgstr "현재 노트 유형:"
+
+#: ../dtop/aqt/overview.py:192 ../dtop/aqt/forms/customstudy.py:106
+msgid "Custom Study"
+msgstr "맞춤 공부"
+
+#: ../dtop/aqt/customstudy.py:113 ../dtop/aqt/customstudy.py:125
+msgid "Custom Study Session"
+msgstr "맞춤 공부 세션"
+
+#: ../dtop/aqt/forms/dyndconf.py:102
+msgid "Custom steps (in minutes)"
+msgstr "맞춤 익힘 단계 (분 단위)"
+
+#: ../dtop/aqt/editor.py:363
+msgid "Customize Cards (Ctrl+L)"
+msgstr "카드 설정 바꾸기(Ctrl+L)"
+
+#: ../dtop/aqt/editor.py:359
+msgid "Customize Fields"
+msgstr "필드 설정 바꾸기"
+
+#: ../dtop/aqt/editor.py:1207
+msgid "Cut"
+msgstr "잘라내기"
+
+#: ../dtop/anki/collection.py:793
+msgid "Database rebuilt and optimized."
+msgstr "데이터베이스를 재구성하고 최적화했습니다."
+
+#: ../dtop/aqt/browser.py:907
+msgid "Date"
+msgstr "날짜"
+
+#: ../dtop/anki/stats.py:335
+msgid "Days studied"
+msgstr "공부한 기간"
+
+#: ../dtop/aqt/forms/preferences.py:234
+msgid "Deauthorize"
+msgstr "권한 해제"
+
+#: ../dtop/aqt/forms/debug.py:60
+msgid "Debug Console"
+msgstr "디버그 콘솔"
+
+#: ../dtop/anki/stats.py:62 ../dtop/aqt/browser.py:487
+#: ../dtop/aqt/deckbrowser.py:187 ../dtop/aqt/deckchooser.py:25
+#: ../dtop/aqt/forms/importing.py:108
+msgid "Deck"
+msgstr "뭉치"
+
+#: ../dtop/aqt/clayout.py:343
+msgid "Deck Override"
+msgstr "뭉치 뛰어넘기"
+
+#: ../dtop/aqt/main.py:1154
+msgid "Deck will be imported when a profile is opened."
+msgstr "프로필을 열 때 뭉치를 가져올 것입니다."
+
+#: ../dtop/aqt/toolbar.py:45
+msgid "Decks"
+msgstr "뭉치"
+
+#: ../dtop/anki/consts.py:84
+msgid "Decreasing intervals"
+msgstr "복습 간격이 긴 것부터"
+
+#: ../dtop/anki/decks.py:48 ../dtop/anki/decks.py:146
+#: ../dtop/anki/storage.py:296 ../dtop/aqt/deckchooser.py:49
+#: ../dtop/aqt/deckchooser.py:52 ../dtop/aqt/deckchooser.py:71
+msgid "Default"
+msgstr "기본"
+
+#: ../dtop/anki/stats.py:473
+msgid "Delays until reviews are shown again."
+msgstr "다음 번 복습 때까지 기다리는 시간."
+
+#: ../dtop/aqt/browser.py:1715 ../dtop/aqt/deckbrowser.py:273
+#: ../dtop/aqt/deckconf.py:78 ../dtop/aqt/models.py:40
+#: ../dtop/aqt/reviewer.py:749 ../dtop/aqt/forms/fields.py:113
+#: ../dtop/aqt/forms/profiles.py:91
+msgid "Delete"
+msgstr "삭제"
+
+#: ../dtop/aqt/addons.py:84
+#, python-format
+msgid "Delete %s?"
+msgstr "%s 추가기능을 삭제할까요?"
+
+#: ../dtop/aqt/main.py:1015
+msgid "Delete Cards"
+msgstr "카드 삭제"
+
+#: ../dtop/aqt/deckbrowser.py:315
+msgid "Delete Deck"
+msgstr "뭉치 삭제"
+
+#: ../dtop/aqt/main.py:1020
+msgid "Delete Empty"
+msgstr "빈 카드 삭제"
+
+#: ../dtop/aqt/reviewer.py:699
+msgid "Delete Note"
+msgstr "노트 삭제"
+
+#: ../dtop/aqt/browser.py:1110
+msgid "Delete Notes"
+msgstr "노트 삭제"
+
+#: ../dtop/aqt/browser.py:1183
+msgid "Delete Tags"
+msgstr "태그 삭제"
+
+#: ../dtop/aqt/main.py:970
+msgid "Delete Unused"
+msgstr "잉여 미디어 삭제"
+
+#: ../dtop/aqt/fields.py:98
+#, python-format
+msgid "Delete field from %s?"
+msgstr "%s에서 필드를 삭제할까요?"
+
+#: ../dtop/aqt/clayout.py:140
+#, python-format
+msgid "Delete the '%(a)s' card type, and its %(b)s?"
+msgstr ""
+
+#: ../dtop/aqt/models.py:99
+msgid "Delete this note type and all its cards?"
+msgstr "이 노트 유형과 여기에 속한 모든 카드를 작제할까요?"
+
+#: ../dtop/aqt/models.py:101
+msgid "Delete this unused note type?"
+msgstr "사용하지 않는 이 노트 유형을 삭제할까요?"
+
+#: ../dtop/aqt/main.py:984
+msgid "Delete unused media?"
+msgstr "사용되지 않는 미디어 파일을 지울까요?"
+
+#: ../dtop/aqt/addons.py:64
+msgid "Delete..."
+msgstr "삭제..."
+
+#: ../dtop/anki/collection.py:746
+#, python-format
+msgid "Deleted %d card with missing note."
+msgid_plural "Deleted %d cards with missing note."
+msgstr[0] "노트가 사라진 %d카드를 삭제했습니다."
+
+#: ../dtop/anki/collection.py:715
+#, python-format
+msgid "Deleted %d card with missing template."
+msgid_plural "Deleted %d cards with missing template."
+msgstr[0] "서식이 사라진 %d카드를 삭제했습니다."
+
+#: ../dtop/anki/collection.py:692
+#, python-format
+msgid "Deleted %d note with missing note type."
+msgid_plural "Deleted %d notes with missing note type."
+msgstr[0] "사라진 노트 형식으로 작성된 노트 %d개를 삭제했습니다."
+
+#: ../dtop/anki/collection.py:737
+#, python-format
+msgid "Deleted %d note with no cards."
+msgid_plural "Deleted %d notes with no cards."
+msgstr[0] "카드가 없는 노트 %d개를 삭제했습니다."
+
+#: ../dtop/anki/collection.py:727
+#, python-format
+msgid "Deleted %d note with wrong field count."
+msgid_plural "Deleted %d notes with wrong field count."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../dtop/aqt/main.py:991
+msgid "Deleted."
+msgstr "삭제했습니다."
+
+#: ../dtop/aqt/addons.py:88
+msgid "Deleted. Please restart Anki."
+msgstr "삭제했습니다. 앙키를 다시 시작하세요."
+
+#: ../dtop/aqt/overview.py:108
+msgid ""
+"Deleting this deck from the deck list will return all remaining cards to "
+"their original deck."
+msgstr "뭉치 목록에서 이 뭉치를 지우면, 남아 있는 모든 카드는 각자의 원래 뭉치로 돌아갑니다."
+
+#: ../dtop/aqt/forms/dconf.py:385
+msgid "Description"
+msgstr "설명"
+
+#: ../dtop/aqt/forms/dconf.py:384
+msgid "Description to show on study screen (current deck only):"
+msgstr "공부 화면에 표시할 설명 (현재 뭉치에만 해당):"
+
+#: ../dtop/aqt/forms/dyndconf.py:95 ../dtop/aqt/forms/editaddon.py:51
+#: ../dtop/aqt/forms/editcurrent.py:49
+msgid "Dialog"
+msgstr "대화 상자"
+
+#: ../dtop/aqt/importing.py:37
+msgid "Discard field"
+msgstr "필드 제거"
+
+#: ../dtop/aqt/downloader.py:42
+#, python-format
+msgid "Download failed: %s"
+msgstr "다운로드 실패: %s"
+
+#: ../dtop/aqt/sync.py:247 ../dtop/aqt/sync.py:253
+msgid "Download from AnkiWeb"
+msgstr "앙키웹에서 다운로드"
+
+#: ../dtop/aqt/addons.py:160
+msgid "Download successful. Please restart Anki."
+msgstr "성공적으로 다운로드했습니다. 앙키를 다시 시작하세요."
+
+#: ../dtop/aqt/sync.py:108
+msgid "Downloading from AnkiWeb..."
+msgstr "앙키웹에서 다운로드하는 중..."
+
+#: ../dtop/anki/stats.py:46 ../dtop/aqt/browser.py:492
+#: ../dtop/aqt/browser.py:810 ../dtop/aqt/deckbrowser.py:187
+msgid "Due"
+msgstr "만기"
+
+#: ../dtop/aqt/forms/customstudy.py:121
+msgid "Due cards only"
+msgstr ""
+
+#: ../dtop/anki/stats.py:237
+msgid "Due tomorrow"
+msgstr "내일 만기"
+
+#: ../dtop/aqt/forms/main.py:143
+msgid "E&xit"
+msgstr "종료(&X)"
+
+#: ../dtop/anki/stats.py:49 ../dtop/aqt/browser.py:494
+#: ../dtop/aqt/browser.py:909
+msgid "Ease"
+msgstr "수월함"
+
+#: ../dtop/aqt/reviewer.py:648 ../dtop/aqt/reviewer.py:650
+msgid "Easy"
+msgstr "쉬움"
+
+#: ../dtop/aqt/forms/dconf.py:358
+msgid "Easy bonus"
+msgstr "쉬움 버튼 보너스"
+
+#: ../dtop/aqt/forms/dconf.py:350
+msgid "Easy interval"
+msgstr "쉬움 간격"
+
+#: ../dtop/aqt/reviewer.py:594
+msgid "Edit"
+msgstr "편집"
+
+#: ../dtop/aqt/addcards.py:123
+#, python-format
+msgid "Edit %s"
+msgstr "편집: %s"
+
+#: ../dtop/aqt/editcurrent.py:23
+msgid "Edit Current"
+msgstr "현재 카드 편집"
+
+#: ../dtop/aqt/editor.py:937
+msgid "Edit HTML"
+msgstr "HTML 편집"
+
+#: ../dtop/aqt/clayout.py:307
+msgid "Edit to customize"
+msgstr "원하는 대로 수정하세요."
+
+#: ../dtop/aqt/addons.py:59
+msgid "Edit..."
+msgstr "편집..."
+
+#: ../dtop/aqt/browser.py:490
+msgid "Edited"
+msgstr "편집"
+
+#: ../dtop/aqt/forms/fields.py:116
+msgid "Editing Font"
+msgstr "글꼴"
+
+#: ../dtop/aqt/addons.py:81
+msgid "Edits saved. Please restart Anki."
+msgstr "편집 결과가 저장되었습니다. 앙키를 다시 시작하세요."
+
+#: ../dtop/aqt/overview.py:190
+msgid "Empty"
+msgstr "비우기"
+
+#: ../dtop/aqt/forms/main.py:167
+msgid "Empty Cards..."
+msgstr "빈 카드..."
+
+#: ../dtop/anki/collection.py:444
+#, python-format
+msgid ""
+"Empty card numbers: %(c)s\n"
+"Fields: %(f)s\n"
+"\n"
+msgstr ""
+"빈 카드 번호: %(c)s\n"
+"필드: %(f)s\n"
+"\n"
+
+#: ../dtop/anki/importing/noteimp.py:183
+msgid "Empty cards found. Please run Tools>Empty Cards."
+msgstr "빈 카드가 발견되었습니다. 도구>빈 카드를 실행하세요."
+
+#: ../dtop/anki/importing/noteimp.py:131
+#, python-format
+msgid "Empty first field: %s"
+msgstr "비어 있는 첫 필드: %s"
+
+#: ../dtop/aqt/forms/browser.py:308
+msgid "End"
+msgstr "End"
+
+#: ../dtop/aqt/clayout.py:378
+#, python-format
+msgid "Enter deck to place new %s cards in, or leave blank:"
+msgstr "%s의 새로운 카드를 넣을 뭉치를 입력하거나, 빈 칸으로 남겨 두세요:"
+
+#: ../dtop/aqt/clayout.py:277
+#, python-format
+msgid "Enter new card position (1...%s):"
+msgstr "새 카드 위치를 입력하세요 (1...%s):"
+
+#: ../dtop/aqt/browser.py:1163
+msgid "Enter tags to add:"
+msgstr "추가할 태그를 입력하세요:"
+
+#: ../dtop/aqt/browser.py:1184
+msgid "Enter tags to delete:"
+msgstr "삭제할 태그를 입력하세요:"
+
+#: ../dtop/aqt/downloader.py:85
+#, python-format
+msgid "Error downloading: %s"
+msgstr "다운로드 오류: %s"
+
+#: ../dtop/aqt/main.py:55
+#, python-format
+msgid ""
+"Error during startup:\n"
+"%s"
+msgstr ""
+"프로그램 시작 오류:\n"
+"%s"
+
+#: ../dtop/aqt/sync.py:187
+msgid ""
+"Error establishing a secure connection. This is usually caused by filtering "
+"software, or problems with your ISP."
+msgstr ""
+
+#: ../dtop/anki/latex.py:109
+#, python-format
+msgid "Error executing %s."
+msgstr "%s 실행 중 오류 발생."
+
+#: ../dtop/anki/sound.py:231
+#, python-format
+msgid "Error running %s"
+msgstr "%s 실행 중 오류 발생."
+
+#: ../dtop/aqt/deckbrowser.py:271 ../dtop/aqt/exporting.py:82
+#: ../dtop/aqt/forms/exporting.py:82
+msgid "Export"
+msgstr "내보내기"
+
+#: ../dtop/aqt/exporting.py:33
+msgid "Export..."
+msgstr "내보내기..."
+
+#: ../dtop/anki/stdmodels.py:72 ../dtop/anki/stdmodels.py:82
+msgid "Extra"
+msgstr "기타"
+
+#: ../dtop/aqt/forms/main.py:169
+msgid "F"
+msgstr "F"
+
+#: ../dtop/aqt/forms/browser.py:291 ../dtop/aqt/forms/main.py:158
+msgid "F1"
+msgstr "F1"
+
+#: ../dtop/aqt/editor.py:392
+msgid "F3"
+msgstr "F3"
+
+#: ../dtop/aqt/editor.py:394
+msgid "F5"
+msgstr "F5"
+
+#: ../dtop/aqt/editor.py:379
+msgid "F7"
+msgstr "F7"
+
+#: ../dtop/aqt/editor.py:382
+msgid "F8"
+msgstr "F8"
+
+#: ../dtop/aqt/importing.py:216
+#, python-format
+msgid "Field <b>%d</b> of file is:"
+msgstr "필드 <b>%d</b:"
+
+#: ../dtop/aqt/forms/importing.py:113
+msgid "Field mapping"
+msgstr "필드 배정"
+
+#: ../dtop/aqt/fields.py:82
+msgid "Field name:"
+msgstr "필드 이름:"
+
+#: ../dtop/aqt/forms/addfield.py:86
+msgid "Field:"
+msgstr "필드:"
+
+#: ../dtop/aqt/fields.py:19 ../dtop/aqt/forms/changemodel.py:125
+#: ../dtop/aqt/forms/fields.py:111
+msgid "Fields"
+msgstr "필드"
+
+#: ../dtop/aqt/fields.py:22
+#, python-format
+msgid "Fields for %s"
+msgstr "%s의 필드"
+
+#: ../dtop/aqt/importing.py:140
+#, python-format
+msgid "Fields separated by: %s"
+msgstr "필드 구분자: %s"
+
+#: ../dtop/aqt/editor.py:359 ../dtop/aqt/models.py:43
+msgid "Fields..."
+msgstr "필드..."
+
+#: ../dtop/aqt/forms/browser.py:299
+msgid "Fil&ters"
+msgstr "분류(&T)"
+
+#: ../dtop/anki/importing/anki1.py:20
+msgid "File is invalid. Please restore from backup."
+msgstr "파일이 유효하지 않습니다. 백업에서 복구하세요."
+
+#: ../dtop/aqt/upgrade.py:256
+msgid "File was missing."
+msgstr "파일을 찾을 수 없습니다."
+
+#: ../dtop/aqt/forms/dyndconf.py:96
+msgid "Filter"
+msgstr "여과"
+
+#: ../dtop/aqt/forms/studydeck.py:57
+msgid "Filter:"
+msgstr "여과:"
+
+#: ../dtop/aqt/browser.py:915
+msgid "Filtered"
+msgstr "여과됨"
+
+#: ../dtop/aqt/main.py:786 ../dtop/aqt/main.py:788
+#, python-format
+msgid "Filtered Deck %d"
+msgstr "여과된 묶음 %d"
+
+#: ../dtop/aqt/forms/browser.py:303
+msgid "Find &Duplicates..."
+msgstr "중복된 항목 찾기(&D)..."
+
+#: ../dtop/aqt/forms/finddupes.py:73
+msgid "Find Duplicates"
+msgstr "중복된 항목 찾기"
+
+#: ../dtop/aqt/forms/browser.py:296
+msgid "Find and Re&place..."
+msgstr "바꾸기(&P)..."
+
+#: ../dtop/aqt/browser.py:1339 ../dtop/aqt/forms/findreplace.py:79
+msgid "Find and Replace"
+msgstr "바꾸기"
+
+#: ../dtop/aqt/reviewer.py:76
+msgid "Finish"
+msgstr ""
+
+#: ../dtop/aqt/forms/browser.py:305
+msgid "First Card"
+msgstr "첫째 카드"
+
+#: ../dtop/anki/stats.py:34
+msgid "First Review"
+msgstr "최초 복습"
+
+#: ../dtop/anki/importing/noteimp.py:114
+#, python-format
+msgid "First field matched: %s"
+msgstr ""
+
+#: ../dtop/anki/collection.py:755 ../dtop/anki/collection.py:766
+#, python-format
+msgid "Fixed %d card with invalid properties."
+msgid_plural "Fixed %d cards with invalid properties."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../dtop/anki/collection.py:701
+msgid "Fixed AnkiDroid deck override bug."
+msgstr ""
+
+#: ../dtop/anki/collection.py:706
+#, python-format
+msgid "Fixed note type: %s"
+msgstr ""
+
+#: ../dtop/aqt/clayout.py:166
+msgid "Flip"
+msgstr "뒤집기"
+
+#: ../dtop/aqt/profiles.py:159
+msgid "Folder already exists."
+msgstr "이미 존재하는 폴더입니다."
+
+#: ../dtop/aqt/forms/addfield.py:87
+msgid "Font:"
+msgstr "글꼴:"
+
+#: ../dtop/aqt/forms/modelopts.py:73
+msgid "Footer"
+msgstr "바닥글"
+
+#: ../dtop/anki/latex.py:83
+#, python-format
+msgid ""
+"For security reasons, '%s' is not allowed on cards. You can still use it by "
+"placing the command in a different package, and importing that package in "
+"the LaTeX header instead."
+msgstr ""
+
+#: ../dtop/anki/stats.py:216
+msgid "Forecast"
+msgstr "예상"
+
+#: ../dtop/aqt/forms/preview.py:50 ../dtop/aqt/forms/template.py:117
+msgid "Form"
+msgstr ""
+
+#: ../dtop/anki/stdmodels.py:60
+msgid "Forward & Optional Reverse"
+msgstr "정방향 & 선택적 역방향"
+
+#: ../dtop/anki/stdmodels.py:42
+msgid "Forward & Reverse"
+msgstr "정방향 & 역방향"
+
+#: ../dtop/aqt/browser.py:1408
+#, python-format
+msgid "Found %(a)s across %(b)s."
+msgstr "%(a)s을 %(b)s에 걸쳐 찾았습니다."
+
+#: ../dtop/anki/stdmodels.py:16 ../dtop/anki/stdmodels.py:21
+#: ../dtop/anki/stdmodels.py:38 ../dtop/anki/stdmodels.py:56
+#: ../dtop/aqt/forms/addfield.py:85
+msgid "Front"
+msgstr "앞면"
+
+#: ../dtop/aqt/forms/preview.py:51
+msgid "Front Preview"
+msgstr "앞면 미리보기"
+
+#: ../dtop/aqt/forms/template.py:118
+msgid "Front Template"
+msgstr "앞면 서식"
+
+#: ../dtop/aqt/forms/dconf.py:383
+msgid "General"
+msgstr "일반"
+
+#: ../dtop/anki/latex.py:110
+#, python-format
+msgid "Generated file: %s"
+msgstr "생성된 파일: %s"
+
+#: ../dtop/anki/stats.py:721
+#, python-format
+msgid "Generated on %s"
+msgstr "생성 일시: %s"
+
+#: ../dtop/aqt/deckbrowser.py:339
+msgid "Get Shared"
+msgstr "공유 뭉치 다운로드"
+
+#: ../dtop/aqt/reviewer.py:646 ../dtop/aqt/reviewer.py:648
+#: ../dtop/aqt/reviewer.py:650
+msgid "Good"
+msgstr "알맞음"
+
+#: ../dtop/aqt/forms/dconf.py:351
+msgid "Graduating interval"
+msgstr "졸업 간격"
+
+#: ../dtop/aqt/forms/edithtml.py:48
+msgid "HTML Editor"
+msgstr "HTML 편집기"
+
+#: ../dtop/aqt/reviewer.py:650
+msgid "Hard"
+msgstr "어려움"
+
+#: ../dtop/anki/latex.py:117
+msgid "Have you installed latex and dvipng?"
+msgstr "latex과 dvipng를 설치하셨습니까?"
+
+#: ../dtop/aqt/forms/modelopts.py:72
+msgid "Header"
+msgstr "머릿글"
+
+#: ../dtop/aqt/addcards.py:65 ../dtop/aqt/clayout.py:156
+#: ../dtop/aqt/utils.py:120 ../dtop/aqt/utils.py:121
+msgid "Help"
+msgstr "도움말"
+
+#: ../dtop/anki/stats.py:676
+msgid "Highest ease"
+msgstr "최고 수월함"
+
+#: ../dtop/aqt/addcards.py:72
+msgid "History"
+msgstr "내력"
+
+#: ../dtop/aqt/forms/browser.py:306
+msgid "Home"
+msgstr "Home"
+
+#: ../dtop/anki/stats.py:620
+msgid "Hourly Breakdown"
+msgstr "시간대별 분석"
+
+#: ../dtop/anki/stats.py:309
+msgid "Hours"
+msgstr "시간"
+
+#: ../dtop/anki/stats.py:631
+msgid "Hours with less than 30 reviews are not shown."
+msgstr "복습량이 30개 미만인 시간대는 표시되지 않습니다."
+
+#: ../dtop/aqt/about.py:47
+msgid ""
+"If you have contributed and are not on this list, please get in touch."
+msgstr "프로그램 제작에 기여했지만, 위 목록에 포함되지 않은 분은 연락바랍니다."
+
+#: ../dtop/anki/stats.py:352
+msgid "If you studied every day"
+msgstr "매일 공부한다면"
+
+#: ../dtop/aqt/forms/dconf.py:378
+msgid "Ignore answer times longer than"
+msgstr "답변 시간이 너무 길 경우 무시할 기준:"
+
+#: ../dtop/aqt/forms/findreplace.py:84
+msgid "Ignore case"
+msgstr "대소문자 무시"
+
+#: ../dtop/aqt/forms/importing.py:110
+msgid "Ignore lines where first field matches existing note"
+msgstr "기존 노트와 첫째 필드가 일치하는 줄은 무시하기"
+
+#: ../dtop/aqt/update.py:61
+msgid "Ignore this update"
+msgstr "이 업데이트 무시"
+
+#: ../dtop/aqt/importing.py:83 ../dtop/aqt/importing.py:159
+#: ../dtop/aqt/importing.py:265 ../dtop/aqt/forms/changemap.py:52
+#: ../dtop/aqt/forms/importing.py:105
+msgid "Import"
+msgstr "가져오기"
+
+#: ../dtop/aqt/deckbrowser.py:341
+msgid "Import File"
+msgstr "파일 가져오기"
+
+#: ../dtop/aqt/forms/importing.py:111
+msgid "Import even if existing note has same first field"
+msgstr "기존 노트와 첫째 필드가 같더라도 가져오기"
+
+#: ../dtop/aqt/importing.py:166 ../dtop/aqt/importing.py:342
+msgid "Import failed.\n"
+msgstr "가져오기 실패.\n"
+
+#: ../dtop/aqt/importing.py:306
+msgid "Import failed. Debugging info:\n"
+msgstr "가져오기 실패. 디버깅 정보:\n"
+
+#: ../dtop/aqt/forms/importing.py:106
+msgid "Import options"
+msgstr "가져오기 옵션"
+
+#: ../dtop/aqt/importing.py:178
+msgid "Importing complete."
+msgstr "가져오기 완료."
+
+#: ../dtop/aqt/main.py:948
+msgid "In media folder but not used by any cards:"
+msgstr "미디어 폴더에는 있지만, 카드가 사용하지 않는 파일:"
+
+#: ../dtop/aqt/main.py:844
+#, python-format
+msgid ""
+"In order to ensure your collection works correctly when moved between "
+"devices, Anki requires your computer's internal clock to be set correctly. "
+"The internal clock can be wrong even if your system is showing the correct "
+"local time.\n"
+"\n"
+"Please go to the time settings on your computer and check the following:\n"
+"\n"
+"- AM/PM\n"
+"- Clock drift\n"
+"- Day, month and year\n"
+"- Timezone\n"
+"- Daylight savings\n"
+"\n"
+"Difference to correct time: %s."
+msgstr ""
+
+#: ../dtop/aqt/forms/exporting.py:86
+msgid "Include media"
+msgstr "미디어 포함"
+
+#: ../dtop/aqt/forms/exporting.py:85
+msgid "Include scheduling information"
+msgstr "복습 일정 포함"
+
+#: ../dtop/aqt/forms/exporting.py:87
+msgid "Include tags"
+msgstr "태그 포함"
+
+#: ../dtop/aqt/forms/customstudy.py:109
+msgid "Increase today's new card limit"
+msgstr "오늘의 새 카드 제한 늘리기"
+
+#: ../dtop/aqt/customstudy.py:58
+msgid "Increase today's new card limit by"
+msgstr "이 개수만큼 오늘의 새 카드 제한을 늘리기:"
+
+#: ../dtop/aqt/forms/customstudy.py:110
+msgid "Increase today's review card limit"
+msgstr "오늘의 복습 카드 제한 늘리기"
+
+#: ../dtop/aqt/customstudy.py:64
+msgid "Increase today's review limit by"
+msgstr "이 개수만큼 오늘의 복습 제한을 늘리기:"
+
+#: ../dtop/anki/consts.py:83
+msgid "Increasing intervals"
+msgstr "복습 간격이 짧은 것부터"
+
+#: ../dtop/aqt/browser.py:1703
+msgid "Info"
+msgstr "정보"
+
+#: ../dtop/aqt/forms/getaddons.py:59
+msgid "Install Add-on"
+msgstr "추가 기능 설치"
+
+#: ../dtop/aqt/forms/setlang.py:51
+msgid "Interface language:"
+msgstr "인터페이스 언어:"
+
+#: ../dtop/anki/stats.py:48 ../dtop/aqt/browser.py:493
+#: ../dtop/aqt/browser.py:909
+msgid "Interval"
+msgstr "간격"
+
+#: ../dtop/aqt/forms/dconf.py:361
+msgid "Interval modifier"
+msgstr "복습 간격 조정값"
+
+#: ../dtop/anki/stats.py:472
+msgid "Intervals"
+msgstr "복습 간격"
+
+#: ../dtop/aqt/downloader.py:18 ../dtop/aqt/downloader.py:83
+msgid "Invalid code."
+msgstr "잘못된 코드."
+
+#: ../dtop/aqt/main.py:942
+msgid "Invalid encoding; please rename:"
+msgstr "잘못된 인코딩; 이름을 변경하세요:"
+
+#: ../dtop/aqt/importing.py:333
+msgid "Invalid file. Please restore from backup."
+msgstr "유효하지 않은 파일. 백업에서 복구하세요."
+
+#: ../dtop/aqt/main.py:163 ../dtop/aqt/main.py:187
+msgid "Invalid password."
+msgstr "잘못된 비밀번호."
+
+#: ../dtop/aqt/main.py:884
+msgid ""
+"Invalid property found on card. Please use Tools>Check Database, and if the "
+"problem comes up again, please ask on the support site."
+msgstr ""
+
+#: ../dtop/aqt/browser.py:1350
+msgid "Invalid regular expression."
+msgstr "잘못된 정규 표현식입니다."
+
+#: ../dtop/aqt/reviewer.py:685
+msgid "It has been suspended."
+msgstr "보류되었습니다."
+
+#: ../dtop/aqt/editor.py:369
+msgid "Italic text (Ctrl+I)"
+msgstr "기울인 글씨 (Ctrl+I)"
+
+#: ../dtop/aqt/webview.py:150
+#, python-format
+msgid "JS error on line %(a)d: %(b)s"
+msgstr "%(a)d줄에서 JS 오류: %(b)s"
+
+#: ../dtop/aqt/editor.py:638
+msgid "Jump to tags with Ctrl+Shift+T"
+msgstr ""
+
+#: ../dtop/aqt/forms/preferences.py:237
+msgid "Keep"
+msgstr "보관할 백업"
+
+#: ../dtop/aqt/editor.py:928 ../dtop/aqt/forms/modelopts.py:74
+msgid "LaTeX"
+msgstr "LaTeX"
+
+#: ../dtop/aqt/editor.py:931
+msgid "LaTeX equation"
+msgstr "LaTeX equation"
+
+#: ../dtop/aqt/editor.py:934
+msgid "LaTeX math env."
+msgstr "LaTeX math env."
+
+#: ../dtop/anki/stats.py:51 ../dtop/aqt/browser.py:496
+#: ../dtop/aqt/forms/dconf.py:377
+msgid "Lapses"
+msgstr "실패"
+
+#: ../dtop/aqt/forms/browser.py:307
+msgid "Last Card"
+msgstr "마지막 카드"
+
+#: ../dtop/anki/stats.py:35
+msgid "Latest Review"
+msgstr "최근 복습"
+
+#: ../dtop/anki/consts.py:88
+msgid "Latest added first"
+msgstr "나중에 추가한 것부터"
+
+#: ../dtop/anki/stats.py:289 ../dtop/anki/stats.py:303
+#: ../dtop/aqt/browser.py:915
+msgid "Learn"
+msgstr "익힘"
+
+#: ../dtop/aqt/forms/preferences.py:223
+msgid "Learn ahead limit"
+msgstr "앞당겨 공부하기 제한"
+
+#: ../dtop/anki/stats.py:173
+#, python-format
+msgid "Learn: %(a)s, Review: %(b)s, Relearn: %(c)s, Filtered: %(d)s"
+msgstr "익힘: %(a)s, 복습: %(b)s, 재익힘: %(c)s, 여과됨:%(d)s"
+
+#: ../dtop/anki/stats.py:525 ../dtop/aqt/browser.py:808
+#: ../dtop/aqt/overview.py:144
+msgid "Learning"
+msgstr "익힘 카드"
+
+#: ../dtop/aqt/browser.py:813
+msgid "Leech"
+msgstr "거머리"
+
+#: ../dtop/aqt/forms/dconf.py:371
+msgid "Leech action"
+msgstr "거미리 처리"
+
+#: ../dtop/aqt/forms/dconf.py:369
+msgid "Leech threshold"
+msgstr "거미리 문턱"
+
+#: ../dtop/anki/consts.py:75
+msgid "Left"
+msgstr "왼쪽"
+
+#: ../dtop/aqt/forms/dyndconf.py:97
+msgid "Limit to"
+msgstr "개수 제한"
+
+#: ../dtop/aqt/utils.py:17
+msgid "Loading..."
+msgstr "여는 중..."
+
+#: ../dtop/aqt/preferences.py:145
+msgid "Lock account with password, or leave blank:"
+msgstr "계정을 보호할 비밀번호를 입력하거나, 빈칸으로 남겨 두세요:"
+
+#: ../dtop/anki/stats.py:483
+msgid "Longest interval"
+msgstr "최대 복습 간격"
+
+#: ../dtop/aqt/forms/finddupes.py:75
+msgid "Look in field:"
+msgstr "검색 대상 필드:"
+
+#: ../dtop/anki/stats.py:674
+msgid "Lowest ease"
+msgstr "최저 수월함"
+
+#: ../dtop/aqt/modelchooser.py:64
+msgid "Manage"
+msgstr "관리"
+
+#: ../dtop/aqt/forms/main.py:170
+msgid "Manage Note Types..."
+msgstr "노트 유형 관리..."
+
+#: ../dtop/aqt/importing.py:30
+#, python-format
+msgid "Map to %s"
+msgstr "%s로 배정"
+
+#: ../dtop/aqt/importing.py:36
+msgid "Map to Tags"
+msgstr "태그로 배정"
+
+#: ../dtop/aqt/browser.py:1705
+msgid "Mark"
+msgstr "별표"
+
+#: ../dtop/aqt/reviewer.py:694
+msgid "Mark Note"
+msgstr "노트 별표"
+
+#: ../dtop/aqt/browser.py:1706
+msgid "Mark Note (Ctrl+K)"
+msgstr "노트 별표 (Ctrl+K)"
+
+#: ../dtop/aqt/browser.py:811
+msgid "Marked"
+msgstr "별표"
+
+#: ../dtop/anki/stats.py:208 ../dtop/anki/stats.py:286
+#: ../dtop/anki/stats.py:300 ../dtop/anki/stats.py:527
+#: ../dtop/anki/stats.py:660
+msgid "Mature"
+msgstr "성숙한 카드"
+
+#: ../dtop/aqt/forms/dconf.py:363
+msgid "Maximum interval"
+msgstr "최대 복습 간격"
+
+#: ../dtop/aqt/forms/dconf.py:362
+msgid "Maximum reviews/day"
+msgstr "최대 복습량/일"
+
+#: ../dtop/aqt/editor.py:756
+msgid "Media"
+msgstr "미디어"
+
+#: ../dtop/aqt/forms/dconf.py:372
+msgid "Minimum interval"
+msgstr "최소 복습 간격"
+
+#: ../dtop/anki/stats.py:306
+msgid "Minutes"
+msgstr "분"
+
+#: ../dtop/anki/consts.py:67
+msgid "Mix new cards and reviews"
+msgstr "새 카드와 복습 카드 섞기"
+
+#: ../dtop/anki/importing/__init__.py:18
+msgid "Mnemosyne 2.0 Deck (*.db)"
+msgstr "Mnemosyne 2.0 뭉치 (*.db)"
+
+#: ../dtop/aqt/clayout.py:170 ../dtop/aqt/reviewer.py:596
+msgid "More"
+msgstr "그밖에"
+
+#: ../dtop/anki/consts.py:85
+msgid "Most lapses"
+msgstr "많이 틀린 순서대로"
+
+#: ../dtop/aqt/browser.py:1134
+msgid "Move Cards"
+msgstr "카드 이동"
+
+#: ../dtop/aqt/browser.py:1709
+msgid "Move To Deck (Ctrl+D)"
+msgstr "다른 뭉치로 이동 (Ctrl+D)"
+
+#: ../dtop/aqt/forms/setgroup.py:50
+msgid "Move cards to deck:"
+msgstr "카드를 뭉치로 이동:"
+
+#: ../dtop/aqt/browser.py:825
+msgid "My Searches"
+msgstr ""
+
+#: ../dtop/aqt/forms/browser.py:284
+msgid "N&ote"
+msgstr "노트(&O)"
+
+#: ../dtop/aqt/main.py:177 ../dtop/aqt/main.py:193
+msgid "Name exists."
+msgstr "이미 존재하는 이름."
+
+#: ../dtop/aqt/deckbrowser.py:54
+msgid "Name for deck:"
+msgstr ""
+
+#: ../dtop/aqt/main.py:173 ../dtop/aqt/models.py:86
+msgid "Name:"
+msgstr "이름:"
+
+#: ../dtop/aqt/forms/preferences.py:235
+msgid "Network"
+msgstr "네트워크"
+
+#: ../dtop/aqt/browser.py:807 ../dtop/aqt/deckbrowser.py:187
+#: ../dtop/aqt/overview.py:143
+msgid "New"
+msgstr "새 카드"
+
+#: ../dtop/aqt/forms/dconf.py:357
+msgid "New Cards"
+msgstr "새 카드"
+
+#: ../dtop/aqt/customstudy.py:57
+#, python-format
+msgid "New cards in deck: %s"
+msgstr "뭉치에 있는 새 카드: %s"
+
+#: ../dtop/aqt/forms/customstudy.py:119
+msgid "New cards only"
+msgstr ""
+
+#: ../dtop/aqt/forms/dconf.py:352
+msgid "New cards/day"
+msgstr "새 카드/일"
+
+#: ../dtop/aqt/deckbrowser.py:284 ../dtop/aqt/studydeck.py:133
+msgid "New deck name:"
+msgstr "새 뭉치 이름:"
+
+#: ../dtop/aqt/forms/dconf.py:368
+msgid "New interval"
+msgstr "새 복습 간격"
+
+#: ../dtop/aqt/clayout.py:263 ../dtop/aqt/deckconf.py:132
+#: ../dtop/aqt/fields.py:73 ../dtop/aqt/main.py:185 ../dtop/aqt/models.py:57
+msgid "New name:"
+msgstr "새 이름:"
+
+#: ../dtop/aqt/forms/changemodel.py:123
+msgid "New note type:"
+msgstr "새 노트 유형:"
+
+#: ../dtop/aqt/deckconf.py:110
+msgid "New options group name:"
+msgstr "새 옵션 그룹 이름:"
+
+#: ../dtop/aqt/fields.py:110
+#, python-format
+msgid "New position (1...%d):"
+msgstr "새 위치 (1...%d):"
+
+#: ../dtop/aqt/forms/preferences.py:222
+msgid "Next day starts at"
+msgstr "하루가 시작하는 시각은 자정으로부터"
+
+#: ../dtop/aqt/overview.py:39
+msgid "No cards are due yet."
+msgstr ""
+
+#: ../dtop/aqt/customstudy.py:160
+msgid "No cards matched the criteria you provided."
+msgstr "제시한 기준에 맞는 카드가 없습니다."
+
+#: ../dtop/aqt/main.py:1007
+msgid "No empty cards."
+msgstr "빈 카드가 없습니다."
+
+#: ../dtop/anki/stats.py:184
+msgid "No mature cards were studied today."
+msgstr ""
+
+#: ../dtop/aqt/main.py:957
+msgid "No unused or missing files found."
+msgstr "사용하지 않거나 빠진 파일이 없습니다."
+
+#: ../dtop/aqt/browser.py:498
+msgid "Note"
+msgstr "노트"
+
+#: ../dtop/anki/stats.py:63
+msgid "Note ID"
+msgstr "노트 ID"
+
+#: ../dtop/anki/stats.py:61
+msgid "Note Type"
+msgstr "노트 유형"
+
+#: ../dtop/aqt/models.py:19 ../dtop/aqt/forms/models.py:65
+msgid "Note Types"
+msgstr "노트 유형"
+
+#: ../dtop/aqt/reviewer.py:754
+#, python-format
+msgid "Note and its %d card deleted."
+msgid_plural "Note and its %d cards deleted."
+msgstr[0] "노트와 그에 속한 카드 %d개가 삭제되었습니다."
+
+#: ../dtop/aqt/reviewer.py:768
+msgid "Note buried."
+msgstr "노트를 덮었습니다."
+
+#: ../dtop/aqt/reviewer.py:735
+msgid "Note suspended."
+msgstr "노트가 보류되었습니다."
+
+#: ../dtop/aqt/forms/preferences.py:241
+msgid ""
+"Note: Media is not backed up. Please create a periodic backup of your Anki "
+"folder to be safe."
+msgstr "주의: 미디어는 백업되지 않습니다. 만약을 대비해 주기적으로 앙키 폴더를 백업하세요."
+
+#: ../dtop/aqt/browser.py:944
+msgid ""
+"Note: Some of the history is missing. For more information, please see the "
+"browser documentation."
+msgstr "알림: 내력의 일부가 빠졌습니다. 더 자세한 정보는 탐색기 문서에서 확인하세요."
+
+#: ../dtop/anki/exporting.py:70
+msgid "Notes in Plain Text"
+msgstr "텍스트 파일로 정리한 노트"
+
+#: ../dtop/aqt/fields.py:95
+msgid "Notes require at least one field."
+msgstr "노트는 적어도 하나 이상의 필드가 필요합니다."
+
+#: ../dtop/aqt/browser.py:1432
+msgid "Notes tagged."
+msgstr ""
+
+#: ../dtop/aqt/browser.py:1579
+msgid "Nothing"
+msgstr "배정 안 함"
+
+#: ../dtop/aqt/customstudy.py:49
+msgid "OK"
+msgstr "확인"
+
+#: ../dtop/anki/consts.py:81
+msgid "Oldest seen first"
+msgstr "처음 공부한 지 오래된 것부터"
+
+#: ../dtop/aqt/forms/preferences.py:233
+msgid "On next sync, force changes in one direction"
+msgstr "다음 동기화 때, 한 방향으로만 변경 사항 적용하기"
+
+#: ../dtop/anki/importing/noteimp.py:210
+msgid ""
+"One or more notes were not imported, because they didn't generate any cards. "
+"This can happen when you have empty fields or when you have not mapped the "
+"content in the text file to the correct fields."
+msgstr ""
+"어떤 카드로 만들어 내지 않는 노트가 하나 이상 있어서 해당 노트를 가져오지 못했습니다. 이 문제는 빈 필드가 있거나, 텍스트 파일의 "
+"내용을 올바른 필드에 배정되지 않았기 때문에 발생할 수 있습니다."
+
+#: ../dtop/aqt/browser.py:1225
+msgid "Only new cards can be repositioned."
+msgstr "위치 수정은 새 카드만 가능합니다."
+
+#: ../dtop/aqt/sync.py:172
+msgid ""
+"Only one client can access AnkiWeb at a time. If a previous sync failed, "
+"please try again in a few minutes."
+msgstr "오직 한 클라이언트만이 AnkiWeb에 접근할 수 있습니다. 만약 이전 동기화가 실패했다면, 몇 분 뒤에 다시 시도하세요."
+
+#: ../dtop/aqt/forms/profiles.py:88
+msgid "Open"
+msgstr "열기"
+
+#: ../dtop/aqt/main.py:374
+msgid "Optimizing..."
+msgstr "최적화하는 중..."
+
+#: ../dtop/aqt/forms/finddupes.py:74
+msgid "Optional limit:"
+msgstr "그밖의 조건:"
+
+#: ../dtop/aqt/deckbrowser.py:269 ../dtop/aqt/deckconf.py:22
+#: ../dtop/aqt/dyndeckconf.py:23 ../dtop/aqt/overview.py:186
+#: ../dtop/aqt/reviewer.py:700 ../dtop/aqt/forms/dyndconf.py:100
+#: ../dtop/aqt/forms/fields.py:119
+msgid "Options"
+msgstr "옵션"
+
+#: ../dtop/aqt/deckconf.py:34 ../dtop/aqt/dyndeckconf.py:28
+#: ../dtop/aqt/models.py:114
+#, python-format
+msgid "Options for %s"
+msgstr "%s의 옵션"
+
+#: ../dtop/aqt/forms/dconf.py:346
+msgid "Options group:"
+msgstr "옵션 그룹:"
+
+#: ../dtop/aqt/models.py:47
+msgid "Options..."
+msgstr "옵션..."
+
+#: ../dtop/aqt/forms/dconf.py:349
+msgid "Order"
+msgstr "순서"
+
+#: ../dtop/anki/consts.py:86
+msgid "Order added"
+msgstr "추가한 순서대로"
+
+#: ../dtop/anki/consts.py:87
+msgid "Order due"
+msgstr "만기 순서대로"
+
+#: ../dtop/aqt/forms/browserdisp.py:82
+msgid "Override back template:"
+msgstr "뒷면 서식 교체:"
+
+#: ../dtop/aqt/forms/browserdisp.py:83
+msgid "Override font:"
+msgstr "글꼴 교체:"
+
+#: ../dtop/aqt/forms/browserdisp.py:81
+msgid "Override front template:"
+msgstr "앞면 서식 교체:"
+
+#: ../dtop/anki/importing/__init__.py:16
+msgid "Packaged Anki Deck (*.apkg *.zip)"
+msgstr ""
+
+#: ../dtop/aqt/sync.py:210 ../dtop/aqt/forms/profiles.py:87
+msgid "Password:"
+msgstr "비밀번호:"
+
+#: ../dtop/aqt/preferences.py:156
+msgid "Passwords didn't match"
+msgstr "비밀번호가 일치하지 않습니다."
+
+#: ../dtop/aqt/editor.py:1211
+msgid "Paste"
+msgstr "붙여넣기"
+
+#: ../dtop/aqt/forms/preferences.py:219
+msgid "Paste clipboard images as PNG"
+msgstr "클립보드에 있는 이미지를 PNG 형식으로 붙여넣기"
+
+#: ../dtop/anki/importing/__init__.py:20
+msgid "Pauker 1.8 Lesson (*.pau.gz)"
+msgstr "Pauker 1.8 Lesson (*.pau.gz)"
+
+#: ../dtop/anki/stats.py:474
+msgid "Percentage"
+msgstr "백분율"
+
+#: ../dtop/anki/stats.py:729
+#, python-format
+msgid "Period: %s"
+msgstr "기간: %s"
+
+#: ../dtop/aqt/forms/reschedule.py:86
+msgid "Place at end of new card queue"
+msgstr "새 카드 대기열의 끝으로 보내기"
+
+#: ../dtop/aqt/forms/reschedule.py:87
+msgid "Place in review queue with interval between:"
+msgstr "다음 범위 안의 복습 간격을 유지한 채로 복습 대기열에 넣기:"
+
+#: ../dtop/aqt/models.py:95
+msgid "Please add another note type first."
+msgstr "먼저 다른 노트 유형을 추가하세요."
+
+#: ../dtop/aqt/upgrade.py:168
+msgid "Please be patient; this can take a while."
+msgstr "여유를 가지고 기다려주세요. 시간이 오래 걸릴 수 있습니다."
+
+#: ../dtop/aqt/errors.py:64
+msgid ""
+"Please connect a microphone, and ensure other programs are not using the "
+"audio device."
+msgstr "마이크를 연결하고, 다른 프로그램이 오디오 장치를 사용하고 있지 않은지 확인하세요."
+
+#: ../dtop/anki/collection.py:529
+#, python-format
+msgid "Please edit this note and add some cloze deletions. (%s)"
+msgstr "노트를 편집해서 빈칸을 뚫으세요. (%s)"
+
+#: ../dtop/aqt/main.py:1158
+msgid "Please ensure a profile is open and Anki is not busy, then try again."
+msgstr "프로필이 열려 있는 상태이고, 앙키가 다른 작업을 진행 중은 아닌지 확인하고, 다시 시도하세요."
+
+#: ../dtop/aqt/errors.py:60
+msgid "Please install PyAudio"
+msgstr "PyAudio를 설치하세요"
+
+#: ../dtop/aqt/errors.py:62
+msgid "Please install mplayer"
+msgstr "mplayer를 설치하세요"
+
+#: ../dtop/aqt/preferences.py:14
+msgid "Please open a profile first."
+msgstr "먼저 프로필을 열어 주세요"
+
+#: ../dtop/aqt/profiles.py:154
+#, python-format
+msgid "Please remove the folder %s and try again."
+msgstr ""
+
+#: ../dtop/aqt/reviewer.py:387
+msgid "Please run Tools>Empty Cards"
+msgstr "도구>빈 카드를 실행하세요"
+
+#: ../dtop/aqt/main.py:408
+msgid "Please select a deck."
+msgstr "뭉치를 선택하세요."
+
+#: ../dtop/aqt/browser.py:976
+msgid "Please select cards from only one note type."
+msgstr "하나의 노트 유형에 속한 카드만 선택하세요."
+
+#: ../dtop/aqt/studydeck.py:115
+msgid "Please select something."
+msgstr "무언가 선택하세요."
+
+#: ../dtop/aqt/sync.py:160
+msgid "Please upgrade to the latest version of Anki."
+msgstr "최신 버전의 앙키로 업그레이드하세요."
+
+#: ../dtop/aqt/main.py:763
+msgid "Please use File>Import to import this file."
+msgstr "이 파일을 가져오려면, 파일>가져오기 메뉴를 사용하세요."
+
+#: ../dtop/aqt/sync.py:114
+msgid "Please visit AnkiWeb, upgrade your deck, then try again."
+msgstr "앙키웹을 방문해서 뭉치를 업그레이드한 뒤 다시 시도하세요."
+
+#: ../dtop/anki/stats.py:59
+msgid "Position"
+msgstr "위치"
+
+#: ../dtop/aqt/forms/preferences.py:215
+msgid "Preferences"
+msgstr "환경 설정"
+
+#: ../dtop/aqt/browser.py:1009 ../dtop/aqt/forms/browser.py:271
+msgid "Preview"
+msgstr "미리 보기"
+
+#: ../dtop/aqt/browser.py:395
+#, python-format
+msgid "Preview Selected Card (%s)"
+msgstr ""
+
+#: ../dtop/aqt/forms/customstudy.py:112
+msgid "Preview new cards"
+msgstr "새 카드 미리 보기"
+
+#: ../dtop/aqt/customstudy.py:74
+msgid "Preview new cards added in the last"
+msgstr "이 기간 전부터 현재까지 추가한 새 카드 미리보기:"
+
+#: ../dtop/aqt/progress.py:93
+msgid "Processing..."
+msgstr "처리 중..."
+
+#: ../dtop/aqt/forms/preferences.py:228
+msgid "Profile Password..."
+msgstr "프로필 비밀번호..."
+
+#: ../dtop/aqt/forms/profiles.py:86
+msgid "Profile:"
+msgstr "프로필:"
+
+#: ../dtop/aqt/forms/profiles.py:85
+msgid "Profiles"
+msgstr "프로필"
+
+#: ../dtop/aqt/sync.py:183
+msgid "Proxy authentication required."
+msgstr "프록시 인증이 필요합니다."
+
+#: ../dtop/aqt/browser.py:484
+msgid "Question"
+msgstr "질문"
+
+#: ../dtop/aqt/browser.py:1235
+#, python-format
+msgid "Queue bottom: %d"
+msgstr "대기열의 끝: %d"
+
+#: ../dtop/aqt/browser.py:1234
+#, python-format
+msgid "Queue top: %d"
+msgstr "대기열의 시작: %d"
+
+#: ../dtop/aqt/forms/profiles.py:92
+msgid "Quit"
+msgstr "닫기"
+
+#: ../dtop/anki/consts.py:82
+msgid "Random"
+msgstr "무작위로"
+
+#: ../dtop/aqt/forms/reposition.py:84
+msgid "Randomize order"
+msgstr "무작위 순서"
+
+#: ../dtop/aqt/browser.py:909
+msgid "Rating"
+msgstr "평점"
+
+#: ../dtop/aqt/upgrade.py:134
+msgid "Ready to Upgrade"
+msgstr "업그레이드 준비를 마침"
+
+#: ../dtop/aqt/dyndeckconf.py:20 ../dtop/aqt/overview.py:189
+msgid "Rebuild"
+msgstr "다시 모으기"
+
+#: ../dtop/aqt/reviewer.py:703
+msgid "Record Own Voice"
+msgstr "음성 녹음"
+
+#: ../dtop/aqt/editor.py:394
+msgid "Record audio (F5)"
+msgstr "녹음 (F5)"
+
+#: ../dtop/aqt/sound.py:26
+#, python-format
+msgid "Recording...<br>Time: %0.1f"
+msgstr "녹음 중...<br>시간: %0.1f"
+
+#: ../dtop/anki/consts.py:89
+msgid "Relative overdueness"
+msgstr ""
+
+#: ../dtop/anki/stats.py:288 ../dtop/anki/stats.py:302
+#: ../dtop/aqt/browser.py:915
+msgid "Relearn"
+msgstr "재익힘"
+
+#: ../dtop/aqt/forms/fields.py:118
+msgid "Remember last input when adding"
+msgstr "이전에 입력한 내용 유지"
+
+#: ../dtop/aqt/browser.py:1828
+#, python-format
+msgid "Remove \"%s\" from your saved searches?"
+msgstr ""
+
+#: ../dtop/aqt/browser.py:1713
+msgid "Remove Tags"
+msgstr "태그 삭제"
+
+#: ../dtop/aqt/editor.py:378
+msgid "Remove formatting (Ctrl+R)"
+msgstr "글씨 꾸밈 걷어내기 (Ctrl+R)"
+
+#: ../dtop/aqt/browser.py:1829
+msgid "Remove search"
+msgstr ""
+
+#: ../dtop/aqt/clayout.py:145
+msgid ""
+"Removing this card type would cause one or more notes to be deleted. Please "
+"create a new card type first."
+msgstr "이 카드 유형을 제거하면 하나 이상의 노트가 삭제될 수 있습니다. 먼저 새로운 카드 유형을 만드세요."
+
+#: ../dtop/aqt/clayout.py:331 ../dtop/aqt/deckbrowser.py:267
+#: ../dtop/aqt/deckconf.py:80 ../dtop/aqt/models.py:38
+#: ../dtop/aqt/forms/fields.py:114 ../dtop/aqt/forms/profiles.py:90
+msgid "Rename"
+msgstr "이름 변경"
+
+#: ../dtop/aqt/deckbrowser.py:281
+msgid "Rename Deck"
+msgstr "뭉치 이름 변경"
+
+#: ../dtop/aqt/browser.py:1016 ../dtop/aqt/reviewer.py:702
+msgid "Replay Audio"
+msgstr "오디오 재생"
+
+#: ../dtop/aqt/reviewer.py:704
+msgid "Replay Own Voice"
+msgstr "음성 재생"
+
+#: ../dtop/aqt/browser.py:1240 ../dtop/aqt/clayout.py:335
+#: ../dtop/aqt/forms/fields.py:115
+msgid "Reposition"
+msgstr "위치 재조정"
+
+#: ../dtop/aqt/forms/reposition.py:81
+msgid "Reposition New Cards"
+msgstr "새 카드 위치 재조정"
+
+#: ../dtop/aqt/forms/browser.py:304
+msgid "Reposition..."
+msgstr "위치 재조정..."
+
+#: ../dtop/aqt/forms/taglimit.py:72
+msgid "Require one or more of these tags:"
+msgstr "이 태그들 중 하나 이상 있어야 함:"
+
+#: ../dtop/aqt/browser.py:916
+msgid "Resched"
+msgstr "일정 재조정"
+
+#: ../dtop/aqt/browser.py:1259 ../dtop/aqt/forms/reschedule.py:85
+msgid "Reschedule"
+msgstr "일정 재조정"
+
+#: ../dtop/aqt/forms/dyndconf.py:101
+msgid "Reschedule cards based on my answers in this deck"
+msgstr "이 뭉치에서 선택한 평가 버튼을 카드의 복습 일정에 반영"
+
+#: ../dtop/aqt/main.py:473
+msgid "Resume Now"
+msgstr "다시 진행"
+
+#: ../dtop/aqt/forms/fields.py:117
+msgid "Reverse text direction (RTL)"
+msgstr "글씨 좌우 뒤집기 (RTL)"
+
+#: ../dtop/aqt/main.py:684
+#, python-format
+msgid "Reverted to state prior to '%s'."
+msgstr "'%s' 이전 상태도 되돌리기"
+
+#: ../dtop/anki/collection.py:610 ../dtop/aqt/browser.py:809
+#: ../dtop/aqt/browser.py:915
+msgid "Review"
+msgstr "복습"
+
+#: ../dtop/anki/stats.py:269
+msgid "Review Count"
+msgstr "복습 횟수"
+
+#: ../dtop/anki/stats.py:270
+msgid "Review Time"
+msgstr "복습 시간"
+
+#: ../dtop/aqt/forms/customstudy.py:107
+msgid "Review ahead"
+msgstr "앞당겨 복습하기"
+
+#: ../dtop/aqt/customstudy.py:71
+msgid "Review ahead by"
+msgstr "이 기간만큼 앞당겨 복습하기:"
+
+#: ../dtop/aqt/customstudy.py:67
+msgid "Review cards forgotten in last"
+msgstr "이 기간 전부터 현재까지 잊어버린 카드 복습하기:"
+
+#: ../dtop/aqt/forms/customstudy.py:108
+msgid "Review forgotten cards"
+msgstr "잊어버린 카드 복습하기"
+
+#: ../dtop/anki/stats.py:621
+msgid "Review success rate for each hour of the day."
+msgstr "하루 중 시간대 별 정답률."
+
+#: ../dtop/anki/stats.py:50 ../dtop/anki/stats.py:630
+#: ../dtop/aqt/browser.py:495 ../dtop/aqt/forms/dconf.py:366
+msgid "Reviews"
+msgstr "복습"
+
+#: ../dtop/aqt/customstudy.py:63
+#, python-format
+msgid "Reviews due in deck: %s"
+msgstr "뭉치에서 만기된 복습 카드: %s"
+
+#: ../dtop/anki/consts.py:76
+msgid "Right"
+msgstr "오른쪽"
+
+#: ../dtop/aqt/stats.py:27
+msgid "Save Image"
+msgstr "이미지로 저장"
+
+#: ../dtop/aqt/browser.py:1818
+msgid "Save search"
+msgstr ""
+
+#: ../dtop/anki/stats.py:727
+#, python-format
+msgid "Scope: %s"
+msgstr "범위: %s"
+
+#: ../dtop/aqt/browser.py:1392 ../dtop/aqt/forms/browser.py:270
+#: ../dtop/aqt/forms/dyndconf.py:98
+msgid "Search"
+msgstr "찾기"
+
+#: ../dtop/aqt/forms/browseropts.py:84
+msgid "Search within formatting (slow)"
+msgstr "꾸밈 정보 안까지 찾기 (느림)"
+
+#: ../dtop/aqt/customstudy.py:78
+msgid "Select"
+msgstr "이 뭉치에서"
+
+#: ../dtop/aqt/forms/browser.py:277
+msgid "Select &All"
+msgstr "전체 선택(&A)"
+
+#: ../dtop/aqt/forms/browser.py:294
+msgid "Select &Notes"
+msgstr "노트 선택(&N)"
+
+#: ../dtop/aqt/forms/taglimit.py:73
+msgid "Select tags to exclude:"
+msgstr "제외할 태그 선택:"
+
+#: ../dtop/aqt/importing.py:259
+msgid ""
+"Selected file was not in UTF-8 format. Please see the importing section of "
+"the manual."
+msgstr ""
+
+#: ../dtop/aqt/forms/taglimit.py:71
+msgid "Selective Study"
+msgstr "선택적 공부"
+
+#: ../dtop/aqt/importing.py:135
+msgid "Semicolon"
+msgstr "쌍반점"
+
+#: ../dtop/aqt/sync.py:180
+msgid ""
+"Server not found. Either your connection is down, or antivirus/firewall "
+"software is blocking Anki from connecting to the internet."
+msgstr ""
+"서버를 찾을 수 없습니다. 인터넷 연결이 끊어졌거나, 바이러스 백신 또는 방화벽 소프트웨어가 앙키가 인터넷에 접속할 수 없도록 막고 "
+"있습니다."
+
+#: ../dtop/aqt/deckconf.py:140
+#, python-format
+msgid "Set all decks below %s to this option group?"
+msgstr "%s의 모든 하위 뭉치에도 이 옵션 그룹을 지정할까요?"
+
+#: ../dtop/aqt/deckconf.py:82
+msgid "Set for all subdecks"
+msgstr "모든 하위 뭉치에도 적용"
+
+#: ../dtop/aqt/editor.py:380
+msgid "Set foreground colour (F7)"
+msgstr "글씨 색깔 지정 (F7)"
+
+#: ../dtop/aqt/main.py:59
+msgid ""
+"Shift key was held down. Skipping automatic syncing and add-on loading."
+msgstr ""
+
+#: ../dtop/aqt/forms/reposition.py:85
+msgid "Shift position of existing cards"
+msgstr "기존 카드의 위치 이동"
+
+#: ../dtop/aqt/browser.py:1019 ../dtop/aqt/deckbrowser.py:346
+#: ../dtop/aqt/main.py:498 ../dtop/aqt/overview.py:199
+#: ../dtop/aqt/reviewer.py:595 ../dtop/aqt/reviewer.py:605
+#: ../dtop/aqt/reviewer.py:663 ../dtop/aqt/toolbar.py:45
+#: ../dtop/aqt/toolbar.py:46 ../dtop/aqt/toolbar.py:47
+#, python-format
+msgid "Shortcut key: %s"
+msgstr "단축키: %s"
+
+#: ../dtop/aqt/addcards.py:78
+#, python-format
+msgid "Shortcut: %s"
+msgstr ""
+
+#: ../dtop/anki/template/hint.py:17
+#, python-format
+msgid "Show %s"
+msgstr "%s 보기"
+
+#: ../dtop/aqt/reviewer.py:605
+msgid "Show Answer"
+msgstr "답 보기"
+
+#: ../dtop/aqt/editor.py:518
+msgid "Show Duplicates"
+msgstr "중복된 항목 보기"
+
+#: ../dtop/aqt/forms/dconf.py:380
+msgid "Show answer timer"
+msgstr "답변 시간 표시"
+
+#: ../dtop/anki/consts.py:68
+msgid "Show new cards after reviews"
+msgstr "새 카드는 복습 카드보다 나중에 등장"
+
+#: ../dtop/anki/consts.py:69
+msgid "Show new cards before reviews"
+msgstr "새 카드는 복습 카드보다 먼저 등장"
+
+#: ../dtop/anki/consts.py:62
+msgid "Show new cards in order added"
+msgstr "새 카드는 추가한 순서대로 등장"
+
+#: ../dtop/anki/consts.py:61
+msgid "Show new cards in random order"
+msgstr "새 카드는 무작위로 등장"
+
+#: ../dtop/aqt/forms/preferences.py:216
+msgid "Show next review time above answer buttons"
+msgstr "평가 버튼 위에 다음 복습 시점 표시"
+
+#: ../dtop/aqt/forms/preferences.py:217
+msgid "Show remaining card count during review"
+msgstr "남은 카드 개수를 복습 화면에 표시"
+
+#: ../dtop/aqt/toolbar.py:38
+#, python-format
+msgid "Show statistics. Shortcut key: %s"
+msgstr "통계 보기. 단축키: %s"
+
+#: ../dtop/aqt/forms/addfield.py:88
+msgid "Size:"
+msgstr "크기:"
+
+#: ../dtop/anki/sched.py:1186
+msgid "Some related or buried cards were delayed until a later session."
+msgstr ""
+
+#: ../dtop/aqt/forms/preferences.py:242
+msgid "Some settings will take effect after you restart Anki."
+msgstr "일부 사항은 앙키를 다시 시작한 뒤 적용됩니다."
+
+#: ../dtop/anki/importing/anki2.py:116
+msgid "Some updates were ignored because note type has changed:"
+msgstr ""
+
+#: ../dtop/aqt/browser.py:488
+msgid "Sort Field"
+msgstr "정렬 필드"
+
+#: ../dtop/aqt/forms/fields.py:120
+msgid "Sort by this field in the browser"
+msgstr "탐색기에서 이 필드를 기준으로 정렬"
+
+#: ../dtop/aqt/browser.py:654
+msgid "Sorting on this column is not supported. Please choose another."
+msgstr "이 세로열을 기준으로 정렬할 수 없습니다. 다른 열을 선택하세요."
+
+#: ../dtop/aqt/upgrade.py:120
+msgid "Sounds & Images"
+msgstr "사운드와 이미지"
+
+#: ../dtop/aqt/importing.py:133 ../dtop/aqt/reviewer.py:605
+msgid "Space"
+msgstr "스페이스 바"
+
+#: ../dtop/aqt/forms/reposition.py:82
+msgid "Start position:"
+msgstr "시작 위치:"
+
+#: ../dtop/aqt/forms/dconf.py:348
+msgid "Starting ease"
+msgstr "초기 수월함"
+
+#: ../dtop/aqt/forms/stats.py:86
+msgid "Statistics"
+msgstr "통계"
+
+#: ../dtop/aqt/forms/reposition.py:83
+msgid "Step:"
+msgstr "단계:"
+
+#: ../dtop/aqt/forms/dconf.py:353 ../dtop/aqt/forms/dconf.py:367
+msgid "Steps (in minutes)"
+msgstr "익힘 단계(분 단위)"
+
+#: ../dtop/aqt/deckconf.py:245 ../dtop/aqt/dyndeckconf.py:110
+msgid "Steps must be numbers."
+msgstr "익힘 단계는 반드시 숫자로 지정하세요."
+
+#: ../dtop/aqt/forms/preferences.py:218
+msgid "Strip HTML when pasting text"
+msgstr "텍스트를 붙여 넣을 때 HTML 제거"
+
+#: ../dtop/anki/stats.py:164 ../dtop/aqt/deckbrowser.py:166
+#, python-format
+msgid "Studied %(a)s in %(b)s today."
+msgstr "오늘은 %(a)s를 %(b)s 동안 공부했습니다."
+
+#: ../dtop/aqt/browser.py:805
+msgid "Studied Today"
+msgstr "오늘 공부"
+
+#: ../dtop/aqt/studydeck.py:46
+msgid "Study"
+msgstr "공부"
+
+#: ../dtop/aqt/forms/studydeck.py:56
+msgid "Study Deck"
+msgstr "공부할 뭉치"
+
+#: ../dtop/aqt/forms/main.py:165
+msgid "Study Deck..."
+msgstr "공부할 뭉치..."
+
+#: ../dtop/aqt/overview.py:146
+msgid "Study Now"
+msgstr "공부 시작"
+
+#: ../dtop/aqt/forms/customstudy.py:111
+msgid "Study by card state or tag"
+msgstr ""
+
+#: ../dtop/aqt/forms/template.py:119
+msgid "Styling"
+msgstr "스타일"
+
+#: ../dtop/aqt/clayout.py:104
+msgid "Styling (shared between cards)"
+msgstr "스타일 (카드끼리 공유됨)"
+
+#: ../dtop/aqt/editor.py:376
+msgid "Subscript (Ctrl+=)"
+msgstr ""
+
+#: ../dtop/anki/importing/__init__.py:19
+msgid "Supermemo XML export (*.xml)"
+msgstr "Supermemo XML (*.xml)"
+
+#: ../dtop/aqt/editor.py:374
+msgid "Superscript (Ctrl+Shift+=)"
+msgstr ""
+
+#: ../dtop/aqt/browser.py:1707 ../dtop/aqt/reviewer.py:732
+#: ../dtop/aqt/reviewer.py:739
+msgid "Suspend"
+msgstr "보류"
+
+#: ../dtop/aqt/reviewer.py:697 ../dtop/aqt/forms/dconf.py:374
+msgid "Suspend Card"
+msgstr "카드 보류"
+
+#: ../dtop/aqt/reviewer.py:698
+msgid "Suspend Note"
+msgstr "노트 보류"
+
+#: ../dtop/aqt/browser.py:812
+msgid "Suspended"
+msgstr "보류됨"
+
+#: ../dtop/anki/stats.py:663
+msgid "Suspended+Buried"
+msgstr ""
+
+#: ../dtop/aqt/forms/preferences.py:231
+msgid "Synchronize audio and images too"
+msgstr "오디오와 이미지 동기화"
+
+#: ../dtop/aqt/toolbar.py:40
+#, python-format
+msgid "Synchronize with AnkiWeb. Shortcut key: %s"
+msgstr "앙키웹과 동기화. 단축키: %s"
+
+#: ../dtop/aqt/sync.py:112
+msgid "Syncing Media..."
+msgstr "미디어 파일 동기화..."
+
+#: ../dtop/aqt/sync.py:124
+#, python-format
+msgid ""
+"Syncing failed:\n"
+"%s"
+msgstr ""
+"동기화 실패:\n"
+"%s"
+
+#: ../dtop/aqt/sync.py:96
+msgid "Syncing failed; internet offline."
+msgstr "동기화 실패: 인터넷이 연결되지 않음."
+
+#: ../dtop/aqt/sync.py:259
+msgid ""
+"Syncing requires the clock on your computer to be set correctly. Please fix "
+"the clock and try again."
+msgstr "동기화를 하려면 사용자 컴퓨터의 시각이 정확해야합니다. 시계를 수정한 뒤 다시 시도하세요."
+
+#: ../dtop/aqt/sync.py:103
+msgid "Syncing..."
+msgstr "동기화 중..."
+
+#: ../dtop/aqt/importing.py:129
+msgid "Tab"
+msgstr "탭"
+
+#: ../dtop/aqt/browser.py:1401 ../dtop/aqt/browser.py:1424
+msgid "Tag Duplicates"
+msgstr ""
+
+#: ../dtop/aqt/forms/dconf.py:375
+msgid "Tag Only"
+msgstr "태그만 달기"
+
+#: ../dtop/aqt/browser.py:497 ../dtop/aqt/editor.py:633
+msgid "Tags"
+msgstr "태그"
+
+#: ../dtop/aqt/deckchooser.py:29
+msgid "Target Deck (Ctrl+D)"
+msgstr "목표 뭉치 (Ctrl+D)"
+
+#: ../dtop/aqt/forms/changemap.py:53
+msgid "Target field:"
+msgstr "목표 필드:"
+
+#: ../dtop/anki/stdmodels.py:69
+msgid "Text"
+msgstr "내용"
+
+#: ../dtop/anki/importing/__init__.py:15
+msgid "Text separated by tabs or semicolons (*)"
+msgstr "탭이나 쌍반점으로 구분한 텍스트 파일 (*)"
+
+#: ../dtop/anki/decks.py:233
+msgid "That deck already exists."
+msgstr "그 뭉치는 이미 존재합니다."
+
+#: ../dtop/aqt/fields.py:66
+msgid "That field name is already used."
+msgstr "이미 사용 중인 필드 이름입니다."
+
+#: ../dtop/aqt/clayout.py:269
+msgid "That name is already used."
+msgstr "이미 사용 중인 이름입니다."
+
+#: ../dtop/aqt/sync.py:152
+msgid ""
+"The connection to AnkiWeb timed out. Please check your network connection "
+"and try again."
+msgstr "앙키웹과의 연결 시간이 초과되었습니다. 네트워크 연결 상태를 점검하고 다시 시도하세요."
+
+#: ../dtop/aqt/browser.py:1815
+msgid ""
+"The current search terms will be added as a new item in the sidebar.\n"
+"Search name:"
+msgstr ""
+
+#: ../dtop/aqt/deckconf.py:124
+msgid "The default configuration can't be removed."
+msgstr "기본 설정은 삭제할 수 없습니다."
+
+#: ../dtop/aqt/deckbrowser.py:314
+msgid "The default deck can't be deleted."
+msgstr "기본 뭉치는 삭제할 수 없습니다."
+
+#: ../dtop/anki/stats.py:682
+msgid "The division of cards in your deck(s)."
+msgstr "뭉치에 들어있는 카드 분류."
+
+#: ../dtop/aqt/addcards.py:139
+msgid "The first field is empty."
+msgstr "첫째 필드가 비어있습니다."
+
+#: ../dtop/aqt/importing.py:147
+msgid "The first field of the note type must be mapped."
+msgstr "노트 유형의 첫 필드는 반드시 배정되야합니다."
+
+#: ../dtop/aqt/utils.py:432
+#, python-format
+msgid "The following character can not be used: %s"
+msgstr "다음 문자는 사용할 수 없습니다: %s"
+
+#: ../dtop/aqt/reviewer.py:203
+msgid "The front of this card is empty. Please run Tools>Empty Cards."
+msgstr ""
+
+#: ../dtop/aqt/about.py:44
+msgid ""
+"The icons were obtained from various sources; please see the Anki source\n"
+"for credits."
+msgstr "아이콘들의 출처는 다양합니다. 앙키 소스를 참고하여 각 저작자를 확인하세요."
+
+#: ../dtop/aqt/addcards.py:150
+msgid ""
+"The input you have provided would make an empty question on all cards."
+msgstr "입력한 내용대로라면 모든 카드에서 빈 질문이 만들어집니다."
+
+#: ../dtop/anki/stats.py:292
+msgid "The number of questions you have answered."
+msgstr "그동안 답변한 질문 개수"
+
+#: ../dtop/anki/stats.py:217
+msgid "The number of reviews due in the future."
+msgstr "앞으로 공부할 복습량"
+
+#: ../dtop/anki/stats.py:523
+msgid "The number of times you have pressed each button."
+msgstr "각 버튼을 누른 횟수"
+
+#: ../dtop/aqt/errors.py:48
+msgid ""
+"The permissions on your system's temporary folder are incorrect, and Anki is "
+"not able to correct them automatically. Please search for 'temp folder' in "
+"the Anki manual for more information."
+msgstr ""
+
+#: ../dtop/aqt/importing.py:387
+msgid "The provided file is not a valid .apkg file."
+msgstr ""
+
+#: ../dtop/aqt/dyndeckconf.py:83
+msgid ""
+"The provided search did not match any cards. Would you like to revise it?"
+msgstr "제시한 검색어에 해당하는 카드가 없습니다. 검색어를 수정하겠습니까?"
+
+#: ../dtop/aqt/main.py:914
+msgid ""
+"The requested change will require a full upload of the database when you "
+"next synchronize your collection. If you have reviews or other changes "
+"waiting on another device that haven't been synchronized here yet, they will "
+"be lost. Continue?"
+msgstr ""
+"이 변경 사항을 적용할 경우, 다음 동기화 때 데이터베이스 전체를 업로드해야합니다. 다른 기기에서 했던 복습 등의 변경 사항이 아직 이 "
+"곳에 동기화된 상태가 아니라면, 그대로 잃게됩니다. 계속하겠습니까?"
+
+#: ../dtop/anki/stats.py:311
+msgid "The time taken to answer the questions."
+msgstr "질문에 답을 하기까지 걸린 시간"
+
+#: ../dtop/aqt/upgrade.py:199
+#, python-format
+msgid ""
+"The upgrade has finished, and you're ready to start using Anki 2.0.\n"
+"<p>\n"
+"Below is a log of the update:\n"
+"<p>\n"
+"%s<br><br>"
+msgstr ""
+"업그레이드가 완료되어, 이제 앙키 2.0을 사용할 수 있습니다.\n"
+"<p>\n"
+"업데이트 로그:\n"
+"<p>\n"
+"%s<br><br>"
+
+#: ../dtop/anki/sched.py:1176
+msgid ""
+"There are more new cards available, but the daily limit has been\n"
+"reached. You can increase the limit in the options, but please\n"
+"bear in mind that the more new cards you introduce, the higher\n"
+"your short-term review workload will become."
+msgstr ""
+"공부할 수 있는 새 카드가 더 있지만, 일일 제한량에\n"
+"도달했습니다. 옵션에서 제한량을 높일 수 있지만,\n"
+"새 카드를 더 많이 시작할수록 그에 따라 단기 복습량도\n"
+"늘어난다는 것을 주의하세요."
+
+#: ../dtop/aqt/main.py:202
+msgid "There must be at least one profile."
+msgstr "적어도 하나의 프로필은 반드시 있어야합니다."
+
+#: ../dtop/aqt/browser.py:646
+msgid ""
+"This column can't be sorted on, but you can search for individual card "
+"types, such as 'card:Card 1'."
+msgstr ""
+"이 세로열을 기준으로 정렬할 수 없습니다. 그러나 개별 카드 유형을 찾기 위해 'card:Card 1'와 같이 검색할 수 있습니다."
+
+#: ../dtop/aqt/browser.py:650
+msgid ""
+"This column can't be sorted on, but you can search for specific decks by "
+"clicking on one on the left."
+msgstr "이 세로열을 기준으로 정렬할 수 없습니다. 그러나 왼편의 항목을 클릭해서 특정 뭉치를 검색할 수 있습니다."
+
+#: ../dtop/aqt/importing.py:356
+msgid ""
+"This file does not appear to be a valid .apkg file. If you're getting this "
+"error from a file downloaded from AnkiWeb, chances are that your download "
+"failed. Please try again, and if the problem persists, please try again with "
+"a different browser."
+msgstr ""
+
+#: ../dtop/aqt/utils.py:280
+msgid "This file exists. Are you sure you want to overwrite it?"
+msgstr "파일이 이미 존재합니다. 덮어쓸까요?"
+
+#: ../dtop/aqt/profiles.py:284
+#, python-format
+msgid ""
+"This folder stores all of your Anki data in a single location,\n"
+"to make backups easy. To tell Anki to use a different location,\n"
+"please see:\n"
+"\n"
+"%s\n"
+msgstr ""
+"이 폴더는 백업 생성을 쉽게 하기 위해서,\n"
+"사용자의 모든 앙키 관련 데이터를 한 곳에 저장합니다.\n"
+"다른 위치를 지정하려면 다음을 참고하세요:\n"
+"\n"
+"%s\n"
+
+#: ../dtop/aqt/overview.py:103
+msgid "This is a special deck for studying outside of the normal schedule."
+msgstr "이것은 정상 복습 일정에서 벗어난 공부를 할 때 사용하는 특별한 뭉치입니다."
+
+#: ../dtop/aqt/models.py:134
+msgid "This is a {{c1::sample}} cloze deletion."
+msgstr "이것은 빈칸 뚫기 {{c1::견본}}입니다."
+
+#: ../dtop/aqt/importing.py:369
+msgid ""
+"This will delete your existing collection and replace it with the data in "
+"the file you're importing. Are you sure?"
+msgstr "기존의 모음집을 삭제하고 가져오려는 파일에 들어있는 자료로 대체할 것입니다. 계속 진행할까요?"
+
+#: ../dtop/aqt/upgrade.py:107
+msgid ""
+"This wizard will guide you through the Anki 2.0 upgrade process.\n"
+"For a smooth upgrade, please read the following pages carefully.\n"
+msgstr ""
+"이 마법사는 앙키 2.0 업그레이드를 도와줄 것입니다.\n"
+"매끄러운 업그레이드를 위하여, 다음에 나오는 화면을 주의깊게 읽어주세요.\n"
+
+#: ../dtop/aqt/browser.py:909
+msgid "Time"
+msgstr "시간"
+
+#: ../dtop/aqt/forms/preferences.py:225
+msgid "Timebox time limit"
+msgstr "시간 제한"
+
+#: ../dtop/aqt/overview.py:145
+msgid "To Review"
+msgstr "복습 카드"
+
+#: ../dtop/aqt/forms/getaddons.py:60
+msgid ""
+"To browse add-ons, please click the browse button below.<br><br>When you've "
+"found an add-on you like, please paste its code below."
+msgstr ""
+"추가 기능을 둘러보려면, 아래의 탐색 버튼을 클릭하세요.<br><br>원하는 추가기능을 찾았다면 해당 코드를 아래에 붙여넣으세요."
+
+#: ../dtop/aqt/main.py:239
+msgid ""
+"To import into a password protected profile, please open the profile before "
+"attempting to import."
+msgstr "암호로 보호된 프로필로 뭉치를 가져오려면, 먼저 해당 프로필을 연 상태에서 시도하세요."
+
+#: ../dtop/aqt/editor.py:697
+msgid ""
+"To make a cloze deletion on an existing note, you need to change it to a "
+"cloze type first, via Edit>Change Note Type."
+msgstr "이미 존재하는 노트에 빈칸 뚫기를 만들려면, 편집>노트 유형 바꾸기를 통해서 빈칸 뚫기 유형으로 먼저 바꾸어야 합니다."
+
+#: ../dtop/anki/sched.py:1183
+msgid "To see them now, click the Unbury button below."
+msgstr ""
+
+#: ../dtop/anki/sched.py:1189
+msgid ""
+"To study outside of the normal schedule, click the Custom Study button below."
+msgstr "정상 복습 일정을 벗어나 공부를 하고 싶다면, 아래에 있는 맞춤 공부 버튼을 클릭하세요."
+
+#: ../dtop/anki/stats.py:140
+msgid "Today"
+msgstr "오늘"
+
+#: ../dtop/anki/sched.py:1171
+msgid ""
+"Today's review limit has been reached, but there are still cards\n"
+"waiting to be reviewed. For optimum memory, consider increasing\n"
+"the daily limit in the options."
+msgstr ""
+"복습을 기다리는 카드가 더 있지만, 일일 제한량에\n"
+"도달했습니다. 최적의 암기 효과를 위해, 옵션에서\n"
+"제한량을 높이길 권합니다."
+
+#: ../dtop/anki/stats.py:230 ../dtop/anki/stats.py:343
+msgid "Total"
+msgstr "전체"
+
+#: ../dtop/anki/stats.py:57
+msgid "Total Time"
+msgstr "전체 시간"
+
+#: ../dtop/anki/stats.py:670
+msgid "Total cards"
+msgstr "전체 카드"
+
+#: ../dtop/anki/stats.py:671
+msgid "Total notes"
+msgstr "전체 노트"
+
+#: ../dtop/aqt/forms/findreplace.py:83
+msgid "Treat input as regular expression"
+msgstr "정규식으로 취급"
+
+#: ../dtop/aqt/browser.py:909 ../dtop/aqt/modelchooser.py:26
+#: ../dtop/aqt/forms/importing.py:107
+msgid "Type"
+msgstr "유형"
+
+#: ../dtop/aqt/reviewer.py:390
+#, python-format
+msgid "Type answer: unknown field %s"
+msgstr "답 입력: 알 수 없는 필드 %s"
+
+#: ../dtop/aqt/importing.py:339
+msgid "Unable to import from a read-only file."
+msgstr "읽기 전용 파일은 가져올 수 없습니다."
+
+#: ../dtop/aqt/overview.py:195
+msgid "Unbury"
+msgstr ""
+
+#: ../dtop/aqt/editor.py:372
+msgid "Underline text (Ctrl+U)"
+msgstr "밑줄 글씨 (Ctrl+U)"
+
+#: ../dtop/aqt/main.py:695
+msgid "Undo"
+msgstr "실행 취소"
+
+#: ../dtop/aqt/main.py:690
+#, python-format
+msgid "Undo %s"
+msgstr "%s 취소"
+
+#: ../dtop/aqt/importing.py:304
+msgid "Unknown file format."
+msgstr "알 수 없는 파일 형식."
+
+#: ../dtop/anki/stats.py:662
+msgid "Unseen"
+msgstr "보지 않은 카드"
+
+#: ../dtop/aqt/forms/importing.py:109
+msgid "Update existing notes when first field matches"
+msgstr "첫 필드가 일치할 경우 기존의 노트를 업데이트"
+
+#: ../dtop/anki/importing/anki2.py:113
+#, python-format
+msgid "Updated %(a)d of %(b)d existing notes."
+msgstr ""
+
+#: ../dtop/aqt/upgrade.py:198
+msgid "Upgrade Complete"
+msgstr "업그레이드 완료"
+
+#: ../dtop/aqt/upgrade.py:89
+msgid "Upgrade Wizard"
+msgstr "업그레이드 마법사"
+
+#: ../dtop/aqt/upgrade.py:159
+msgid "Upgrading"
+msgstr "업그레이드 하는 중"
+
+#: ../dtop/aqt/upgrade.py:247
+#, python-format
+msgid ""
+"Upgrading deck %(a)s of %(b)s...\n"
+"%(c)s"
+msgstr ""
+"뭉치 업그레이드 중 %(a)s/%(b)s...\n"
+"%(c)s"
+
+#: ../dtop/aqt/sync.py:246 ../dtop/aqt/sync.py:251
+msgid "Upload to AnkiWeb"
+msgstr "앙키웹으로 업로드"
+
+#: ../dtop/aqt/sync.py:106
+msgid "Uploading to AnkiWeb..."
+msgstr "앙키웹에 업로드 중..."
+
+#: ../dtop/aqt/main.py:954
+msgid "Used on cards but missing from media folder:"
+msgstr "카드에 사용되었지만, 미디어 폴더에 없는 파일:"
+
+#: ../dtop/aqt/profiles.py:282
+msgid "User 1"
+msgstr "사용자 1"
+
+#: ../dtop/aqt/about.py:25
+#, python-format
+msgid "Version %s"
+msgstr "버전 %s"
+
+#: ../dtop/aqt/main.py:472
+msgid "Waiting for editing to finish."
+msgstr "편집이 끝나길 기다리고 있습니다."
+
+#: ../dtop/aqt/editor.py:694
+msgid ""
+"Warning, cloze deletions will not work until you switch the type at the top "
+"to Cloze."
+msgstr ""
+
+#: ../dtop/aqt/upgrade.py:107
+msgid "Welcome"
+msgstr "환영합니다"
+
+#: ../dtop/aqt/forms/preferences.py:220
+msgid "When adding, default to current deck"
+msgstr "카드를 추가할 때, 현재 뭉치에 넣도록 기본 설정"
+
+#: ../dtop/aqt/forms/dconf.py:382
+msgid "When answer shown, replay both question and answer audio"
+msgstr "답을 표시할 때, 질문과 답에 있는 오디오를 모두 다시 재생"
+
+#: ../dtop/aqt/upgrade.py:136
+msgid ""
+"When you're ready to upgrade, click the commit button to continue. The "
+"upgrade\n"
+"guide will open in your browser while the upgrade proceeds. Please read it\n"
+"carefully, as a lot has changed since the previous Anki version."
+msgstr ""
+"업그레이드할 준비가 되었다면, 커밋(commit) 버튼을 눌러 계속 진행하세요. 업그레이드가 진행될 때,\n"
+"업그레이드 지침서가 웹브라우저에 열릴 것입니다. 예전 앙키로부터 많은 것이 바뀌었으니,\n"
+"주의깊게 읽어보세요."
+
+#: ../dtop/aqt/upgrade.py:120
+msgid ""
+"When your decks are upgraded, Anki will attempt to copy any sounds and "
+"images\n"
+"from the old decks. If you were using a custom DropBox folder or custom "
+"media\n"
+"folder, the upgrade process may not be able to locate your media. Later on, "
+"a\n"
+"report of the upgrade will be presented to you. If you notice media was not\n"
+"copied when it should have been, please see the upgrade guide for more\n"
+"instructions.\n"
+"<p>\n"
+"AnkiWeb now supports media syncing directly. No special setup is required, "
+"and\n"
+"media will be synchronized along with your cards when you sync to AnkiWeb."
+msgstr ""
+"뭉치를 업그레이드할 때, 앙키는 옛 뭉치에 있던 모든 사운드와 이미지 파일을 복사해오려고\n"
+"시도할 것입니다. 만약 사용자가 드롭박스 폴더나 미디어 폴더를 따로 지정해서 사용 중이었다면,\n"
+"업그레이드 과정에서 해당 미디어 파일의 위치가 검색되지 않게 됩니다. 나중에 업그레이드\n"
+"보고서가 제출되었을 때, 미디어 파일이 제대로 복사되지 않은 것을 발견한다면, 업그레이드\n"
+"지침서에서 더 자세한 설명을 확인하세요.\n"
+"<p>\n"
+"앙키웹은 이제 미디어 동기화를 직접 지원합니다. 특별한 설치 과정을 거치지 않아도, 뭉치를\n"
+"앙키웹에 동기화할 때, 사용자의 카드와 같이 미디어 파일도 동기화됩니다."
+
+#: ../dtop/aqt/browser.py:802
+msgid "Whole Collection"
+msgstr "모음집 전체"
+
+#: ../dtop/aqt/update.py:60
+msgid "Would you like to download it now?"
+msgstr "지금 다운로드하시겠습니까?"
+
+#: ../dtop/aqt/about.py:29
+#, python-format
+msgid ""
+"Written by Damien Elmes, with patches, translation, testing and design "
+"from:<p>%(cont)s"
+msgstr "Damien Elems가 만들고, 아래 분들이 패치, 번역, 테스트, 디자인에 참여했습니다:<p>%(cont)s"
+
+#: ../dtop/aqt/addcards.py:145
+msgid ""
+"You have a cloze deletion note type but have not made any cloze deletions. "
+"Proceed?"
+msgstr ""
+
+#: ../dtop/aqt/deckbrowser.py:175
+#, python-format
+msgid "You have a lot of decks. Please see %(a)s. %(b)s"
+msgstr ""
+
+#: ../dtop/aqt/reviewer.py:776
+msgid "You haven't recorded your voice yet."
+msgstr "음성을 녹음하지 않았습니다."
+
+#: ../dtop/aqt/browser.py:701
+msgid "You must have at least one column."
+msgstr "적어도 세로열 하나는 반드시 필요합니다."
+
+#: ../dtop/anki/stats.py:209 ../dtop/anki/stats.py:287
+#: ../dtop/anki/stats.py:301 ../dtop/anki/stats.py:526
+msgid "Young"
+msgstr "어린 카드"
+
+#: ../dtop/anki/stats.py:661
+msgid "Young+Learn"
+msgstr "어린 카드 + 익힘 카드"
+
+#: ../dtop/aqt/upgrade.py:113
+msgid "Your Decks"
+msgstr "기존 뭉치"
+
+#: ../dtop/aqt/deckconf.py:103
+msgid ""
+"Your changes will affect multiple decks. If you wish to change only the "
+"current deck, please add a new options group first."
+msgstr ""
+
+#: ../dtop/aqt/main.py:318
+msgid ""
+"Your collection file appears to be corrupt. This can happen when the file is "
+"copied or moved while Anki is open, or when the collection is stored on a "
+"network or cloud drive. Please see the manual for information on how to "
+"restore from an automatic backup."
+msgstr ""
+
+#: ../dtop/aqt/main.py:274
+msgid ""
+"Your collection is corrupt. Please create a new profile, then see the manual "
+"for how to restore from an automatic backup.\n"
+"\n"
+"Debug info:\n"
+msgstr ""
+
+#: ../dtop/aqt/sync.py:264
+msgid ""
+"Your collection is in an inconsistent state. Please run Tools>Check "
+"Database, then sync again."
+msgstr ""
+
+#: ../dtop/aqt/sync.py:185
+msgid "Your collection or a media file is too large to sync."
+msgstr ""
+
+#: ../dtop/aqt/sync.py:65
+msgid ""
+"Your collection was successfully uploaded to AnkiWeb.\n"
+"\n"
+"If you use any other devices, please sync them now, and choose to download "
+"the collection you have just uploaded from this computer. After doing so, "
+"future reviews and added cards will be merged automatically."
+msgstr ""
+"성공적으로 모음집을 앙키웹에 업로드했습니다.\n"
+"\n"
+"만약 다른 기기를 사용하고 있다면, 이 컴퓨터에서 업로드한 모읍집을 다운로드할 수 있도록 동기화하세요. 그 뒤에 이루어진 복습과 카드 "
+"추가는 자동으로 병합됩니다."
+
+#: ../dtop/aqt/sync.py:231
+msgid ""
+"Your decks here and on AnkiWeb differ in such a way that they can't be "
+"merged together, so it's necessary to overwrite the decks on one side with "
+"the decks from the other.\n"
+"\n"
+"If you choose download, Anki will download the collection from AnkiWeb, and "
+"any changes you have made on your computer since the last sync will be "
+"lost.\n"
+"\n"
+"If you choose upload, Anki will upload your collection to AnkiWeb, and any "
+"changes you have made on AnkiWeb or your other devices since the last sync "
+"to this device will be lost.\n"
+"\n"
+"After all devices are in sync, future reviews and added cards can be merged "
+"automatically."
+msgstr ""
+"여기에 저장된 뭉치는 서로 병합할 수 없는 방식으로 앙키웹과 차이가 납기 때문에, 한쪽의 뭉치를 다른 쪽으로 덮어써야만 합니다.\n"
+"\n"
+"다운로드를 선택한다면, 앙키는 앙키웹에서 모음집을 다운로드하며, 마지막 동기화 이후 이 컴퓨터에서 이루어진 변경 사항은 소실됩니다.\n"
+"\n"
+"업로드를 선택한다면, 앙키는 여기의 모음집을 앙키 웹에 업로드하며, 마지막 동기화 이후 앙키웹이나 다른 기기에서 이루어진 변경 사항은 "
+"소실됩니다.\n"
+"\n"
+"모든 기기들이 동기화된 뒤에 이루어지는 복습과 카드 추가는 자동적으로 병합됩니다."
+
+#: ../dtop/anki/decks.py:383
+msgid "[no deck]"
+msgstr "[뭉치 없음]"
+
+#: ../dtop/aqt/forms/preferences.py:238
+msgid "backups"
+msgstr "개"
+
+#: ../dtop/aqt/customstudy.py:45
+msgid "cards"
+msgstr "카드"
+
+#: ../dtop/aqt/customstudy.py:79
+msgid "cards from the deck"
+msgstr ""
+
+#: ../dtop/aqt/forms/dyndconf.py:99
+msgid "cards selected by"
+msgstr "카드, 선택 기준"
+
+#: ../dtop/aqt/forms/stats.py:88
+msgid "collection"
+msgstr "모음집"
+
+#: ../dtop/anki/stats.py:753
+msgid "d"
+msgstr "일"
+
+#: ../dtop/aqt/customstudy.py:68 ../dtop/aqt/customstudy.py:72
+#: ../dtop/aqt/customstudy.py:75 ../dtop/aqt/forms/dconf.py:355
+#: ../dtop/aqt/forms/dconf.py:356 ../dtop/aqt/forms/dconf.py:364
+#: ../dtop/aqt/forms/dconf.py:373 ../dtop/aqt/forms/reschedule.py:89
+msgid "days"
+msgstr "일"
+
+#: ../dtop/aqt/forms/stats.py:87
+msgid "deck"
+msgstr "뭉치"
+
+#: ../dtop/anki/stats.py:732 ../dtop/aqt/forms/stats.py:91
+msgid "deck life"
+msgstr "뭉치 일생"
+
+#: ../dtop/aqt/browser.py:1428
+msgid "duplicate"
+msgstr ""
+
+#: ../dtop/anki/collection.py:530
+msgid "help"
+msgstr "도움말"
+
+#: ../dtop/aqt/deckbrowser.py:177
+msgid "hide"
+msgstr ""
+
+#: ../dtop/anki/stats.py:340
+msgid "hours"
+msgstr "시간"
+
+#: ../dtop/aqt/forms/preferences.py:227
+msgid "hours past midnight"
+msgstr "시간 뒤"
+
+#: ../dtop/aqt/forms/dconf.py:370
+msgid "lapses"
+msgstr "실패"
+
+#: ../dtop/anki/stats.py:359
+msgid "less than 0.1 cards/minute"
+msgstr ""
+
+#: ../dtop/aqt/importing.py:221
+#, python-format
+msgid "mapped to <b>%s</b>"
+msgstr "<b>%s</b>에 배정됨"
+
+#: ../dtop/aqt/importing.py:219
+msgid "mapped to <b>Tags</b>"
+msgstr "<b>태그</b>로 배정됨"
+
+#: ../dtop/aqt/forms/preferences.py:224 ../dtop/aqt/forms/preferences.py:226
+msgid "mins"
+msgstr "분"
+
+#: ../dtop/anki/stats.py:314
+msgid "minutes"
+msgstr "분"
+
+#: ../dtop/anki/stats.py:753
+msgid "mo"
+msgstr "달"
+
+#: ../dtop/anki/stats.py:232 ../dtop/anki/stats.py:296
+msgid "reviews"
+msgstr "복습"
+
+#: ../dtop/aqt/forms/dconf.py:379
+msgid "seconds"
+msgstr "초"
+
+#: ../dtop/aqt/stats.py:52
+msgid "stats"
+msgstr "통계"
+
+#: ../dtop/aqt/deckbrowser.py:176
+msgid "this page"
+msgstr ""
+
+#: ../dtop/anki/stats.py:753
+msgid "w"
+msgstr "주"
+
+#: ../dtop/anki/stats.py:724
+msgid "whole collection"
+msgstr "모음집 전체"
+
+#: ../dtop/aqt/forms/reschedule.py:88
+msgid "~"
+msgstr "~"

@@ -1,0 +1,4184 @@
+# Vietnamese translation for anki
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the BSD license
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: anki\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-08-05 12:59+0900\n"
+"PO-Revision-Date: 2014-05-26 23:03+0000\n"
+"Last-Translator: Tada Saki <a4e484b@hotmail.com>\n"
+"Language-Team: Vietnamese <vi@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Launchpad-Export-Date: 2014-08-06 06:24+0000\n"
+"X-Generator: Launchpad (build 17147)\n"
+"Language: vi\n"
+
+#: ../dtop/aqt/sound.py:18
+msgid "  Stop"
+msgstr "  Dừng"
+
+#: ../dtop/aqt/clayout.py:122
+#, python-format
+msgid " (1 of %d)"
+msgstr " (1 trên %d)"
+
+#: ../dtop/aqt/clayout.py:342
+msgid " (off)"
+msgstr " (tắt)"
+
+#: ../dtop/aqt/clayout.py:340
+msgid " (on)"
+msgstr " (bật)"
+
+#: ../dtop/aqt/deckbrowser.py:323
+#, python-format
+msgid " It has %d card."
+msgid_plural " It has %d cards."
+msgstr[0] " Có %d thẻ."
+
+#: ../dtop/aqt/forms/dconf.py:347 ../dtop/aqt/forms/dconf.py:359
+#: ../dtop/aqt/forms/dconf.py:360 ../dtop/aqt/forms/dconf.py:376
+msgid "%"
+msgstr "%"
+
+#: ../dtop/anki/stats.py:623 ../dtop/anki/stats.py:630
+msgid "% Correct"
+msgstr "% Chính xác"
+
+#: ../dtop/anki/stats.py:853
+#, python-format
+msgid "%(a)0.1f %(b)s/day"
+msgstr "%(a)0.1f %(b)s/ngày"
+
+#: ../dtop/anki/stats.py:364
+#, python-format
+msgid "%(a)0.1fs (%(b)s)"
+msgstr "%(a)0.1fs (%(b)s)"
+
+#: ../dtop/aqt/browser.py:1359
+#, python-format
+msgid "%(a)d of %(b)d note updated"
+msgid_plural "%(a)d of %(b)d notes updated"
+msgstr[0] "Đã cập nhật %(a)d trên %(b)d ghi chú"
+
+#: ../dtop/aqt/sync.py:77
+#, python-format
+msgid "%(a)dkB up, %(b)dkB down"
+msgstr "%(a)dkB lên, %(b)dkB xuống"
+
+#: ../dtop/anki/stats.py:343
+#, python-format
+msgid "%(tot)s %(unit)s"
+msgstr "%(tot)s %(unit)s"
+
+#: ../dtop/anki/stats.py:361
+#, python-format
+msgid "%.01f cards/minute"
+msgstr ""
+
+#: ../dtop/anki/stats.py:236 ../dtop/aqt/clayout.py:139
+#: ../dtop/aqt/main.py:1011
+#, python-format
+msgid "%d card"
+msgid_plural "%d cards"
+msgstr[0] "%d thẻ"
+
+#: ../dtop/aqt/main.py:1022
+#, python-format
+msgid "%d card deleted."
+msgid_plural "%d cards deleted."
+msgstr[0] "Đã xóa %d thẻ."
+
+#: ../dtop/aqt/exporting.py:106
+#, python-format
+msgid "%d card exported."
+msgid_plural "%d cards exported."
+msgstr[0] "Đã xuất %d thẻ."
+
+#: ../dtop/anki/importing/anki2.py:323
+#: ../dtop/anki/importing/supermemo_xml.py:182
+#, python-format
+msgid "%d card imported."
+msgid_plural "%d cards imported."
+msgstr[0] "Đã nhập %d thẻ."
+
+#: ../dtop/aqt/reviewer.py:73
+#, python-format
+msgid "%d card studied in"
+msgid_plural "%d cards studied in"
+msgstr[0] "Đã học %d thẻ trong"
+
+#: ../dtop/aqt/deckconf.py:149
+#, python-format
+msgid "%d deck updated."
+msgid_plural "%d decks updated."
+msgstr[0] "Đã cập nhật %d bộ thẻ."
+
+#: ../dtop/aqt/browser.py:1406
+#, python-format
+msgid "%d group"
+msgid_plural "%d groups"
+msgstr[0] "%d nhóm"
+
+#: ../dtop/anki/sync.py:801
+#, python-format
+msgid "%d media change to upload"
+msgid_plural "%d media changes to upload"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../dtop/anki/sync.py:848
+#, python-format
+msgid "%d media file downloaded"
+msgid_plural "%d media files downloaded"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../dtop/aqt/browser.py:1120 ../dtop/aqt/browser.py:1407
+#: ../dtop/aqt/browser.py:1413 ../dtop/aqt/fields.py:97
+#: ../dtop/aqt/models.py:72
+#, python-format
+msgid "%d note"
+msgid_plural "%d notes"
+msgstr[0] "%d ghi chú"
+
+#: ../dtop/anki/importing/noteimp.py:196
+#, python-format
+msgid "%d note added"
+msgid_plural "%d notes added"
+msgstr[0] "Đã thêm %d ghi chú"
+
+#: ../dtop/anki/importing/mnemo.py:91
+#, python-format
+msgid "%d note imported."
+msgid_plural "%d notes imported."
+msgstr[0] "Đã nhập %d ghi chú"
+
+#: ../dtop/anki/importing/noteimp.py:205
+#, python-format
+msgid "%d note unchanged"
+msgid_plural "%d notes unchanged"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../dtop/anki/importing/noteimp.py:197
+#, python-format
+msgid "%d note updated"
+msgid_plural "%d notes updated"
+msgstr[0] "Đã cập nhật %d ghi chú"
+
+#: ../dtop/anki/stats.py:230
+#, python-format
+msgid "%d review"
+msgid_plural "%d reviews"
+msgstr[0] "%d thẻ ôn tập"
+
+#: ../dtop/aqt/browser.py:562
+#, python-format
+msgid "%d selected"
+msgid_plural "%d selected"
+msgstr[0] "%d được chọn"
+
+#: ../dtop/aqt/exporting.py:71
+#, python-format
+msgid "%s already exists on your desktop. Overwrite it?"
+msgstr "Đã có %s trên màn hình làm việc. Ghi đè không?"
+
+#: ../dtop/anki/models.py:220
+#, python-format
+msgid "%s copy"
+msgstr "bản sao %s"
+
+#: ../dtop/anki/utils.py:53
+#, python-format
+msgid "%s day"
+msgid_plural "%s days"
+msgstr[0] "%s ngày"
+
+#: ../dtop/anki/utils.py:62
+#, python-format
+msgid "%s day<!--after-->"
+msgid_plural "%s days<!--after-->"
+msgstr[0] "%s ngày<!--sau-->"
+
+#: ../dtop/aqt/browser.py:1120
+#, python-format
+msgid "%s deleted."
+msgstr "Đã xóa %s."
+
+#: ../dtop/anki/utils.py:54
+#, python-format
+msgid "%s hour"
+msgid_plural "%s hours"
+msgstr[0] "%s giờ"
+
+#: ../dtop/anki/utils.py:63
+#, python-format
+msgid "%s hour<!--after-->"
+msgid_plural "%s hours<!--after-->"
+msgstr[0] "%s giờ<!--sau-->"
+
+#: ../dtop/anki/utils.py:55
+#, python-format
+msgid "%s minute"
+msgid_plural "%s minutes"
+msgstr[0] "%s phút"
+
+#: ../dtop/aqt/reviewer.py:75
+#, python-format
+msgid "%s minute."
+msgid_plural "%s minutes."
+msgstr[0] "%s phút."
+
+#: ../dtop/anki/utils.py:64
+#, python-format
+msgid "%s minute<!--after-->"
+msgid_plural "%s minutes<!--after-->"
+msgstr[0] "%s phút<!--sau-->"
+
+#: ../dtop/anki/utils.py:52
+#, python-format
+msgid "%s month"
+msgid_plural "%s months"
+msgstr[0] "%s tháng"
+
+#: ../dtop/anki/utils.py:61
+#, python-format
+msgid "%s month<!--after-->"
+msgid_plural "%s months<!--after-->"
+msgstr[0] "%s tháng<!--sau-->"
+
+#: ../dtop/anki/utils.py:56 ../dtop/aqt/main.py:843
+#, python-format
+msgid "%s second"
+msgid_plural "%s seconds"
+msgstr[0] "%s giây"
+
+#: ../dtop/anki/utils.py:65
+#, python-format
+msgid "%s second<!--after-->"
+msgid_plural "%s seconds<!--after-->"
+msgstr[0] "%s giây<!--sau-->"
+
+#: ../dtop/aqt/main.py:1012
+#, python-format
+msgid "%s to delete:"
+msgstr "%s chờ xóa:"
+
+#: ../dtop/anki/utils.py:51
+#, python-format
+msgid "%s year"
+msgid_plural "%s years"
+msgstr[0] "%s năm"
+
+#: ../dtop/anki/utils.py:60
+#, python-format
+msgid "%s year<!--after-->"
+msgid_plural "%s years<!--after-->"
+msgstr[0] "%s năm<!--sau-->"
+
+#: ../dtop/anki/utils.py:72
+#, python-format
+msgid "%sd"
+msgstr "%sng"
+
+#: ../dtop/anki/utils.py:73
+#, python-format
+msgid "%sh"
+msgstr "%sg"
+
+#: ../dtop/anki/utils.py:74
+#, python-format
+msgid "%sm"
+msgstr "%sph"
+
+#: ../dtop/anki/utils.py:71
+#, python-format
+msgid "%smo"
+msgstr "%sth"
+
+#: ../dtop/anki/utils.py:75
+#, python-format
+msgid "%ss"
+msgstr "%sgi"
+
+#: ../dtop/anki/utils.py:70
+#, python-format
+msgid "%sy"
+msgstr "%sn"
+
+#: ../dtop/aqt/forms/main.py:148
+msgid "&About..."
+msgstr "&Giới thiệu..."
+
+#: ../dtop/aqt/forms/main.py:142
+msgid "&Add-ons"
+msgstr "Phần &Gắn thêm"
+
+#: ../dtop/aqt/forms/main.py:156
+msgid "&Check Database..."
+msgstr "&Kiểm tra Cơ sở dữ liệu..."
+
+#: ../dtop/aqt/forms/browser.py:298
+msgid "&Cram..."
+msgstr "&Luyện thi..."
+
+#: ../dtop/aqt/forms/browser.py:273 ../dtop/aqt/forms/main.py:139
+msgid "&Edit"
+msgstr "&Chỉnh sửa"
+
+#: ../dtop/aqt/forms/main.py:161
+msgid "&Export..."
+msgstr "&Xuất..."
+
+#: ../dtop/aqt/forms/main.py:140
+msgid "&File"
+msgstr "&Tập tin"
+
+#: ../dtop/aqt/forms/browser.py:282
+msgid "&Find"
+msgstr "&Tìm"
+
+#: ../dtop/aqt/forms/browser.py:274
+msgid "&Go"
+msgstr "&Tới"
+
+#: ../dtop/aqt/forms/browser.py:290
+msgid "&Guide"
+msgstr "&Hướng dẫn"
+
+#: ../dtop/aqt/forms/main.py:157
+msgid "&Guide..."
+msgstr "&Hướng dẫn..."
+
+#: ../dtop/aqt/forms/browser.py:275 ../dtop/aqt/forms/main.py:138
+msgid "&Help"
+msgstr "&Giúp đỡ"
+
+#: ../dtop/aqt/forms/main.py:163
+msgid "&Import..."
+msgstr "&Nhập..."
+
+#: ../dtop/aqt/forms/browser.py:281
+msgid "&Invert Selection"
+msgstr "Đả&o Chọn"
+
+#: ../dtop/aqt/forms/browser.py:286
+msgid "&Next Card"
+msgstr "&Thẻ Kế"
+
+#: ../dtop/aqt/forms/main.py:153
+msgid "&Open Add-ons Folder..."
+msgstr "&Mở Thư mục phần Gắn thêm..."
+
+#: ../dtop/aqt/forms/main.py:145
+msgid "&Preferences..."
+msgstr "&Tùy chỉnh"
+
+#: ../dtop/aqt/forms/browser.py:288
+msgid "&Previous Card"
+msgstr "&Thẻ Trước"
+
+#: ../dtop/aqt/forms/browser.py:276
+msgid "&Reschedule..."
+msgstr "&Lập lịch lại..."
+
+#: ../dtop/aqt/forms/main.py:154
+msgid "&Support Anki..."
+msgstr "&Ủng hộ Anki..."
+
+#: ../dtop/aqt/forms/main.py:159
+msgid "&Switch Profile..."
+msgstr "&Chuyển đổi Hồ sơ..."
+
+#: ../dtop/aqt/forms/main.py:141
+msgid "&Tools"
+msgstr "&Công cụ"
+
+#: ../dtop/aqt/forms/browser.py:279 ../dtop/aqt/forms/main.py:149
+msgid "&Undo"
+msgstr "&Hoàn tác"
+
+#: ../dtop/anki/importing/csvfile.py:42
+#, python-format
+msgid "'%(row)s' had %(num1)d fields, expected %(num2)d"
+msgstr "'%(row)s' có %(num1)d trường tin, yêu cầu %(num2)d"
+
+#: ../dtop/anki/stats.py:169
+#, python-format
+msgid "(%s correct)"
+msgstr "(chính xác %s)"
+
+#: ../dtop/anki/sched.py:1219
+msgid "(end)"
+msgstr "(cuối)"
+
+#: ../dtop/aqt/browser.py:293
+msgid "(filtered)"
+msgstr "(lọc)"
+
+#: ../dtop/aqt/browser.py:250
+msgid "(learning)"
+msgstr "(đang học)"
+
+#: ../dtop/aqt/browser.py:248 ../dtop/aqt/browser.py:254
+msgid "(new)"
+msgstr "(mới)"
+
+#: ../dtop/aqt/deckconf.py:170
+#, python-format
+msgid "(parent limit: %d)"
+msgstr "(giới hạn ở cấp trên: %d)"
+
+#: ../dtop/aqt/browser.py:1081
+msgid "(please select 1 card)"
+msgstr "(vui lòng chọn 1 thẻ)"
+
+#: ../dtop/aqt/forms/customstudy.py:113 ../dtop/aqt/forms/customstudy.py:114
+#: ../dtop/aqt/forms/customstudy.py:115
+msgid "..."
+msgstr "..."
+
+#: ../dtop/aqt/importing.py:300
+msgid ""
+".anki2 files are not designed for importing. If you're trying to restore "
+"from a backup, please see the 'Backups' section of the user manual."
+msgstr ""
+"Tập tin .anki2 không được thiết kế cho mục đích nhập vào. Nếu bạn muốn phục "
+"hồi từ bản sao lưu, xin vui lòng xem phần 'Sao lưu' trong hướng dẫn sử dụng."
+
+#: ../dtop/aqt/forms/main.py:166
+msgid "/"
+msgstr "/"
+
+#: ../dtop/aqt/browser.py:932
+msgid "0d"
+msgstr "0ng"
+
+#: ../dtop/aqt/forms/dyndconf.py:103
+msgid "1 10"
+msgstr "1 10"
+
+#: ../dtop/anki/stats.py:730 ../dtop/aqt/forms/stats.py:89
+msgid "1 month"
+msgstr "1 tháng"
+
+#: ../dtop/anki/stats.py:731 ../dtop/aqt/forms/stats.py:90
+msgid "1 year"
+msgstr "1 năm"
+
+#: ../dtop/anki/stats.py:627
+msgid "10AM"
+msgstr "10 SA"
+
+#: ../dtop/anki/stats.py:628
+msgid "10PM"
+msgstr "10 CH"
+
+#: ../dtop/anki/stats.py:628
+msgid "3AM"
+msgstr "3 SA"
+
+#: ../dtop/anki/stats.py:627
+msgid "4AM"
+msgstr "4 SA"
+
+#: ../dtop/anki/stats.py:628
+msgid "4PM"
+msgstr "4 CH"
+
+#: ../dtop/aqt/sync.py:170
+msgid ""
+"504 gateway timeout error received. Please try temporarily disabling your "
+"antivirus."
+msgstr ""
+"Nhận được lỗi quá hạn cổng truy cập 504. Xin vui lòng thử tạm thời vô hiệu "
+"hoá trình quét virus của bạn"
+
+#: ../dtop/anki/stats.py:690
+msgid ":"
+msgstr ":"
+
+#: ../dtop/aqt/about.py:43
+msgid "<!--about diag--> and"
+msgstr "<!--về diag--> và"
+
+#: ../dtop/anki/stats.py:163 ../dtop/aqt/deckbrowser.py:165
+#, python-format
+msgid "<!--studied-->%d card"
+msgid_plural "<!--studied-->%d cards"
+msgstr[0] "<!--studied-->%d thẻ"
+
+#: ../dtop/aqt/forms/preferences.py:240
+msgid "<a href=\"backups\">Open backup folder</a>"
+msgstr "<a href=\"backups\">Mở thư mục sao lưu</a>"
+
+#: ../dtop/aqt/about.py:27
+#, python-format
+msgid "<a href='%s'>Visit website</a>"
+msgstr "<a href='%s'>Ghé thăm trang web</a>"
+
+#: ../dtop/anki/stats.py:336
+#, python-format
+msgid "<b>%(pct)d%%</b> (%(x)s of %(y)s)"
+msgstr "<b>%(pct)d%%</b> (%(x)s trên %(y)s)"
+
+#: ../dtop/aqt/browser.py:913
+msgid "<b>%Y-%m-%d</b> @ %H:%M"
+msgstr "<b>%d-%m-%Y</b> @ %H:%M"
+
+#: ../dtop/aqt/forms/preferences.py:236
+msgid ""
+"<b>Backups</b><br>Anki will create a backup of your collection each time it "
+"is closed or synchronized."
+msgstr ""
+"<b>Sao lưu</b><br>Anki sẽ sao lưu bộ sưu tập của bạn mỗi khi thoát hoặc thực "
+"hiện đồng bộ."
+
+#: ../dtop/aqt/forms/exporting.py:83
+msgid "<b>Export format</b>:"
+msgstr "<b>Định dạng xuất ra</b>:"
+
+#: ../dtop/aqt/forms/findreplace.py:80
+msgid "<b>Find</b>:"
+msgstr "<b>Tìm</b>:"
+
+#: ../dtop/aqt/forms/browseropts.py:82
+msgid "<b>Font Size</b>:"
+msgstr "<b>Cỡ chữ</b>:"
+
+#: ../dtop/aqt/forms/browseropts.py:81
+msgid "<b>Font</b>:"
+msgstr "<b>Kiểu chữ</b>:"
+
+#: ../dtop/aqt/forms/findreplace.py:82
+msgid "<b>In</b>:"
+msgstr "<b>Trong</b>:"
+
+#: ../dtop/aqt/forms/exporting.py:84
+msgid "<b>Include</b>:"
+msgstr "<b>Bao gồm</b>:"
+
+#: ../dtop/aqt/forms/browseropts.py:83
+msgid "<b>Line Size</b>:"
+msgstr "<b>Kích thước đường gạch</b>:"
+
+#: ../dtop/aqt/forms/findreplace.py:81
+msgid "<b>Replace With</b>:"
+msgstr "<b>Thay Bằng</b>:"
+
+#: ../dtop/aqt/forms/preferences.py:230
+msgid "<b>Synchronisation</b>"
+msgstr "<b>Đồng bộ hóa</b>"
+
+#: ../dtop/aqt/preferences.py:95
+msgid ""
+"<b>Synchronization</b><br>\n"
+"Not currently enabled; click the sync button in the main window to enable."
+msgstr ""
+"<b>Đồng bộ hóa</b><br>\n"
+"Hiện đang tắt; nhấp nút đồng bộ trong cửa sổ chính để bật đồng bộ."
+
+#: ../dtop/aqt/sync.py:195
+#, python-format
+msgid ""
+"<h1>Account Required</h1>\n"
+"A free account is required to keep your collection synchronized. Please <a "
+"href=\"%s\">sign up</a> for an account, then enter your details below."
+msgstr ""
+"<h1>Yêu cầu tài khoản</h1>\n"
+"Bạn cần có tài khoản (miễn phí) để đồng bộ bộ sưu tập. Xin vui lòng <a "
+"href=\"%s\">đăng ký</a> tài khoản rồi nhập thông tin chi tiết vào phía dưới."
+
+#: ../dtop/aqt/update.py:55
+#, python-format
+msgid "<h1>Anki Updated</h1>Anki %s has been released.<br><br>"
+msgstr "<h1>Bản Cập nhật Anki</h1>Anki %s đã được phát hành.<br><br>"
+
+#: ../dtop/aqt/importing.py:223
+msgid "<ignored>"
+msgstr "<bỏ qua>"
+
+#: ../dtop/aqt/main.py:1091
+msgid "<non-unicode text>"
+msgstr "<văn bản không-unicode>"
+
+#: ../dtop/aqt/browser.py:520 ../dtop/aqt/browser.py:791
+msgid "<type here to search; hit enter to show current deck>"
+msgstr "<gõ vào đây để tìm kiếm; nhấn Enter để hiển thị bộ thẻ hiện hành>"
+
+#: ../dtop/aqt/about.py:49
+msgid ""
+"A big thanks to all the people who have provided suggestions, bug reports "
+"and donations."
+msgstr ""
+"Xin cảm ơn tất cả những bạn đã đưa đến cho chúng tôi gợi ý, báo cáo lỗi và "
+"đóng góp."
+
+#: ../dtop/anki/stats.py:678
+msgid ""
+"A card's <i>ease</i> is the size of the next interval when you answer "
+"\"good\" on a review."
+msgstr ""
+"Độ <i>dễ</i> của thẻ là kích thước của khoảng cách tiếp theo khi bạn trả lời "
+"\"Tốt\" trong lần ôn tập,"
+
+#: ../dtop/aqt/exporting.py:102
+msgid "A file called collection.apkg was saved on your desktop."
+msgstr "Đã lưu tập tin collection.apkg lên màn hình làm việc."
+
+#: ../dtop/anki/decks.py:270
+msgid "A filtered deck cannot have subdecks."
+msgstr ""
+
+#: ../dtop/aqt/sync.py:131
+msgid ""
+"A problem occurred while syncing media. Please use Tools>Check Media, then "
+"sync again to correct the issue."
+msgstr ""
+"Có vấn đề xảy ra khi đồng bộ dữ liệu đa phương tiện. Vui lòng đến Công cụ > "
+"Kiểm tra Dữ liệu đa phương tiện, rồi đồng bộ lại để sửa vấn đề."
+
+#: ../dtop/anki/importing/csvfile.py:53
+#, python-format
+msgid "Aborted: %s"
+msgstr "Đã huỷ: %s"
+
+#: ../dtop/aqt/forms/about.py:54
+msgid "About Anki"
+msgstr "Giới thiệu về Anki"
+
+#: ../dtop/aqt/addcards.py:22 ../dtop/aqt/addcards.py:55
+#: ../dtop/aqt/browser.py:1702 ../dtop/aqt/deckconf.py:76
+#: ../dtop/aqt/models.py:36 ../dtop/aqt/studydeck.py:30
+#: ../dtop/aqt/toolbar.py:46 ../dtop/aqt/forms/addcards.py:74
+#: ../dtop/aqt/forms/fields.py:112 ../dtop/aqt/forms/profiles.py:89
+msgid "Add"
+msgstr "Thêm"
+
+#: ../dtop/aqt/addcards.py:57
+msgid "Add (shortcut: ctrl+enter)"
+msgstr "Thêm (phím tắt: Ctrl+Enter)"
+
+#: ../dtop/aqt/clayout.py:161 ../dtop/aqt/forms/addfield.py:84
+msgid "Add Field"
+msgstr "Thêm Trường tin"
+
+#: ../dtop/aqt/editor.py:762
+msgid "Add Media"
+msgstr "Thêm dữ liệu Phương tiện"
+
+#: ../dtop/aqt/studydeck.py:32
+msgid "Add New Deck (Ctrl+N)"
+msgstr "Thêm Bộ thẻ Mới (Ctrl+N)"
+
+#: ../dtop/aqt/forms/addmodel.py:55
+msgid "Add Note Type"
+msgstr "Thêm Kiểu Ghi chú"
+
+#: ../dtop/anki/stdmodels.py:51
+msgid "Add Reverse"
+msgstr "Thêm Thẻ ngược"
+
+#: ../dtop/aqt/browser.py:1173 ../dtop/aqt/browser.py:1710
+msgid "Add Tags"
+msgstr "Thêm Nhãn"
+
+#: ../dtop/aqt/clayout.py:71
+msgid "Add new card"
+msgstr "Thêm thẻ mới"
+
+#: ../dtop/aqt/forms/addfield.py:90
+msgid "Add to:"
+msgstr "Thêm vào:"
+
+#: ../dtop/aqt/models.py:176
+#, python-format
+msgid "Add: %s"
+msgstr "Thêm: %s"
+
+#: ../dtop/anki/stats.py:28 ../dtop/aqt/addcards.py:165
+msgid "Added"
+msgstr "Đã thêm"
+
+#: ../dtop/aqt/browser.py:804
+msgid "Added Today"
+msgstr "Đã thêm Hôm nay"
+
+#: ../dtop/anki/importing/noteimp.py:115
+#, python-format
+msgid "Added duplicate with first field: %s"
+msgstr "Đã thêm thẻ trùng với trường đầu tiên: %s"
+
+#: ../dtop/aqt/reviewer.py:643
+msgid "Again"
+msgstr "Lại"
+
+#: ../dtop/aqt/browser.py:806
+msgid "Again Today"
+msgstr "Học lại Hôm nay"
+
+#: ../dtop/anki/stats.py:167
+#, python-format
+msgid "Again count: %s"
+msgstr "Học lại: %s"
+
+#: ../dtop/aqt/exporting.py:30
+msgid "All Decks"
+msgstr "Mọi Bộ thẻ"
+
+#: ../dtop/aqt/browser.py:1327
+msgid "All Fields"
+msgstr "Mọi Trường tin"
+
+#: ../dtop/aqt/forms/customstudy.py:123
+msgid "All cards in random order (cram mode)"
+msgstr "Tất cả thẻ với thứ tự ngẫu nhiên (chế độ luyện thi)"
+
+#: ../dtop/aqt/main.py:207
+msgid ""
+"All cards, notes, and media for this profile will be deleted. Are you sure?"
+msgstr ""
+"Mọi thẻ, ghi chú và dữ liệu phương tiện cho hồ sơ này sẽ bị xóa. Bạn có chắc "
+"chắn không?"
+
+#: ../dtop/aqt/forms/importing.py:112
+msgid "Allow HTML in fields"
+msgstr "Cho phép HTML trong trường tin"
+
+#: ../dtop/aqt/errors.py:92
+#, python-format
+msgid ""
+"An error occurred in an add-on.<br>\n"
+"Please post on the add-on forum:<br>%s<br>"
+msgstr ""
+"Có lỗi xảy ra trong phần gắn thêm.<br>\n"
+"Xin vui lòng gửi lên diễn đàn phần gắn thêm:<br>%s<br>"
+
+#: ../dtop/aqt/errors.py:69
+msgid ""
+"An error occurred while accessing the database.\n"
+"\n"
+"Possible causes:\n"
+"\n"
+"- Antivirus, firewall, backup, or synchronization software may be   "
+"interfering with Anki. Try disabling such software and see if the   problem "
+"goes away.\n"
+"- Your disk may be full.\n"
+"- The Documents/Anki folder may be on a network drive.\n"
+"- Files in the Documents/Anki folder may not be writeable.\n"
+"- Your hard disk may have errors.\n"
+"\n"
+"It's a good idea to run Tools>Check Database to ensure your collection is "
+"not corrupt.\n"
+msgstr ""
+
+#: ../dtop/aqt/editor.py:842
+#, python-format
+msgid "An error occurred while opening %s"
+msgstr "Có lỗi xảy ra khi mở %s"
+
+#: ../dtop/aqt/errors.py:85
+msgid ""
+"An error occurred. It may have been caused by a harmless bug, <br>\n"
+"or your deck may have a problem.\n"
+"<p>To confirm it's not a problem with your deck, please run\n"
+"<b>Tools &gt; Check Database</b>.\n"
+"<p>If that doesn't fix the problem, please copy the following<br>\n"
+"into a bug report:"
+msgstr ""
+"Có lỗi xảy ra. Nguyên nhân có thể là do một mối rối vô hại, <br>\n"
+"hoặc bộ thẻ của bạn có trục trặc.\n"
+"<p>Để chắc rằng vấn đề không nằm ở bộ thẻ của bạn, vui lòng chạy\n"
+"<b>Công cụ &gt; Kiểm tra Cơ sở dữ liệu</b>\n"
+"<p>Nếu vẫn không khắc phục được vấn đề, vui lòng sao chép đoạn sau<br>\n"
+"vào bản báo cáo rối:"
+
+#: ../dtop/aqt/stats.py:66
+msgid "An image was saved to your desktop."
+msgstr "Đã lưu tập tin hình ảnh lên màn hình làm việc."
+
+#: ../dtop/aqt/forms/main.py:137 ../dtop/aqt/forms/setgroup.py:49
+#: ../dtop/aqt/forms/setlang.py:50
+msgid "Anki"
+msgstr "Anki"
+
+#: ../dtop/anki/importing/__init__.py:17
+msgid "Anki 1.2 Deck (*.anki)"
+msgstr "Bộ thẻ Anki 1.2 (*.anki)"
+
+#: ../dtop/aqt/upgrade.py:113
+msgid ""
+"Anki 2 stores your decks in a new format. This wizard will automatically\n"
+"convert your decks to that format. Your decks will be backed up before\n"
+"the upgrade, so if you need to revert to the previous version of Anki, your\n"
+"decks will still be usable."
+msgstr ""
+"Anki 2 lưu trữ bộ thẻ với định dạng mới. Trình thuật sĩ này sẽ tự động\n"
+"chuyển đổi bộ thẻ của bạn sang định dạng đó. Bộ thẻ sẽ được sao lưu\n"
+"trước khi nâng cấp, nên bạn vẫn có thể sử dụng bộ thẻ cũ nếu muốn\n"
+"quay trở lại một phiên bản trước của Anki."
+
+#: ../dtop/anki/exporting.py:106
+msgid "Anki 2.0 Deck"
+msgstr "Bộ thẻ Anki 2.0"
+
+#: ../dtop/aqt/upgrade.py:65
+msgid ""
+"Anki 2.0 only supports automatic upgrading from Anki 1.2. To load old decks, "
+"please open them in Anki 1.2 to upgrade them, and then import them into Anki "
+"2.0."
+msgstr ""
+"Anki 2.0 chỉ hỗ trợ nâng cấp tự động từ Anki 1.2. Để tải những bộ thẻ cũ, "
+"xin vui lòng dùng Anki 1.2 mở để nâng cấp trước rồi lại nhập vào Anki 2.0."
+
+#: ../dtop/anki/exporting.py:226
+msgid "Anki Deck Package"
+msgstr "Gói Bộ thẻ Anki"
+
+#: ../dtop/aqt/profiles.py:172
+msgid ""
+"Anki could not rename your profile because it could not rename the profile "
+"folder on disk. Please ensure you have permission to write to Documents/Anki "
+"and no other programs are accessing your profile folders, then try again."
+msgstr ""
+
+#: ../dtop/aqt/stats.py:68
+msgid ""
+"Anki could not save the image. Please check that you have permission to "
+"write to your desktop."
+msgstr ""
+
+#: ../dtop/aqt/clayout.py:321
+msgid ""
+"Anki couldn't find the line between the question and answer. Please adjust "
+"the template manually to switch the question and answer."
+msgstr ""
+"Anki không tìm thấy đường gạch giữa câu hỏi và câu trả lời. Xin vui lòng tự "
+"điều chỉnh lại kiểu mẫu để chuyển đổi giữa câu hỏi và câu trả lời."
+
+#: ../dtop/aqt/about.py:21
+msgid ""
+"Anki is a friendly, intelligent spaced learning system. It's free and open "
+"source."
+msgstr ""
+"Anki là hệ thống học tập cách khoảng thông minh và thân thiện. Anki là một "
+"phần mềm mở và miễn phí."
+
+#: ../dtop/aqt/about.py:23
+msgid ""
+"Anki is licensed under the AGPL3 license. Please see the license file in the "
+"source distribution for more information."
+msgstr ""
+"Anki được cấp quyền sử dụng theo giấy phép AGPL3. Vui lòng tham khảo tập tin "
+"giấy phép sử dụng trong bộ phân phối nguồn để biết thêm thông tin."
+
+#: ../dtop/aqt/upgrade.py:27
+msgid ""
+"Anki wasn't able to load your old config file. Please use File>Import to "
+"import your decks from previous Anki versions."
+msgstr ""
+"Anki không nạp được tập tin cấu hình cũ của bạn. Xin vui lòng dùng chức năng "
+"Tập tin > Nhập để nhập những bộ thẻ của bạn từ phiên bản Anki trước."
+
+#: ../dtop/aqt/sync.py:85
+msgid "AnkiWeb ID or password was incorrect; please try again."
+msgstr "ID hoặc mật khẩu Anki Web không chính xác; xin vui lòng thử lại."
+
+#: ../dtop/aqt/sync.py:206
+msgid "AnkiWeb ID:"
+msgstr "ID AnkiWeb:"
+
+#: ../dtop/aqt/sync.py:156
+msgid ""
+"AnkiWeb encountered an error. Please try again in a few minutes, and if the "
+"problem persists, please file a bug report."
+msgstr ""
+"AnkiWeb gặp lỗi. Xin vui lòng thử lại sau ít phút. Nếu vấn đề vẫn không khắc "
+"phục, xin vui lòng gửi báo cáo lỗi."
+
+#: ../dtop/aqt/sync.py:167
+msgid "AnkiWeb is too busy at the moment. Please try again in a few minutes."
+msgstr "AnkiWeb hiện đang rất bận. Xin vui lòng thử lại sau ít phút."
+
+#: ../dtop/aqt/sync.py:165
+msgid "AnkiWeb is under maintenance. Please try again in a few minutes."
+msgstr "AnkiWeb hiện đang bảo trì. Vui lòng thử lại sau ít phút."
+
+#: ../dtop/aqt/browser.py:485
+msgid "Answer"
+msgstr "Trả lời"
+
+#: ../dtop/anki/stats.py:522
+msgid "Answer Buttons"
+msgstr "Nút Trả lời"
+
+#: ../dtop/anki/stats.py:293 ../dtop/anki/stats.py:530
+#: ../dtop/anki/stats.py:624
+msgid "Answers"
+msgstr "Trả lời"
+
+#: ../dtop/aqt/sync.py:175
+msgid ""
+"Antivirus or firewall software is preventing Anki from connecting to the "
+"internet."
+msgstr ""
+"Phần mềm chống virus hoặc tường lửa đang ngăn cản Anki kết nối Internet."
+
+#: ../dtop/aqt/browser.py:1659
+msgid ""
+"Any cards mapped to nothing will be deleted. If a note has no remaining "
+"cards, it will be lost. Are you sure you want to continue?"
+msgstr ""
+"Tất cả những thẻ không được ánh xạ sẽ bị xóa. Nếu một ghi chú không còn thẻ "
+"nào, nó cũng sẽ bị mất. Bạn có chắc chắn muốn tiếp tục không?"
+
+#: ../dtop/anki/importing/noteimp.py:137
+#, python-format
+msgid "Appeared twice in file: %s"
+msgstr "Xuất hiện 2 lần trong tập tin: %s"
+
+#: ../dtop/aqt/deckbrowser.py:327
+#, python-format
+msgid "Are you sure you wish to delete %s?"
+msgstr "Bạn có chắc chắn muốn xóa %s?"
+
+#: ../dtop/aqt/clayout.py:137
+msgid "At least one card type is required."
+msgstr "Yêu cầu ít nhất một kiểu thẻ."
+
+#: ../dtop/aqt/deckconf.py:248 ../dtop/aqt/dyndeckconf.py:113
+msgid "At least one step is required."
+msgstr "Cần ít nhất một bước."
+
+#: ../dtop/aqt/editor.py:393
+msgid "Attach pictures/audio/video (F3)"
+msgstr "Đính kèm ảnh/âm thanh/phim (F3)"
+
+#: ../dtop/aqt/forms/dconf.py:381
+msgid "Automatically play audio"
+msgstr "Tự động phát âm thanh"
+
+#: ../dtop/aqt/forms/preferences.py:232
+msgid "Automatically sync on profile open/close"
+msgstr "Tự động đồng bộ khi đóng/mở hồ sơ"
+
+#: ../dtop/anki/stats.py:231
+msgid "Average"
+msgstr "Trung bình"
+
+#: ../dtop/anki/stats.py:56
+msgid "Average Time"
+msgstr "Thời lượng Trung bình"
+
+#: ../dtop/anki/stats.py:363
+msgid "Average answer time"
+msgstr "Thời gian trả lời trung bình"
+
+#: ../dtop/anki/stats.py:675
+msgid "Average ease"
+msgstr "Độ dễ trung bình"
+
+#: ../dtop/anki/stats.py:348
+msgid "Average for days studied"
+msgstr "Số ngày trung bình đã học"
+
+#: ../dtop/anki/stats.py:482
+msgid "Average interval"
+msgstr "Khoảng cách trung bình"
+
+#: ../dtop/anki/stdmodels.py:18 ../dtop/anki/stdmodels.py:22
+#: ../dtop/anki/stdmodels.py:37 ../dtop/anki/stdmodels.py:55
+#: ../dtop/aqt/forms/addfield.py:89
+msgid "Back"
+msgstr "Mặt sau"
+
+#: ../dtop/aqt/forms/preview.py:52
+msgid "Back Preview"
+msgstr "Xem trước Mặt sau"
+
+#: ../dtop/aqt/forms/template.py:120
+msgid "Back Template"
+msgstr "Kiểu mẫu Mặt sau"
+
+#: ../dtop/aqt/forms/preferences.py:243
+msgid "Backups"
+msgstr "Sao lưu"
+
+#: ../dtop/anki/stdmodels.py:15 ../dtop/anki/stdmodels.py:27
+#: ../dtop/aqt/forms/preferences.py:229
+msgid "Basic"
+msgstr "Cơ bản"
+
+#: ../dtop/anki/stdmodels.py:35
+msgid "Basic (and reversed card)"
+msgstr "Cơ bản (với thẻ ngược)"
+
+#: ../dtop/anki/stdmodels.py:50
+msgid "Basic (optional reversed card)"
+msgstr "Cơ bản (thẻ ngược tùy chọn)"
+
+#: ../dtop/aqt/editor.py:367
+msgid "Bold text (Ctrl+B)"
+msgstr "Chữ đậm (Ctrl+B)"
+
+#: ../dtop/aqt/addons.py:142 ../dtop/aqt/toolbar.py:47
+msgid "Browse"
+msgstr "Duyệt"
+
+#: ../dtop/aqt/forms/main.py:155
+msgid "Browse && Install..."
+msgstr "Duyệt && Cài..."
+
+#: ../dtop/aqt/forms/browser.py:269
+msgid "Browser"
+msgstr "Trình duyệt"
+
+#: ../dtop/aqt/browser.py:558
+#, python-format
+msgid "Browser (%(cur)d card shown; %(sel)s)"
+msgid_plural "Browser (%(cur)d cards shown; %(sel)s)"
+msgstr[0] "Duyệt (hiện %(cur)d thẻ; %(sel)s)"
+
+#: ../dtop/aqt/clayout.py:346 ../dtop/aqt/forms/browserdisp.py:80
+msgid "Browser Appearance"
+msgstr "Thể hiện Trình duyệt"
+
+#: ../dtop/aqt/forms/browseropts.py:80
+msgid "Browser Options"
+msgstr "Tùy chọn Trình duyệt"
+
+#: ../dtop/aqt/dyndeckconf.py:18
+msgid "Build"
+msgstr "Tạo"
+
+#: ../dtop/aqt/browser.py:1711
+msgid "Bulk Add Tags (Ctrl+Shift+T)"
+msgstr "Thêm Nhãn Hàng loạt (Ctrl+Shift+T)"
+
+#: ../dtop/aqt/browser.py:1714
+msgid "Bulk Remove Tags (Ctrl+Alt+T)"
+msgstr "Xóa Nhãn Hàng loạt (Ctrl+T)"
+
+#: ../dtop/aqt/reviewer.py:759 ../dtop/aqt/reviewer.py:765
+msgid "Bury"
+msgstr "Giấu"
+
+#: ../dtop/aqt/reviewer.py:695
+msgid "Bury Card"
+msgstr "Giấu Thẻ"
+
+#: ../dtop/aqt/reviewer.py:696
+msgid "Bury Note"
+msgstr "Giấu Ghi chú"
+
+#: ../dtop/aqt/forms/dconf.py:354
+msgid "Bury related new cards until the next day"
+msgstr "Thẻ mới có liên quan bị chôn đến ngày hôm sau"
+
+#: ../dtop/aqt/forms/dconf.py:365
+msgid "Bury related reviews until the next day"
+msgstr "Giấu ôn tập liên quan cho tới ngày kế tiếp"
+
+#: ../dtop/aqt/importing.py:107
+msgid ""
+"By default, Anki will detect the character between fields, such as\n"
+"a tab, comma, and so on. If Anki is detecting the character incorrectly,\n"
+"you can enter it here. Use \\t to represent tab."
+msgstr ""
+"Mặc định, Anki sẽ phát hiện ký tự giữa các trường tin, ví dụ\n"
+"như tab, phẩy...v.v Nếu Anki phát hiện không chính xác,\n"
+"bạn có thể nhập vào đây. Dùng \\t để biểu diễn ký tự tab."
+
+#: ../dtop/aqt/sync.py:248
+msgid "Cancel"
+msgstr "Hủy"
+
+#: ../dtop/aqt/browser.py:486
+msgid "Card"
+msgstr "Thẻ"
+
+#: ../dtop/aqt/clayout.py:297
+#, python-format
+msgid "Card %d"
+msgstr "Thẻ %d"
+
+#: ../dtop/anki/stdmodels.py:20
+msgid "Card 1"
+msgstr "Thẻ 1"
+
+#: ../dtop/anki/stdmodels.py:36 ../dtop/anki/stdmodels.py:54
+msgid "Card 2"
+msgstr "Thẻ 2"
+
+#: ../dtop/anki/stats.py:64
+msgid "Card ID"
+msgstr "Số Thẻ"
+
+#: ../dtop/aqt/browser.py:1704
+msgid "Card Info (Ctrl+Shift+I)"
+msgstr "Thông tin Thẻ (Ctrl+Shift+I)"
+
+#: ../dtop/aqt/forms/browser.py:301
+msgid "Card List"
+msgstr "Danh sách Thẻ"
+
+#: ../dtop/anki/stats.py:60
+msgid "Card Type"
+msgstr "Kiểu Thẻ"
+
+#: ../dtop/aqt/clayout.py:30
+msgid "Card Types"
+msgstr "Kiểu Thẻ"
+
+#: ../dtop/aqt/clayout.py:43
+#, python-format
+msgid "Card Types for %s"
+msgstr "Kiểu Thẻ %s"
+
+#: ../dtop/aqt/reviewer.py:762
+msgid "Card buried."
+msgstr "Đã giấu thẻ."
+
+#: ../dtop/aqt/reviewer.py:741
+msgid "Card suspended."
+msgstr "Đã dừng thẻ."
+
+#: ../dtop/aqt/reviewer.py:683
+msgid "Card was a leech."
+msgstr "Thẻ bám."
+
+#: ../dtop/anki/stats.py:740 ../dtop/aqt/forms/changemodel.py:124
+msgid "Cards"
+msgstr "Thẻ"
+
+#: ../dtop/anki/stats.py:681
+msgid "Cards Types"
+msgstr "Kiểu Thẻ"
+
+#: ../dtop/aqt/browser.py:1141
+msgid "Cards can't be manually moved into a filtered deck."
+msgstr "Không thể di chuyển thủ công thẻ vào bộ thẻ lọc."
+
+#: ../dtop/anki/exporting.py:44
+msgid "Cards in Plain Text"
+msgstr "Thẻ dạng Văn bản Thô"
+
+#: ../dtop/aqt/overview.py:105
+msgid ""
+"Cards will be automatically returned to their original decks after you "
+"review them."
+msgstr "Thẻ sẽ được tự động chuyển lại bộ thẻ gốc sau khi ôn tập."
+
+#: ../dtop/aqt/editor.py:364 ../dtop/aqt/models.py:45
+msgid "Cards..."
+msgstr "Thẻ..."
+
+#: ../dtop/anki/consts.py:74
+msgid "Center"
+msgstr "Giữa"
+
+#: ../dtop/aqt/importing.py:225
+msgid "Change"
+msgstr "Thay đổi"
+
+#: ../dtop/aqt/browser.py:1582
+#, python-format
+msgid "Change %s to:"
+msgstr "Đổi %s thành:"
+
+#: ../dtop/aqt/browser.py:1135 ../dtop/aqt/browser.py:1144
+#: ../dtop/aqt/browser.py:1708
+msgid "Change Deck"
+msgstr "Đổi Bộ thẻ"
+
+#: ../dtop/aqt/browser.py:1665 ../dtop/aqt/forms/changemodel.py:121
+msgid "Change Note Type"
+msgstr "Đổi Kiểu Ghi chú"
+
+#: ../dtop/aqt/modelchooser.py:31
+msgid "Change Note Type (Ctrl+N)"
+msgstr "Đổi Kiểu Ghi chú (Ctrl+N)"
+
+#: ../dtop/aqt/forms/browser.py:292
+msgid "Change Note Type..."
+msgstr "Đổi Kiểu Ghi chú..."
+
+#: ../dtop/aqt/editor.py:383
+msgid "Change colour (F8)"
+msgstr "Đổi màu (F8)"
+
+#: ../dtop/aqt/forms/preferences.py:221
+msgid "Change deck depending on note type"
+msgstr "Đổi bộ thẻ theo kiểu ghi chú"
+
+#: ../dtop/aqt/browser.py:491
+msgid "Changed"
+msgstr "Đã đổi"
+
+#: ../dtop/aqt/forms/main.py:151
+msgid "Check &Media..."
+msgstr "Kiểm tra &Phương tiện..."
+
+#: ../dtop/aqt/forms/main.py:152
+msgid "Check the files in the media directory"
+msgstr "Kiểm tra các tập tin trong thư mục phương tiện"
+
+#: ../dtop/aqt/sync.py:110
+msgid "Checking..."
+msgstr "Đang kiểm tra..."
+
+#: ../dtop/aqt/deckchooser.py:77 ../dtop/aqt/modelchooser.py:70
+msgid "Choose"
+msgstr "Chọn"
+
+#: ../dtop/aqt/deckchooser.py:78
+msgid "Choose Deck"
+msgstr "Chọn Bộ thẻ"
+
+#: ../dtop/aqt/modelchooser.py:70
+msgid "Choose Note Type"
+msgstr "Chọn Kiểu Ghi chú"
+
+#: ../dtop/aqt/customstudy.py:81
+msgid "Choose Tags"
+msgstr "Chọn Nhãn"
+
+#: ../dtop/aqt/models.py:181
+#, python-format
+msgid "Clone: %s"
+msgstr "Nhân bản: %s"
+
+#: ../dtop/aqt/addcards.py:60 ../dtop/aqt/clayout.py:175
+#: ../dtop/aqt/forms/browser.py:309
+msgid "Close"
+msgstr "Đóng"
+
+#: ../dtop/aqt/addcards.py:196
+msgid "Close and lose current input?"
+msgstr "Đóng và bỏ qua các nhập liệu hiện hành"
+
+#: ../dtop/anki/stdmodels.py:67 ../dtop/anki/stdmodels.py:74
+#: ../dtop/anki/stdmodels.py:87 ../dtop/anki/storage.py:190
+msgid "Cloze"
+msgstr "Điền chỗ trống"
+
+#: ../dtop/aqt/editor.py:386
+msgid "Cloze deletion (Ctrl+Shift+C)"
+msgstr "Xóa thành chỗ điền trống (Ctrl+Shift+C)"
+
+#: ../dtop/aqt/forms/getaddons.py:61
+msgid "Code:"
+msgstr "Mã:"
+
+#: ../dtop/anki/collection.py:686
+msgid "Collection is corrupt. Please see the manual."
+msgstr "Bộ sưu tập bị hỏng. Xin vui lòng tham khảo tài liệu hướng dẫn."
+
+#: ../dtop/aqt/importing.py:137
+msgid "Colon"
+msgstr "Dấu hai chấm"
+
+#: ../dtop/aqt/importing.py:131
+msgid "Comma"
+msgstr "Dấu phẩy"
+
+#: ../dtop/aqt/forms/preferences.py:239
+msgid "Compress backups (slower)"
+msgstr "Nén các bản sao lưu (chậm hơn)"
+
+#: ../dtop/aqt/forms/main.py:146
+msgid "Configure interface language and options"
+msgstr "Cấu hình ngôn ngữ và tùy chọn giao diện"
+
+#: ../dtop/aqt/preferences.py:152
+msgid "Confirm password:"
+msgstr "Xác nhận mật khẩu:"
+
+#: ../dtop/anki/sched.py:1163
+msgid "Congratulations! You have finished this deck for now."
+msgstr "Xin chúc mừng! Hiện giờ bạn đã học xong bộ thẻ này."
+
+#: ../dtop/aqt/sync.py:50
+msgid "Connecting..."
+msgstr "Đang kết nối..."
+
+#: ../dtop/aqt/sync.py:177
+msgid ""
+"Connection timed out. Either your internet connection is experiencing "
+"problems, or you have a very large file in your media folder."
+msgstr ""
+"Hết thời gian kết nối. Kết nối internet của bạn đang bị trục trặc, hoặc bạn "
+"có một tập tin rất lớn trong thư mục phương tiện."
+
+#: ../dtop/aqt/reviewer.py:78
+msgid "Continue"
+msgstr "Tiếp"
+
+#: ../dtop/aqt/editor.py:1209 ../dtop/aqt/webview.py:87
+msgid "Copy"
+msgstr "Chép"
+
+#: ../dtop/anki/stats.py:181
+#, python-format
+msgid "Correct answers on mature cards: %(a)d/%(b)d (%(c).1f%%)"
+msgstr "Số trả lời đúng thẻ trưởng thành: %(a)d/%(b)d (%(c).1f%%)"
+
+#: ../dtop/anki/stats.py:550
+#, python-format
+msgid "Correct: <b>%(pct)0.2f%%</b><br>(%(good)d of %(tot)d)"
+msgstr "Chính xác: <b>%(pct)0.2f%%</b><br>(%(good)d trên %(tot)d)"
+
+#: ../dtop/aqt/sync.py:148
+msgid ""
+"Couldn't connect to AnkiWeb. Please check your network connection and try "
+"again."
+msgstr ""
+"Không kết nối đến AnkiWeb được. Xin vui lòng kiểm tra kết nối mạng và thử "
+"lại."
+
+#: ../dtop/aqt/editor.py:788
+msgid "Couldn't record audio. Have you installed lame and sox?"
+msgstr "Không thu âm được. Bạn đã cài lame và sox chưa?"
+
+#: ../dtop/aqt/exporting.py:97
+#, python-format
+msgid "Couldn't save file: %s"
+msgstr "Không lưu tập tin được : %s"
+
+#: ../dtop/anki/stats.py:290 ../dtop/anki/stats.py:304
+msgid "Cram"
+msgstr "Luyện thi"
+
+#: ../dtop/aqt/deckbrowser.py:340
+msgid "Create Deck"
+msgstr "Tạo Bộ thẻ"
+
+#: ../dtop/aqt/forms/main.py:168
+msgid "Create Filtered Deck..."
+msgstr "Tạo Bộ thẻ Lọc..."
+
+#: ../dtop/aqt/browser.py:489
+msgid "Created"
+msgstr "Đã tạo"
+
+#: ../dtop/aqt/editor.py:375
+msgid "Ctrl+="
+msgstr "Ctrl+="
+
+#: ../dtop/aqt/forms/browser.py:278
+msgid "Ctrl+A"
+msgstr "Ctrl+A"
+
+#: ../dtop/aqt/forms/browser.py:297
+msgid "Ctrl+Alt+F"
+msgstr "Ctrl+Alt+F"
+
+#: ../dtop/aqt/editor.py:389
+msgid "Ctrl+Alt+Shift+C"
+msgstr "Ctrl+Alt+Shift+C"
+
+#: ../dtop/aqt/editor.py:367
+msgid "Ctrl+B"
+msgstr "Ctrl+B"
+
+#: ../dtop/aqt/deckchooser.py:30
+msgid "Ctrl+D"
+msgstr "Ctrl+D"
+
+#: ../dtop/aqt/forms/main.py:162
+msgid "Ctrl+E"
+msgstr "Ctrl+E"
+
+#: ../dtop/aqt/forms/browser.py:283
+msgid "Ctrl+F"
+msgstr "Ctrl+F"
+
+#: ../dtop/aqt/editor.py:369 ../dtop/aqt/forms/main.py:164
+msgid "Ctrl+I"
+msgstr "Ctrl+I"
+
+#: ../dtop/aqt/editor.py:362
+msgid "Ctrl+L"
+msgstr "Ctrl+L"
+
+#: ../dtop/aqt/modelchooser.py:32 ../dtop/aqt/forms/browser.py:287
+msgid "Ctrl+N"
+msgstr "Ctrl+N"
+
+#: ../dtop/aqt/forms/browser.py:289 ../dtop/aqt/forms/main.py:147
+msgid "Ctrl+P"
+msgstr "Ctrl+P"
+
+#: ../dtop/aqt/forms/main.py:144
+msgid "Ctrl+Q"
+msgstr "Ctrl+Q"
+
+#: ../dtop/aqt/editor.py:377
+msgid "Ctrl+R"
+msgstr "Ctrl+R"
+
+#: ../dtop/aqt/editor.py:373
+msgid "Ctrl+Shift+="
+msgstr "Ctrl+Shift+="
+
+#: ../dtop/aqt/forms/browser.py:295
+msgid "Ctrl+Shift+A"
+msgstr "Ctrl+Shift+A"
+
+#: ../dtop/aqt/editor.py:385
+msgid "Ctrl+Shift+C"
+msgstr "Ctrl+Shift+C"
+
+#: ../dtop/aqt/forms/browser.py:285
+msgid "Ctrl+Shift+F"
+msgstr "Ctrl+Shift+F"
+
+#: ../dtop/aqt/forms/browser.py:302
+msgid "Ctrl+Shift+L"
+msgstr "Ctrl+Shift+L"
+
+#: ../dtop/aqt/forms/browser.py:293
+msgid "Ctrl+Shift+M"
+msgstr "Ctrl+Shift+M"
+
+#: ../dtop/aqt/browser.py:396 ../dtop/aqt/forms/browser.py:272
+#: ../dtop/aqt/forms/main.py:160
+msgid "Ctrl+Shift+P"
+msgstr "Ctrl+Shift+P"
+
+#: ../dtop/aqt/forms/browser.py:300
+msgid "Ctrl+Shift+R"
+msgstr "Ctrl+Shift+R"
+
+#: ../dtop/aqt/editor.py:371
+msgid "Ctrl+U"
+msgstr "Ctrl+U"
+
+#: ../dtop/aqt/forms/browser.py:310
+msgid "Ctrl+W"
+msgstr "Ctrl+W"
+
+#: ../dtop/aqt/forms/browser.py:280 ../dtop/aqt/forms/main.py:150
+msgid "Ctrl+Z"
+msgstr "Ctrl+Z"
+
+#: ../dtop/anki/stats.py:213
+msgid "Cumulative"
+msgstr "Tích lũy"
+
+#: ../dtop/anki/stats.py:312
+#, python-format
+msgid "Cumulative %s"
+msgstr "%s Tích lũy"
+
+#: ../dtop/anki/stats.py:294
+msgid "Cumulative Answers"
+msgstr "Trả lời Tích lũy"
+
+#: ../dtop/anki/stats.py:222
+msgid "Cumulative Cards"
+msgstr "Thẻ Tích lũy"
+
+#: ../dtop/aqt/browser.py:803
+msgid "Current Deck"
+msgstr "Bộ Thẻ Hiện hành"
+
+#: ../dtop/aqt/forms/changemodel.py:122
+msgid "Current note type:"
+msgstr "Kiểu ghi chú hiện tại:"
+
+#: ../dtop/aqt/overview.py:192 ../dtop/aqt/forms/customstudy.py:106
+msgid "Custom Study"
+msgstr "Học Tùy biến"
+
+#: ../dtop/aqt/customstudy.py:113 ../dtop/aqt/customstudy.py:125
+msgid "Custom Study Session"
+msgstr "Phiên Học Tùy biến"
+
+#: ../dtop/aqt/forms/dyndconf.py:102
+msgid "Custom steps (in minutes)"
+msgstr "Bước tùy biến (phút)"
+
+#: ../dtop/aqt/editor.py:363
+msgid "Customize Cards (Ctrl+L)"
+msgstr "Tùy biến Thẻ (Ctrl+L)"
+
+#: ../dtop/aqt/editor.py:359
+msgid "Customize Fields"
+msgstr "Tùy biến Trường tin"
+
+#: ../dtop/aqt/editor.py:1207
+msgid "Cut"
+msgstr "Cắt"
+
+#: ../dtop/anki/collection.py:793
+msgid "Database rebuilt and optimized."
+msgstr "Đã tái dựng và tối ưu hóa cơ sở dữ liệu."
+
+#: ../dtop/aqt/browser.py:907
+msgid "Date"
+msgstr "Ngày"
+
+#: ../dtop/anki/stats.py:335
+msgid "Days studied"
+msgstr "Số ngày đã học"
+
+#: ../dtop/aqt/forms/preferences.py:234
+msgid "Deauthorize"
+msgstr "Bỏ ủy quyền"
+
+#: ../dtop/aqt/forms/debug.py:60
+msgid "Debug Console"
+msgstr "Màn hình Gỡ lỗi"
+
+#: ../dtop/anki/stats.py:62 ../dtop/aqt/browser.py:487
+#: ../dtop/aqt/deckbrowser.py:187 ../dtop/aqt/deckchooser.py:25
+#: ../dtop/aqt/forms/importing.py:108
+msgid "Deck"
+msgstr "Bộ thẻ"
+
+#: ../dtop/aqt/clayout.py:343
+msgid "Deck Override"
+msgstr "Thay thế Bộ thẻ"
+
+#: ../dtop/aqt/main.py:1154
+msgid "Deck will be imported when a profile is opened."
+msgstr "Bộ thẻ sẽ được nhập vào khi mở hồ sơ."
+
+#: ../dtop/aqt/toolbar.py:45
+msgid "Decks"
+msgstr "Bộ thẻ"
+
+#: ../dtop/anki/consts.py:84
+msgid "Decreasing intervals"
+msgstr "Khoảng cách giảm dần"
+
+#: ../dtop/anki/decks.py:48 ../dtop/anki/decks.py:146
+#: ../dtop/anki/storage.py:296 ../dtop/aqt/deckchooser.py:49
+#: ../dtop/aqt/deckchooser.py:52 ../dtop/aqt/deckchooser.py:71
+msgid "Default"
+msgstr "Mặc định"
+
+#: ../dtop/anki/stats.py:473
+msgid "Delays until reviews are shown again."
+msgstr "Thời gian giãn cách đến khi hiện thẻ ôn tập lần nữa"
+
+#: ../dtop/aqt/browser.py:1715 ../dtop/aqt/deckbrowser.py:273
+#: ../dtop/aqt/deckconf.py:78 ../dtop/aqt/models.py:40
+#: ../dtop/aqt/reviewer.py:749 ../dtop/aqt/forms/fields.py:113
+#: ../dtop/aqt/forms/profiles.py:91
+msgid "Delete"
+msgstr "Xóa"
+
+#: ../dtop/aqt/addons.py:84
+#, python-format
+msgid "Delete %s?"
+msgstr "Xoá %s không?"
+
+#: ../dtop/aqt/main.py:1015
+msgid "Delete Cards"
+msgstr "Xóa Thẻ"
+
+#: ../dtop/aqt/deckbrowser.py:315
+msgid "Delete Deck"
+msgstr "Xóa Bộ thẻ"
+
+#: ../dtop/aqt/main.py:1020
+msgid "Delete Empty"
+msgstr "Xóa Thẻ trống"
+
+#: ../dtop/aqt/reviewer.py:699
+msgid "Delete Note"
+msgstr "Xóa Ghi chú"
+
+#: ../dtop/aqt/browser.py:1110
+msgid "Delete Notes"
+msgstr "Xóa Ghi chú"
+
+#: ../dtop/aqt/browser.py:1183
+msgid "Delete Tags"
+msgstr "Xóa Nhãn"
+
+#: ../dtop/aqt/main.py:970
+msgid "Delete Unused"
+msgstr "Xóa dữ liệu Thừa"
+
+#: ../dtop/aqt/fields.py:98
+#, python-format
+msgid "Delete field from %s?"
+msgstr "Xóa trường tin khỏi %s ?"
+
+#: ../dtop/aqt/clayout.py:140
+#, python-format
+msgid "Delete the '%(a)s' card type, and its %(b)s?"
+msgstr "Xoá kiểu thẻ '%(a)s' và %(b)s của nó ?"
+
+#: ../dtop/aqt/models.py:99
+msgid "Delete this note type and all its cards?"
+msgstr "Xóa kiểu ghi chú này và mọi thẻ liên hệ?"
+
+#: ../dtop/aqt/models.py:101
+msgid "Delete this unused note type?"
+msgstr "Xóa kiểu ghi chú thừa này ?"
+
+#: ../dtop/aqt/main.py:984
+msgid "Delete unused media?"
+msgstr "Xoá dữ liệu phương tiện không dùng ?"
+
+#: ../dtop/aqt/addons.py:64
+msgid "Delete..."
+msgstr "Xóa..."
+
+#: ../dtop/anki/collection.py:746
+#, python-format
+msgid "Deleted %d card with missing note."
+msgid_plural "Deleted %d cards with missing note."
+msgstr[0] "Đã xóa %d thẻ thiếu ghi chú."
+
+#: ../dtop/anki/collection.py:715
+#, python-format
+msgid "Deleted %d card with missing template."
+msgid_plural "Deleted %d cards with missing template."
+msgstr[0] "Đã xóa %d thẻ thiếu kiểu mẫu."
+
+#: ../dtop/anki/collection.py:692
+#, python-format
+msgid "Deleted %d note with missing note type."
+msgid_plural "Deleted %d notes with missing note type."
+msgstr[0] "Đã xóa %d ghi chú thiếu kiểu ghi chú."
+
+#: ../dtop/anki/collection.py:737
+#, python-format
+msgid "Deleted %d note with no cards."
+msgid_plural "Deleted %d notes with no cards."
+msgstr[0] "Đã xóa %d ghi chú không có thẻ."
+
+#: ../dtop/anki/collection.py:727
+#, python-format
+msgid "Deleted %d note with wrong field count."
+msgid_plural "Deleted %d notes with wrong field count."
+msgstr[0] "Đã xoá %d thẻ sai số trường tin."
+
+#: ../dtop/aqt/main.py:991
+msgid "Deleted."
+msgstr "Đã xóa."
+
+#: ../dtop/aqt/addons.py:88
+msgid "Deleted. Please restart Anki."
+msgstr "Đã xóa. Xin vui lòng chạy lại Anki."
+
+#: ../dtop/aqt/overview.py:108
+msgid ""
+"Deleting this deck from the deck list will return all remaining cards to "
+"their original deck."
+msgstr ""
+"Khi xóa bộ thẻ này khỏi danh sách, toàn bộ thẻ còn lại sẽ được trả về bộ thẻ "
+"gốc."
+
+#: ../dtop/aqt/forms/dconf.py:385
+msgid "Description"
+msgstr "Mô tả"
+
+#: ../dtop/aqt/forms/dconf.py:384
+msgid "Description to show on study screen (current deck only):"
+msgstr "Mô tả hiển thị trên màn hình học tập (chỉ với bộ thẻ hiện tại):"
+
+#: ../dtop/aqt/forms/dyndconf.py:95 ../dtop/aqt/forms/editaddon.py:51
+#: ../dtop/aqt/forms/editcurrent.py:49
+msgid "Dialog"
+msgstr "Hộp thoại"
+
+#: ../dtop/aqt/importing.py:37
+msgid "Discard field"
+msgstr "Bỏ trường tin"
+
+#: ../dtop/aqt/downloader.py:42
+#, python-format
+msgid "Download failed: %s"
+msgstr "Tải thất bại: %s"
+
+#: ../dtop/aqt/sync.py:247 ../dtop/aqt/sync.py:253
+msgid "Download from AnkiWeb"
+msgstr "Tải xuống từ AnkiWeb"
+
+#: ../dtop/aqt/addons.py:160
+msgid "Download successful. Please restart Anki."
+msgstr "Tải thành công. Xin vui lòng chạy lại Anki."
+
+#: ../dtop/aqt/sync.py:108
+msgid "Downloading from AnkiWeb..."
+msgstr "Đang tải xuống từ AnkiWeb..."
+
+#: ../dtop/anki/stats.py:46 ../dtop/aqt/browser.py:492
+#: ../dtop/aqt/browser.py:810 ../dtop/aqt/deckbrowser.py:187
+msgid "Due"
+msgstr "Đến hạn"
+
+#: ../dtop/aqt/forms/customstudy.py:121
+msgid "Due cards only"
+msgstr "Chỉ thẻ nợ"
+
+#: ../dtop/anki/stats.py:237
+msgid "Due tomorrow"
+msgstr "Đến hạn ngày mai"
+
+#: ../dtop/aqt/forms/main.py:143
+msgid "E&xit"
+msgstr "&Thoát"
+
+#: ../dtop/anki/stats.py:49 ../dtop/aqt/browser.py:494
+#: ../dtop/aqt/browser.py:909
+msgid "Ease"
+msgstr "Độ dễ"
+
+#: ../dtop/aqt/reviewer.py:648 ../dtop/aqt/reviewer.py:650
+msgid "Easy"
+msgstr "Dễ"
+
+#: ../dtop/aqt/forms/dconf.py:358
+msgid "Easy bonus"
+msgstr "Phần chênh mức Dễ"
+
+#: ../dtop/aqt/forms/dconf.py:350
+msgid "Easy interval"
+msgstr "Khoảng cách mức Dễ"
+
+#: ../dtop/aqt/reviewer.py:594
+msgid "Edit"
+msgstr "Sửa"
+
+#: ../dtop/aqt/addcards.py:123
+#, python-format
+msgid "Edit %s"
+msgstr "Sửa %s"
+
+#: ../dtop/aqt/editcurrent.py:23
+msgid "Edit Current"
+msgstr "Sửa Ghi chú Hiện hành"
+
+#: ../dtop/aqt/editor.py:937
+msgid "Edit HTML"
+msgstr "Sửa HTML"
+
+#: ../dtop/aqt/clayout.py:307
+msgid "Edit to customize"
+msgstr "Chỉnh sửa để tùy biến"
+
+#: ../dtop/aqt/addons.py:59
+msgid "Edit..."
+msgstr "Chỉnh sửa..."
+
+#: ../dtop/aqt/browser.py:490
+msgid "Edited"
+msgstr "Đã sửa"
+
+#: ../dtop/aqt/forms/fields.py:116
+msgid "Editing Font"
+msgstr "Kiểu chữ khi Chỉnh sửa"
+
+#: ../dtop/aqt/addons.py:81
+msgid "Edits saved. Please restart Anki."
+msgstr "Đã lưu lại các hiệu chỉnh. Xin vui lòng chạy lại Anki."
+
+#: ../dtop/aqt/overview.py:190
+msgid "Empty"
+msgstr "Làm trống"
+
+#: ../dtop/aqt/forms/main.py:167
+msgid "Empty Cards..."
+msgstr "Thẻ Trống..."
+
+#: ../dtop/anki/collection.py:444
+#, python-format
+msgid ""
+"Empty card numbers: %(c)s\n"
+"Fields: %(f)s\n"
+"\n"
+msgstr ""
+"Thẻ trống: %(c)s\n"
+"Trường tin: %(f)s\n"
+"\n"
+
+#: ../dtop/anki/importing/noteimp.py:183
+msgid "Empty cards found. Please run Tools>Empty Cards."
+msgstr "Tìm thấy thẻ trống. Vui lòng chạy Công cụ > Thẻ Trống."
+
+#: ../dtop/anki/importing/noteimp.py:131
+#, python-format
+msgid "Empty first field: %s"
+msgstr "Trống trường tin đầu tiên: %s"
+
+#: ../dtop/aqt/forms/browser.py:308
+msgid "End"
+msgstr "Kết thúc"
+
+#: ../dtop/aqt/clayout.py:378
+#, python-format
+msgid "Enter deck to place new %s cards in, or leave blank:"
+msgstr "Nhập bộ thẻ để thêm thẻ mới kiểu %s, hoặc để trống:"
+
+#: ../dtop/aqt/clayout.py:277
+#, python-format
+msgid "Enter new card position (1...%s):"
+msgstr "Nhập vị trí thẻ mới (1...%s):"
+
+#: ../dtop/aqt/browser.py:1163
+msgid "Enter tags to add:"
+msgstr "Nhập nhãn cần thêm:"
+
+#: ../dtop/aqt/browser.py:1184
+msgid "Enter tags to delete:"
+msgstr "Nhập nhãn cần xóa:"
+
+#: ../dtop/aqt/downloader.py:85
+#, python-format
+msgid "Error downloading: %s"
+msgstr "Tải bị lỗi: %s"
+
+#: ../dtop/aqt/main.py:55
+#, python-format
+msgid ""
+"Error during startup:\n"
+"%s"
+msgstr ""
+"Có lỗi trong quá trình khởi chạy:\n"
+"%s"
+
+#: ../dtop/aqt/sync.py:187
+msgid ""
+"Error establishing a secure connection. This is usually caused by filtering "
+"software, or problems with your ISP."
+msgstr ""
+"Có lỗi khi thiết lập kết nối bảo mật. Vấn đề này thường là do phần mềm bộ "
+"lọc, hay có trục trặc với nhà cung cấp mạng của bạn."
+
+#: ../dtop/anki/latex.py:109
+#, python-format
+msgid "Error executing %s."
+msgstr "Gặp lỗi khi thực thi %s."
+
+#: ../dtop/anki/sound.py:231
+#, python-format
+msgid "Error running %s"
+msgstr "Gặp lỗi khi chạy %s"
+
+#: ../dtop/aqt/deckbrowser.py:271 ../dtop/aqt/exporting.py:82
+#: ../dtop/aqt/forms/exporting.py:82
+msgid "Export"
+msgstr "Xuất"
+
+#: ../dtop/aqt/exporting.py:33
+msgid "Export..."
+msgstr "Xuất..."
+
+#: ../dtop/anki/stdmodels.py:72 ../dtop/anki/stdmodels.py:82
+msgid "Extra"
+msgstr "Phụ thêm"
+
+#: ../dtop/aqt/forms/main.py:169
+msgid "F"
+msgstr "F"
+
+#: ../dtop/aqt/forms/browser.py:291 ../dtop/aqt/forms/main.py:158
+msgid "F1"
+msgstr "F1"
+
+#: ../dtop/aqt/editor.py:392
+msgid "F3"
+msgstr "F3"
+
+#: ../dtop/aqt/editor.py:394
+msgid "F5"
+msgstr "F5"
+
+#: ../dtop/aqt/editor.py:379
+msgid "F7"
+msgstr "F7"
+
+#: ../dtop/aqt/editor.py:382
+msgid "F8"
+msgstr "F8"
+
+#: ../dtop/aqt/importing.py:216
+#, python-format
+msgid "Field <b>%d</b> of file is:"
+msgstr "Trường <b>%d</b> của tập tin là:"
+
+#: ../dtop/aqt/forms/importing.py:113
+msgid "Field mapping"
+msgstr "Ánh xạ trường tin"
+
+#: ../dtop/aqt/fields.py:82
+msgid "Field name:"
+msgstr "Tên trường tin:"
+
+#: ../dtop/aqt/forms/addfield.py:86
+msgid "Field:"
+msgstr "Trường tin"
+
+#: ../dtop/aqt/fields.py:19 ../dtop/aqt/forms/changemodel.py:125
+#: ../dtop/aqt/forms/fields.py:111
+msgid "Fields"
+msgstr "Trường tin"
+
+#: ../dtop/aqt/fields.py:22
+#, python-format
+msgid "Fields for %s"
+msgstr "Các trường tin của bộ thẻ %s"
+
+#: ../dtop/aqt/importing.py:140
+#, python-format
+msgid "Fields separated by: %s"
+msgstr "Trường tin phân cách bằng: %s"
+
+#: ../dtop/aqt/editor.py:359 ../dtop/aqt/models.py:43
+msgid "Fields..."
+msgstr "Trường tin..."
+
+#: ../dtop/aqt/forms/browser.py:299
+msgid "Fil&ters"
+msgstr "Bộ &lọc"
+
+#: ../dtop/anki/importing/anki1.py:20
+msgid "File is invalid. Please restore from backup."
+msgstr "Tập tin không hợp lệ. Xin vui lòng phục hồi từ bản sao lưu."
+
+#: ../dtop/aqt/upgrade.py:256
+msgid "File was missing."
+msgstr "Không tìm thấy tập tin."
+
+#: ../dtop/aqt/forms/dyndconf.py:96
+msgid "Filter"
+msgstr "Lọc"
+
+#: ../dtop/aqt/forms/studydeck.py:57
+msgid "Filter:"
+msgstr "Lọc:"
+
+#: ../dtop/aqt/browser.py:915
+msgid "Filtered"
+msgstr "Đã lọc"
+
+#: ../dtop/aqt/main.py:786 ../dtop/aqt/main.py:788
+#, python-format
+msgid "Filtered Deck %d"
+msgstr "Bộ thẻ Lọc %d"
+
+#: ../dtop/aqt/forms/browser.py:303
+msgid "Find &Duplicates..."
+msgstr "Tìm Thẻ t&rùng..."
+
+#: ../dtop/aqt/forms/finddupes.py:73
+msgid "Find Duplicates"
+msgstr "Tìm Thẻ trùng"
+
+#: ../dtop/aqt/forms/browser.py:296
+msgid "Find and Re&place..."
+msgstr "Tìm và Th&ay..."
+
+#: ../dtop/aqt/browser.py:1339 ../dtop/aqt/forms/findreplace.py:79
+msgid "Find and Replace"
+msgstr "Tìm và Thay"
+
+#: ../dtop/aqt/reviewer.py:76
+msgid "Finish"
+msgstr "Xong"
+
+#: ../dtop/aqt/forms/browser.py:305
+msgid "First Card"
+msgstr "Thẻ Đầu"
+
+#: ../dtop/anki/stats.py:34
+msgid "First Review"
+msgstr "Ôn tập Lần đầu"
+
+#: ../dtop/anki/importing/noteimp.py:114
+#, python-format
+msgid "First field matched: %s"
+msgstr "Trường đầu tiên khớp: %s"
+
+#: ../dtop/anki/collection.py:755 ../dtop/anki/collection.py:766
+#, python-format
+msgid "Fixed %d card with invalid properties."
+msgid_plural "Fixed %d cards with invalid properties."
+msgstr[0] "Đã sửa %d thẻ có thuộc tính không hợp lệ."
+
+#: ../dtop/anki/collection.py:701
+msgid "Fixed AnkiDroid deck override bug."
+msgstr "Đã sửa lỗi ghi đè bộ thẻ AnkiDroid."
+
+#: ../dtop/anki/collection.py:706
+#, python-format
+msgid "Fixed note type: %s"
+msgstr "Kiểu ghi chú cố định: %s"
+
+#: ../dtop/aqt/clayout.py:166
+msgid "Flip"
+msgstr "Lật"
+
+#: ../dtop/aqt/profiles.py:159
+msgid "Folder already exists."
+msgstr "Thư mục đã tồn tại."
+
+#: ../dtop/aqt/forms/addfield.py:87
+msgid "Font:"
+msgstr "Kiểu chữ:"
+
+#: ../dtop/aqt/forms/modelopts.py:73
+msgid "Footer"
+msgstr "Chân trang"
+
+#: ../dtop/anki/latex.py:83
+#, python-format
+msgid ""
+"For security reasons, '%s' is not allowed on cards. You can still use it by "
+"placing the command in a different package, and importing that package in "
+"the LaTeX header instead."
+msgstr ""
+"Vì lý do an ninh, bạn không được dùng '%s' trên thẻ. Bạn vẫn có thể dùng nó "
+"bằng cách đặt lệnh trong một gói khác, rồi nhập gói đó vào đầu đề LaTeX."
+
+#: ../dtop/anki/stats.py:216
+msgid "Forecast"
+msgstr "Dự báo"
+
+#: ../dtop/aqt/forms/preview.py:50 ../dtop/aqt/forms/template.py:117
+msgid "Form"
+msgstr "Biểu mẫu"
+
+#: ../dtop/anki/stdmodels.py:60
+msgid "Forward & Optional Reverse"
+msgstr "Thẻ đúng & Thẻ ngược tùy chọn"
+
+#: ../dtop/anki/stdmodels.py:42
+msgid "Forward & Reverse"
+msgstr "Thẻ đúng & Thẻ ngược"
+
+#: ../dtop/aqt/browser.py:1408
+#, python-format
+msgid "Found %(a)s across %(b)s."
+msgstr "Tìm thấy %(a)s trên %(b)s."
+
+#: ../dtop/anki/stdmodels.py:16 ../dtop/anki/stdmodels.py:21
+#: ../dtop/anki/stdmodels.py:38 ../dtop/anki/stdmodels.py:56
+#: ../dtop/aqt/forms/addfield.py:85
+msgid "Front"
+msgstr "Mặt trước"
+
+#: ../dtop/aqt/forms/preview.py:51
+msgid "Front Preview"
+msgstr "Xem trước Mặt trước"
+
+#: ../dtop/aqt/forms/template.py:118
+msgid "Front Template"
+msgstr "Kiểu mẫu Mặt trước"
+
+#: ../dtop/aqt/forms/dconf.py:383
+msgid "General"
+msgstr "Tổng quát"
+
+#: ../dtop/anki/latex.py:110
+#, python-format
+msgid "Generated file: %s"
+msgstr "Tập tin đã phát sinh: %s"
+
+#: ../dtop/anki/stats.py:721
+#, python-format
+msgid "Generated on %s"
+msgstr "Đã phát sinh vào %s"
+
+#: ../dtop/aqt/deckbrowser.py:339
+msgid "Get Shared"
+msgstr "Lấy Bộ thẻ Chia sẻ"
+
+#: ../dtop/aqt/reviewer.py:646 ../dtop/aqt/reviewer.py:648
+#: ../dtop/aqt/reviewer.py:650
+msgid "Good"
+msgstr "Được"
+
+#: ../dtop/aqt/forms/dconf.py:351
+msgid "Graduating interval"
+msgstr "Khoảng cách mức Được"
+
+#: ../dtop/aqt/forms/edithtml.py:48
+msgid "HTML Editor"
+msgstr "Trình soạn thảo HTML"
+
+#: ../dtop/aqt/reviewer.py:650
+msgid "Hard"
+msgstr "Khó"
+
+#: ../dtop/anki/latex.py:117
+msgid "Have you installed latex and dvipng?"
+msgstr "Bạn đã cài latex và dvipng chưa?"
+
+#: ../dtop/aqt/forms/modelopts.py:72
+msgid "Header"
+msgstr "Đầu trang"
+
+#: ../dtop/aqt/addcards.py:65 ../dtop/aqt/clayout.py:156
+#: ../dtop/aqt/utils.py:120 ../dtop/aqt/utils.py:121
+msgid "Help"
+msgstr "Trợ giúp"
+
+#: ../dtop/anki/stats.py:676
+msgid "Highest ease"
+msgstr "Độ dễ cao nhất"
+
+#: ../dtop/aqt/addcards.py:72
+msgid "History"
+msgstr "Lịch sử"
+
+#: ../dtop/aqt/forms/browser.py:306
+msgid "Home"
+msgstr "Gốc"
+
+#: ../dtop/anki/stats.py:620
+msgid "Hourly Breakdown"
+msgstr "Chia nhỏ Theo giờ"
+
+#: ../dtop/anki/stats.py:309
+msgid "Hours"
+msgstr "Giờ"
+
+#: ../dtop/anki/stats.py:631
+msgid "Hours with less than 30 reviews are not shown."
+msgstr "Những mốc giờ có ít hơn 30 thẻ ôn tập sẽ không được hiển thị."
+
+#: ../dtop/aqt/about.py:47
+msgid ""
+"If you have contributed and are not on this list, please get in touch."
+msgstr ""
+"Xin vui lòng liên lạc với chúng tôi nếu bạn có tham gia đóng góp mà không "
+"thấy tên mình trên danh sách."
+
+#: ../dtop/anki/stats.py:352
+msgid "If you studied every day"
+msgstr "Nếu học hàng ngày thì"
+
+#: ../dtop/aqt/forms/dconf.py:378
+msgid "Ignore answer times longer than"
+msgstr "Bỏ qua mỗi khi thời gian trả lời lâu hơn"
+
+#: ../dtop/aqt/forms/findreplace.py:84
+msgid "Ignore case"
+msgstr "Bỏ qua phân biệt hoa thường"
+
+#: ../dtop/aqt/forms/importing.py:110
+msgid "Ignore lines where first field matches existing note"
+msgstr "Bỏ qua những dòng mà trường tin đầu tiên trùng với ghi chú hiện có"
+
+#: ../dtop/aqt/update.py:61
+msgid "Ignore this update"
+msgstr "Bỏ qua bản cập nhật này"
+
+#: ../dtop/aqt/importing.py:83 ../dtop/aqt/importing.py:159
+#: ../dtop/aqt/importing.py:265 ../dtop/aqt/forms/changemap.py:52
+#: ../dtop/aqt/forms/importing.py:105
+msgid "Import"
+msgstr "Nhập"
+
+#: ../dtop/aqt/deckbrowser.py:341
+msgid "Import File"
+msgstr "Nhập Tập tin"
+
+#: ../dtop/aqt/forms/importing.py:111
+msgid "Import even if existing note has same first field"
+msgstr "Nhập vào ngay cả khi ghi chú hiện có có cùng trường tin đầu tiên"
+
+#: ../dtop/aqt/importing.py:166 ../dtop/aqt/importing.py:342
+msgid "Import failed.\n"
+msgstr "Nhập thất bại.\n"
+
+#: ../dtop/aqt/importing.py:306
+msgid "Import failed. Debugging info:\n"
+msgstr "Nhập thất bại. Thông tin gỡ lỗi:\n"
+
+#: ../dtop/aqt/forms/importing.py:106
+msgid "Import options"
+msgstr "Tùy chọn nhập"
+
+#: ../dtop/aqt/importing.py:178
+msgid "Importing complete."
+msgstr "Nhập hoàn tất."
+
+#: ../dtop/aqt/main.py:948
+msgid "In media folder but not used by any cards:"
+msgstr "Nằm trong thư mục phương tiện nhưng chưa được thẻ nào dùng:"
+
+#: ../dtop/aqt/main.py:844
+#, python-format
+msgid ""
+"In order to ensure your collection works correctly when moved between "
+"devices, Anki requires your computer's internal clock to be set correctly. "
+"The internal clock can be wrong even if your system is showing the correct "
+"local time.\n"
+"\n"
+"Please go to the time settings on your computer and check the following:\n"
+"\n"
+"- AM/PM\n"
+"- Clock drift\n"
+"- Day, month and year\n"
+"- Timezone\n"
+"- Daylight savings\n"
+"\n"
+"Difference to correct time: %s."
+msgstr ""
+"Để bảm đảm rằng bộ sưu tập của bnạ hoạt động đúng đắn khi chuyển thiết bị, "
+"Anki yêu cầu đồng hồ bên trong máy tính của bạn phải được đặt chính xác. "
+"Đồng hồ bên trong có thể sai ngay cả khi hệ thống của bạn hiện thời gian nội "
+"bộ chính xác.\n"
+"\n"
+"Vui lòng đến thiết lập thời gian trên máy tính của bạn và kiểm tra các phần "
+"sau:\n"
+"\n"
+"- Sáng/Chiều\n"
+"- Độ lệch giờ\n"
+"- Ngày, tháng, năm\n"
+"- Múi giờ\n"
+"- Tiết kiệm giờ theo mùa\n"
+"\n"
+"Sai biệt với giờ đúng: %s."
+
+#: ../dtop/aqt/forms/exporting.py:86
+msgid "Include media"
+msgstr "Bao gồm dữ liệu phương tiện"
+
+#: ../dtop/aqt/forms/exporting.py:85
+msgid "Include scheduling information"
+msgstr "Bao gồm thông tin lập lịch"
+
+#: ../dtop/aqt/forms/exporting.py:87
+msgid "Include tags"
+msgstr "Bao gồm nhãn"
+
+#: ../dtop/aqt/forms/customstudy.py:109
+msgid "Increase today's new card limit"
+msgstr "Tăng giới hạn thẻ mới cho hôm nay"
+
+#: ../dtop/aqt/customstudy.py:58
+msgid "Increase today's new card limit by"
+msgstr "Tăng giới hạn thẻ mới cho hôm nay với"
+
+#: ../dtop/aqt/forms/customstudy.py:110
+msgid "Increase today's review card limit"
+msgstr "Tăng giới hạn thẻ ôn tập cho hôm nay"
+
+#: ../dtop/aqt/customstudy.py:64
+msgid "Increase today's review limit by"
+msgstr "Tăng giới hạn thẻ ôn tập cho hôm nay với"
+
+#: ../dtop/anki/consts.py:83
+msgid "Increasing intervals"
+msgstr "Khoảng cách tăng dần"
+
+#: ../dtop/aqt/browser.py:1703
+msgid "Info"
+msgstr "Thông tin"
+
+#: ../dtop/aqt/forms/getaddons.py:59
+msgid "Install Add-on"
+msgstr "Cài Phần gắn thêm"
+
+#: ../dtop/aqt/forms/setlang.py:51
+msgid "Interface language:"
+msgstr "Ngôn ngữ Giao diện:"
+
+#: ../dtop/anki/stats.py:48 ../dtop/aqt/browser.py:493
+#: ../dtop/aqt/browser.py:909
+msgid "Interval"
+msgstr "Khoảng cách"
+
+#: ../dtop/aqt/forms/dconf.py:361
+msgid "Interval modifier"
+msgstr "Hệ số khoảng cách"
+
+#: ../dtop/anki/stats.py:472
+msgid "Intervals"
+msgstr "Khoảng cách"
+
+#: ../dtop/aqt/downloader.py:18 ../dtop/aqt/downloader.py:83
+msgid "Invalid code."
+msgstr "Mã không hợp lệ."
+
+#: ../dtop/aqt/main.py:942
+msgid "Invalid encoding; please rename:"
+msgstr "Mã hoá không hợp lệ; vui lòng đổi tên:"
+
+#: ../dtop/aqt/importing.py:333
+msgid "Invalid file. Please restore from backup."
+msgstr "Tập tin không hợp lệ. Xin vui lòng phục hồi từ bản sao lưu."
+
+#: ../dtop/aqt/main.py:163 ../dtop/aqt/main.py:187
+msgid "Invalid password."
+msgstr "Mật khẩu không hợp lệ."
+
+#: ../dtop/aqt/main.py:884
+msgid ""
+"Invalid property found on card. Please use Tools>Check Database, and if the "
+"problem comes up again, please ask on the support site."
+msgstr ""
+"Tìm thấy thuộc tính không hợp lệ trên thẻ. Vui  lòng dùng Công cụ > Kiểm tra "
+"CSDL và nếu vẫn có vấn đề, vui lòng hỏi trên trang hỗ trợ."
+
+#: ../dtop/aqt/browser.py:1350
+msgid "Invalid regular expression."
+msgstr "Biểu thức chính quy không hợp lệ."
+
+#: ../dtop/aqt/reviewer.py:685
+msgid "It has been suspended."
+msgstr "Thẻ đã bị dừng."
+
+#: ../dtop/aqt/editor.py:369
+msgid "Italic text (Ctrl+I)"
+msgstr "Chữ nghiêng (Ctrl+I)"
+
+#: ../dtop/aqt/webview.py:150
+#, python-format
+msgid "JS error on line %(a)d: %(b)s"
+msgstr "Lỗi JS ở dòng %(a)d: %(b)s"
+
+#: ../dtop/aqt/editor.py:638
+msgid "Jump to tags with Ctrl+Shift+T"
+msgstr "Nhảy đến nhãn với Ctrl+Shift+T"
+
+#: ../dtop/aqt/forms/preferences.py:237
+msgid "Keep"
+msgstr "Giữ"
+
+#: ../dtop/aqt/editor.py:928 ../dtop/aqt/forms/modelopts.py:74
+msgid "LaTeX"
+msgstr "LaTeX"
+
+#: ../dtop/aqt/editor.py:931
+msgid "LaTeX equation"
+msgstr "Phương trình LaTeX"
+
+#: ../dtop/aqt/editor.py:934
+msgid "LaTeX math env."
+msgstr "Môi trường toán LaTeX"
+
+#: ../dtop/anki/stats.py:51 ../dtop/aqt/browser.py:496
+#: ../dtop/aqt/forms/dconf.py:377
+msgid "Lapses"
+msgstr "Hỏng"
+
+#: ../dtop/aqt/forms/browser.py:307
+msgid "Last Card"
+msgstr "Thẻ Cuối"
+
+#: ../dtop/anki/stats.py:35
+msgid "Latest Review"
+msgstr "Ôn tập Sau cùng"
+
+#: ../dtop/anki/consts.py:88
+msgid "Latest added first"
+msgstr "Thẻ thêm mới nhất trước"
+
+#: ../dtop/anki/stats.py:289 ../dtop/anki/stats.py:303
+#: ../dtop/aqt/browser.py:915
+msgid "Learn"
+msgstr "Học"
+
+#: ../dtop/aqt/forms/preferences.py:223
+msgid "Learn ahead limit"
+msgstr "Giới hạn học trước"
+
+#: ../dtop/anki/stats.py:173
+#, python-format
+msgid "Learn: %(a)s, Review: %(b)s, Relearn: %(c)s, Filtered: %(d)s"
+msgstr "Học: %(a)s, Ôn: %(b)s, Học lại: %(c)s, Lọc: %(d)s"
+
+#: ../dtop/anki/stats.py:525 ../dtop/aqt/browser.py:808
+#: ../dtop/aqt/overview.py:144
+msgid "Learning"
+msgstr "Đang học"
+
+#: ../dtop/aqt/browser.py:813
+msgid "Leech"
+msgstr "Thẻ bám"
+
+#: ../dtop/aqt/forms/dconf.py:371
+msgid "Leech action"
+msgstr "Hành động với thẻ bám"
+
+#: ../dtop/aqt/forms/dconf.py:369
+msgid "Leech threshold"
+msgstr "Ngưỡng thành thẻ bám"
+
+#: ../dtop/anki/consts.py:75
+msgid "Left"
+msgstr "Trái"
+
+#: ../dtop/aqt/forms/dyndconf.py:97
+msgid "Limit to"
+msgstr "Giới hạn trong"
+
+#: ../dtop/aqt/utils.py:17
+msgid "Loading..."
+msgstr "Đang nạp..."
+
+#: ../dtop/aqt/preferences.py:145
+msgid "Lock account with password, or leave blank:"
+msgstr "Khóa tài khoản bằng mật khẩu, hoặc để trống:"
+
+#: ../dtop/anki/stats.py:483
+msgid "Longest interval"
+msgstr "Khoảng lâu nhất"
+
+#: ../dtop/aqt/forms/finddupes.py:75
+msgid "Look in field:"
+msgstr "Tìm trong trường tin:"
+
+#: ../dtop/anki/stats.py:674
+msgid "Lowest ease"
+msgstr "Độ dễ thấp nhất"
+
+#: ../dtop/aqt/modelchooser.py:64
+msgid "Manage"
+msgstr "Quản lý"
+
+#: ../dtop/aqt/forms/main.py:170
+msgid "Manage Note Types..."
+msgstr "Quản lý Kiểu Ghi chú..."
+
+#: ../dtop/aqt/importing.py:30
+#, python-format
+msgid "Map to %s"
+msgstr "Ánh xạ với %s"
+
+#: ../dtop/aqt/importing.py:36
+msgid "Map to Tags"
+msgstr "Ánh xạ với Nhãn"
+
+#: ../dtop/aqt/browser.py:1705
+msgid "Mark"
+msgstr "Đánh dấu"
+
+#: ../dtop/aqt/reviewer.py:694
+msgid "Mark Note"
+msgstr "Đánh dấu Ghi chú"
+
+#: ../dtop/aqt/browser.py:1706
+msgid "Mark Note (Ctrl+K)"
+msgstr "Đánh dấu Ghi chú (Ctrl+K)"
+
+#: ../dtop/aqt/browser.py:811
+msgid "Marked"
+msgstr "Đã đánh dấu"
+
+#: ../dtop/anki/stats.py:208 ../dtop/anki/stats.py:286
+#: ../dtop/anki/stats.py:300 ../dtop/anki/stats.py:527
+#: ../dtop/anki/stats.py:660
+msgid "Mature"
+msgstr "Trưởng thành"
+
+#: ../dtop/aqt/forms/dconf.py:363
+msgid "Maximum interval"
+msgstr "Khoảng tối đa"
+
+#: ../dtop/aqt/forms/dconf.py:362
+msgid "Maximum reviews/day"
+msgstr "Ôn tập tối đa/ngày"
+
+#: ../dtop/aqt/editor.py:756
+msgid "Media"
+msgstr "Phương tiện"
+
+#: ../dtop/aqt/forms/dconf.py:372
+msgid "Minimum interval"
+msgstr "Khoảng tối thiểu"
+
+#: ../dtop/anki/stats.py:306
+msgid "Minutes"
+msgstr "Phút"
+
+#: ../dtop/anki/consts.py:67
+msgid "Mix new cards and reviews"
+msgstr "Trộn lẫn thẻ mới và thẻ ôn tập"
+
+#: ../dtop/anki/importing/__init__.py:18
+msgid "Mnemosyne 2.0 Deck (*.db)"
+msgstr "Bộ thẻ Mnemosyne 2.0 (*.db)"
+
+#: ../dtop/aqt/clayout.py:170 ../dtop/aqt/reviewer.py:596
+msgid "More"
+msgstr "Thêm"
+
+#: ../dtop/anki/consts.py:85
+msgid "Most lapses"
+msgstr "Nhiều lần hỏng nhất"
+
+#: ../dtop/aqt/browser.py:1134
+msgid "Move Cards"
+msgstr "Di chuyển Thẻ"
+
+#: ../dtop/aqt/browser.py:1709
+msgid "Move To Deck (Ctrl+D)"
+msgstr "Di chuyển Đến Bộ thẻ (Ctrl+D)"
+
+#: ../dtop/aqt/forms/setgroup.py:50
+msgid "Move cards to deck:"
+msgstr "Di chuyển thẻ vào bộ thẻ:"
+
+#: ../dtop/aqt/browser.py:825
+msgid "My Searches"
+msgstr ""
+
+#: ../dtop/aqt/forms/browser.py:284
+msgid "N&ote"
+msgstr "&Ghi chú"
+
+#: ../dtop/aqt/main.py:177 ../dtop/aqt/main.py:193
+msgid "Name exists."
+msgstr "Trùng tên đã có."
+
+#: ../dtop/aqt/deckbrowser.py:54
+msgid "Name for deck:"
+msgstr "Tên cho bộ thẻ:"
+
+#: ../dtop/aqt/main.py:173 ../dtop/aqt/models.py:86
+msgid "Name:"
+msgstr "Tên:"
+
+#: ../dtop/aqt/forms/preferences.py:235
+msgid "Network"
+msgstr "Mạng"
+
+#: ../dtop/aqt/browser.py:807 ../dtop/aqt/deckbrowser.py:187
+#: ../dtop/aqt/overview.py:143
+msgid "New"
+msgstr "Mới"
+
+#: ../dtop/aqt/forms/dconf.py:357
+msgid "New Cards"
+msgstr "Thẻ Mới"
+
+#: ../dtop/aqt/customstudy.py:57
+#, python-format
+msgid "New cards in deck: %s"
+msgstr "Thẻ mới trong bộ: %s"
+
+#: ../dtop/aqt/forms/customstudy.py:119
+msgid "New cards only"
+msgstr "Chỉ thẻ mới"
+
+#: ../dtop/aqt/forms/dconf.py:352
+msgid "New cards/day"
+msgstr "Thẻ mới/ngày"
+
+#: ../dtop/aqt/deckbrowser.py:284 ../dtop/aqt/studydeck.py:133
+msgid "New deck name:"
+msgstr "Tên bộ thẻ mới:"
+
+#: ../dtop/aqt/forms/dconf.py:368
+msgid "New interval"
+msgstr "Khoảng mới"
+
+#: ../dtop/aqt/clayout.py:263 ../dtop/aqt/deckconf.py:132
+#: ../dtop/aqt/fields.py:73 ../dtop/aqt/main.py:185 ../dtop/aqt/models.py:57
+msgid "New name:"
+msgstr "Tên mới:"
+
+#: ../dtop/aqt/forms/changemodel.py:123
+msgid "New note type:"
+msgstr "Kiểu ghi chú mới:"
+
+#: ../dtop/aqt/deckconf.py:110
+msgid "New options group name:"
+msgstr "Tên nhóm tùy chọn mới:"
+
+#: ../dtop/aqt/fields.py:110
+#, python-format
+msgid "New position (1...%d):"
+msgstr "Vị trí mới (1...%d):"
+
+#: ../dtop/aqt/forms/preferences.py:222
+msgid "Next day starts at"
+msgstr "Ngày kế tiếp bắt đầu lúc"
+
+#: ../dtop/aqt/overview.py:39
+msgid "No cards are due yet."
+msgstr "Chưa có thẻ nợ."
+
+#: ../dtop/aqt/customstudy.py:160
+msgid "No cards matched the criteria you provided."
+msgstr "Không có thẻ ứng với tiêu chí bạn đã đưa."
+
+#: ../dtop/aqt/main.py:1007
+msgid "No empty cards."
+msgstr "Không có thẻ trống."
+
+#: ../dtop/anki/stats.py:184
+msgid "No mature cards were studied today."
+msgstr "Chưa có thẻ trưởng thành học trong hôm nay."
+
+#: ../dtop/aqt/main.py:957
+msgid "No unused or missing files found."
+msgstr "Không tìm thấy tập tin thiếu hay thừa nào."
+
+#: ../dtop/aqt/browser.py:498
+msgid "Note"
+msgstr "Ghi chú"
+
+#: ../dtop/anki/stats.py:63
+msgid "Note ID"
+msgstr "Số Ghi chú"
+
+#: ../dtop/anki/stats.py:61
+msgid "Note Type"
+msgstr "Kiểu Ghi chú"
+
+#: ../dtop/aqt/models.py:19 ../dtop/aqt/forms/models.py:65
+msgid "Note Types"
+msgstr "Kiểu Ghi chú"
+
+#: ../dtop/aqt/reviewer.py:754
+#, python-format
+msgid "Note and its %d card deleted."
+msgid_plural "Note and its %d cards deleted."
+msgstr[0] "Đã xóa ghi chú và %d thẻ liên kết"
+
+#: ../dtop/aqt/reviewer.py:768
+msgid "Note buried."
+msgstr "Đã tạm hoãn ghi chú."
+
+#: ../dtop/aqt/reviewer.py:735
+msgid "Note suspended."
+msgstr "Đã dừng ghi chú."
+
+#: ../dtop/aqt/forms/preferences.py:241
+msgid ""
+"Note: Media is not backed up. Please create a periodic backup of your Anki "
+"folder to be safe."
+msgstr ""
+"Lưu ý: Dữ liệu phương tiện sẽ không được sao lưu. Xin vui lòng sao lưu định "
+"kỳ thư mục Anki của bạn để phòng xa."
+
+#: ../dtop/aqt/browser.py:944
+msgid ""
+"Note: Some of the history is missing. For more information, please see the "
+"browser documentation."
+msgstr ""
+"Lưu ý: một vài thông tin lược sử bị thiếu. Để biết thêm chi tiết, xin vui "
+"lòng tham khảo tài liệu trình duyệt."
+
+#: ../dtop/anki/exporting.py:70
+msgid "Notes in Plain Text"
+msgstr "Ghi chú dạng Văn bản Thô"
+
+#: ../dtop/aqt/fields.py:95
+msgid "Notes require at least one field."
+msgstr "Ghi chú cần ít nhất một trường tin."
+
+#: ../dtop/aqt/browser.py:1432
+msgid "Notes tagged."
+msgstr "Ghi chú đã gắn nhãn"
+
+#: ../dtop/aqt/browser.py:1579
+msgid "Nothing"
+msgstr "Không gì"
+
+#: ../dtop/aqt/customstudy.py:49
+msgid "OK"
+msgstr "Đồng ý"
+
+#: ../dtop/anki/consts.py:81
+msgid "Oldest seen first"
+msgstr "Thẻ lâu nhất trước"
+
+#: ../dtop/aqt/forms/preferences.py:233
+msgid "On next sync, force changes in one direction"
+msgstr "Ở lần đồng bộ kế tiếp, bắt buộc thay đổi trong một hướng"
+
+#: ../dtop/anki/importing/noteimp.py:210
+msgid ""
+"One or more notes were not imported, because they didn't generate any cards. "
+"This can happen when you have empty fields or when you have not mapped the "
+"content in the text file to the correct fields."
+msgstr ""
+"Không nhập được ghi chú vì nó không phát sinh thẻ nào cả. Điều này có thể "
+"xảy ra khi bạn có trường tin trống hay bạn chưa ánh xạ nội dung trong tập "
+"tin văn bản vào các trường tin tương ứng."
+
+#: ../dtop/aqt/browser.py:1225
+msgid "Only new cards can be repositioned."
+msgstr "Chỉ có thể định vị lại thẻ mới."
+
+#: ../dtop/aqt/sync.py:172
+msgid ""
+"Only one client can access AnkiWeb at a time. If a previous sync failed, "
+"please try again in a few minutes."
+msgstr ""
+"Chỉ một trình khách có thể truy xuất AnkiWeb một lúc. Nếu lần đồng bộ trước "
+"hỏng, vui lòng thử lại trong ít phút."
+
+#: ../dtop/aqt/forms/profiles.py:88
+msgid "Open"
+msgstr "Mở"
+
+#: ../dtop/aqt/main.py:374
+msgid "Optimizing..."
+msgstr "Đang tối ưu hóa..."
+
+#: ../dtop/aqt/forms/finddupes.py:74
+msgid "Optional limit:"
+msgstr "Giới hạn tùy chọn:"
+
+#: ../dtop/aqt/deckbrowser.py:269 ../dtop/aqt/deckconf.py:22
+#: ../dtop/aqt/dyndeckconf.py:23 ../dtop/aqt/overview.py:186
+#: ../dtop/aqt/reviewer.py:700 ../dtop/aqt/forms/dyndconf.py:100
+#: ../dtop/aqt/forms/fields.py:119
+msgid "Options"
+msgstr "Tuỳ chọn"
+
+#: ../dtop/aqt/deckconf.py:34 ../dtop/aqt/dyndeckconf.py:28
+#: ../dtop/aqt/models.py:114
+#, python-format
+msgid "Options for %s"
+msgstr "Tùy chọn bộ thẻ %s"
+
+#: ../dtop/aqt/forms/dconf.py:346
+msgid "Options group:"
+msgstr "Nhóm tùy chọn:"
+
+#: ../dtop/aqt/models.py:47
+msgid "Options..."
+msgstr "Tùy chọn..."
+
+#: ../dtop/aqt/forms/dconf.py:349
+msgid "Order"
+msgstr "Thứ tự"
+
+#: ../dtop/anki/consts.py:86
+msgid "Order added"
+msgstr "Thứ tự thêm vào"
+
+#: ../dtop/anki/consts.py:87
+msgid "Order due"
+msgstr "Thứ tự đến hạn"
+
+#: ../dtop/aqt/forms/browserdisp.py:82
+msgid "Override back template:"
+msgstr "Thay thế kiểu mẫu mặt sau:"
+
+#: ../dtop/aqt/forms/browserdisp.py:83
+msgid "Override font:"
+msgstr "Thay thế kiểu chữ:"
+
+#: ../dtop/aqt/forms/browserdisp.py:81
+msgid "Override front template:"
+msgstr "Thay thế kiểu mẫu mặt trước:"
+
+#: ../dtop/anki/importing/__init__.py:16
+msgid "Packaged Anki Deck (*.apkg *.zip)"
+msgstr "Bộ thẻ Anki Đóng gói (*.apkg *.zip)"
+
+#: ../dtop/aqt/sync.py:210 ../dtop/aqt/forms/profiles.py:87
+msgid "Password:"
+msgstr "Mật khẩu:"
+
+#: ../dtop/aqt/preferences.py:156
+msgid "Passwords didn't match"
+msgstr "Mật khẩu không khớp"
+
+#: ../dtop/aqt/editor.py:1211
+msgid "Paste"
+msgstr "Dán"
+
+#: ../dtop/aqt/forms/preferences.py:219
+msgid "Paste clipboard images as PNG"
+msgstr "Dán hình ảnh clipboard với dạng PNG"
+
+#: ../dtop/anki/importing/__init__.py:20
+msgid "Pauker 1.8 Lesson (*.pau.gz)"
+msgstr "Bài học Pauker 1.8 (*.pau.gz)"
+
+#: ../dtop/anki/stats.py:474
+msgid "Percentage"
+msgstr "Phần trăm"
+
+#: ../dtop/anki/stats.py:729
+#, python-format
+msgid "Period: %s"
+msgstr "Thời gian: %s"
+
+#: ../dtop/aqt/forms/reschedule.py:86
+msgid "Place at end of new card queue"
+msgstr "Đặt vào cuối hàng đợi thẻ mới"
+
+#: ../dtop/aqt/forms/reschedule.py:87
+msgid "Place in review queue with interval between:"
+msgstr "Đặt vào hàng đợi ôn tập với khoảng cách giữa:"
+
+#: ../dtop/aqt/models.py:95
+msgid "Please add another note type first."
+msgstr "Xin vui lòng thêm kiểu thẻ khác trước."
+
+#: ../dtop/aqt/upgrade.py:168
+msgid "Please be patient; this can take a while."
+msgstr "Xin vui lòng kiên nhẫn; thao tác này có thể mất một lúc."
+
+#: ../dtop/aqt/errors.py:64
+msgid ""
+"Please connect a microphone, and ensure other programs are not using the "
+"audio device."
+msgstr ""
+"Xin vui lòng gắn micro vào, và chắc chắn rằng những chương trình khác đang "
+"không dùng thiết bị tiếng."
+
+#: ../dtop/anki/collection.py:529
+#, python-format
+msgid "Please edit this note and add some cloze deletions. (%s)"
+msgstr "Xin vui lòng sửa ghi chú này và thêm vài chỗ điền trống. (%s)"
+
+#: ../dtop/aqt/main.py:1158
+msgid "Please ensure a profile is open and Anki is not busy, then try again."
+msgstr "Xin vui lòng đảm bảo rằng hồ sơ đã mở và Anki đang rỗi, rồi thử lại."
+
+#: ../dtop/aqt/errors.py:60
+msgid "Please install PyAudio"
+msgstr "Xin vui lòng cài đặt PyAudio"
+
+#: ../dtop/aqt/errors.py:62
+msgid "Please install mplayer"
+msgstr "Xin vui lòng cài đặt mplayer."
+
+#: ../dtop/aqt/preferences.py:14
+msgid "Please open a profile first."
+msgstr "Xin vui lòng mở một hồ sơ trước."
+
+#: ../dtop/aqt/profiles.py:154
+#, python-format
+msgid "Please remove the folder %s and try again."
+msgstr ""
+
+#: ../dtop/aqt/reviewer.py:387
+msgid "Please run Tools>Empty Cards"
+msgstr "Vui lòng chạy Công cụ > Thẻ Trống"
+
+#: ../dtop/aqt/main.py:408
+msgid "Please select a deck."
+msgstr "Xin vui lòng chọn một bộ thẻ."
+
+#: ../dtop/aqt/browser.py:976
+msgid "Please select cards from only one note type."
+msgstr "Xin vui lòng chọn thẻ từ một kiểu ghi chú duy nhất."
+
+#: ../dtop/aqt/studydeck.py:115
+msgid "Please select something."
+msgstr "Xin vui lòng chọn một cái gì đó."
+
+#: ../dtop/aqt/sync.py:160
+msgid "Please upgrade to the latest version of Anki."
+msgstr "Xin vui lòng nâng cấp lên phiên bản Anki mới nhất."
+
+#: ../dtop/aqt/main.py:763
+msgid "Please use File>Import to import this file."
+msgstr "Xin vui lòng dùng Tập tin>Nhập để nhập tập tin này."
+
+#: ../dtop/aqt/sync.py:114
+msgid "Please visit AnkiWeb, upgrade your deck, then try again."
+msgstr "Xin vui lòng ghé thăm AnkiWeb, nâng cấp bộ thẻ, rồi thử lại."
+
+#: ../dtop/anki/stats.py:59
+msgid "Position"
+msgstr "Vị trí"
+
+#: ../dtop/aqt/forms/preferences.py:215
+msgid "Preferences"
+msgstr "Tùy chỉnh"
+
+#: ../dtop/aqt/browser.py:1009 ../dtop/aqt/forms/browser.py:271
+msgid "Preview"
+msgstr "Xem trước"
+
+#: ../dtop/aqt/browser.py:395
+#, python-format
+msgid "Preview Selected Card (%s)"
+msgstr "Xem trước Thẻ Được chọn (%s)"
+
+#: ../dtop/aqt/forms/customstudy.py:112
+msgid "Preview new cards"
+msgstr "Xem trước thẻ mới"
+
+#: ../dtop/aqt/customstudy.py:74
+msgid "Preview new cards added in the last"
+msgstr "Xem trước thẻ mới thêm vào sau cùng"
+
+#: ../dtop/aqt/progress.py:93
+msgid "Processing..."
+msgstr "Đang xử lý..."
+
+#: ../dtop/aqt/forms/preferences.py:228
+msgid "Profile Password..."
+msgstr "Mật khẩu Hồ sơ..."
+
+#: ../dtop/aqt/forms/profiles.py:86
+msgid "Profile:"
+msgstr "Hồ sơ:"
+
+#: ../dtop/aqt/forms/profiles.py:85
+msgid "Profiles"
+msgstr "Hồ sơ"
+
+#: ../dtop/aqt/sync.py:183
+msgid "Proxy authentication required."
+msgstr "Yêu cầu xác thực ủy nhiệm."
+
+#: ../dtop/aqt/browser.py:484
+msgid "Question"
+msgstr "Câu hỏi"
+
+#: ../dtop/aqt/browser.py:1235
+#, python-format
+msgid "Queue bottom: %d"
+msgstr "Cuối hàng đợi: %d"
+
+#: ../dtop/aqt/browser.py:1234
+#, python-format
+msgid "Queue top: %d"
+msgstr "Đầu hàng đợi: %d"
+
+#: ../dtop/aqt/forms/profiles.py:92
+msgid "Quit"
+msgstr "Thoát"
+
+#: ../dtop/anki/consts.py:82
+msgid "Random"
+msgstr "Ngẫu nhiên"
+
+#: ../dtop/aqt/forms/reposition.py:84
+msgid "Randomize order"
+msgstr "Trộn ngẫu nhiên thứ tự"
+
+#: ../dtop/aqt/browser.py:909
+msgid "Rating"
+msgstr "Đánh giá"
+
+#: ../dtop/aqt/upgrade.py:134
+msgid "Ready to Upgrade"
+msgstr "Sẵn sàng Nâng cấp"
+
+#: ../dtop/aqt/dyndeckconf.py:20 ../dtop/aqt/overview.py:189
+msgid "Rebuild"
+msgstr "Tái tạo"
+
+#: ../dtop/aqt/reviewer.py:703
+msgid "Record Own Voice"
+msgstr "Thu Tiếng"
+
+#: ../dtop/aqt/editor.py:394
+msgid "Record audio (F5)"
+msgstr "Thu âm (F5)"
+
+#: ../dtop/aqt/sound.py:26
+#, python-format
+msgid "Recording...<br>Time: %0.1f"
+msgstr "Đang thu... <br>Thời gian:%0.1f"
+
+#: ../dtop/anki/consts.py:89
+msgid "Relative overdueness"
+msgstr "Tình trạng đến hạn liên quan"
+
+#: ../dtop/anki/stats.py:288 ../dtop/anki/stats.py:302
+#: ../dtop/aqt/browser.py:915
+msgid "Relearn"
+msgstr "Học lại"
+
+#: ../dtop/aqt/forms/fields.py:118
+msgid "Remember last input when adding"
+msgstr "Ghi nhớ nhập liệu sau cùng khi thêm mới"
+
+#: ../dtop/aqt/browser.py:1828
+#, python-format
+msgid "Remove \"%s\" from your saved searches?"
+msgstr ""
+
+#: ../dtop/aqt/browser.py:1713
+msgid "Remove Tags"
+msgstr "Bỏ Nhãn"
+
+#: ../dtop/aqt/editor.py:378
+msgid "Remove formatting (Ctrl+R)"
+msgstr "Bỏ định dạng (Ctrl+R)"
+
+#: ../dtop/aqt/browser.py:1829
+msgid "Remove search"
+msgstr ""
+
+#: ../dtop/aqt/clayout.py:145
+msgid ""
+"Removing this card type would cause one or more notes to be deleted. Please "
+"create a new card type first."
+msgstr ""
+"Loại bỏ kiểu thẻ này sẽ khiến cho một hoặc nhiều ghi chú bị xóa. XIn vui "
+"lòng tạo một kiểu thẻ mới trước."
+
+#: ../dtop/aqt/clayout.py:331 ../dtop/aqt/deckbrowser.py:267
+#: ../dtop/aqt/deckconf.py:80 ../dtop/aqt/models.py:38
+#: ../dtop/aqt/forms/fields.py:114 ../dtop/aqt/forms/profiles.py:90
+msgid "Rename"
+msgstr "Đổi tên"
+
+#: ../dtop/aqt/deckbrowser.py:281
+msgid "Rename Deck"
+msgstr "Đổi tên Bộ thẻ"
+
+#: ../dtop/aqt/browser.py:1016 ../dtop/aqt/reviewer.py:702
+msgid "Replay Audio"
+msgstr "Phát lại Âm thanh"
+
+#: ../dtop/aqt/reviewer.py:704
+msgid "Replay Own Voice"
+msgstr "Phát lại Tiếng"
+
+#: ../dtop/aqt/browser.py:1240 ../dtop/aqt/clayout.py:335
+#: ../dtop/aqt/forms/fields.py:115
+msgid "Reposition"
+msgstr "Định vị lại"
+
+#: ../dtop/aqt/forms/reposition.py:81
+msgid "Reposition New Cards"
+msgstr "Định vị lại Thẻ Mới"
+
+#: ../dtop/aqt/forms/browser.py:304
+msgid "Reposition..."
+msgstr "Định vị lại..."
+
+#: ../dtop/aqt/forms/taglimit.py:72
+msgid "Require one or more of these tags:"
+msgstr "Yêu cầu một hoặc một số nhãn sau:"
+
+#: ../dtop/aqt/browser.py:916
+msgid "Resched"
+msgstr "Lập lịch lại"
+
+#: ../dtop/aqt/browser.py:1259 ../dtop/aqt/forms/reschedule.py:85
+msgid "Reschedule"
+msgstr "Lập lịch lại"
+
+#: ../dtop/aqt/forms/dyndconf.py:101
+msgid "Reschedule cards based on my answers in this deck"
+msgstr "Lập lịch lại thẻ các dựa trên cách tôi trả lời ở bộ thẻ này"
+
+#: ../dtop/aqt/main.py:473
+msgid "Resume Now"
+msgstr "Tiếp tục Bây giờ"
+
+#: ../dtop/aqt/forms/fields.py:117
+msgid "Reverse text direction (RTL)"
+msgstr "Hướng văn bản ngược (phải qua trái)"
+
+#: ../dtop/aqt/main.py:684
+#, python-format
+msgid "Reverted to state prior to '%s'."
+msgstr "Phục hồi lại trạng thái trước '%s'."
+
+#: ../dtop/anki/collection.py:610 ../dtop/aqt/browser.py:809
+#: ../dtop/aqt/browser.py:915
+msgid "Review"
+msgstr "Ôn tập"
+
+#: ../dtop/anki/stats.py:269
+msgid "Review Count"
+msgstr "Số Ôn tập"
+
+#: ../dtop/anki/stats.py:270
+msgid "Review Time"
+msgstr "Thời gian Ôn tập"
+
+#: ../dtop/aqt/forms/customstudy.py:107
+msgid "Review ahead"
+msgstr "Ôn trước"
+
+#: ../dtop/aqt/customstudy.py:71
+msgid "Review ahead by"
+msgstr "Ôn trước"
+
+#: ../dtop/aqt/customstudy.py:67
+msgid "Review cards forgotten in last"
+msgstr "Ôn thẻ quên sau cùng"
+
+#: ../dtop/aqt/forms/customstudy.py:108
+msgid "Review forgotten cards"
+msgstr "Ôn thẻ quên"
+
+#: ../dtop/anki/stats.py:621
+msgid "Review success rate for each hour of the day."
+msgstr "Tỷ lệ ôn tập thành công mỗi giờ trong ngày"
+
+#: ../dtop/anki/stats.py:50 ../dtop/anki/stats.py:630
+#: ../dtop/aqt/browser.py:495 ../dtop/aqt/forms/dconf.py:366
+msgid "Reviews"
+msgstr "Ôn tập"
+
+#: ../dtop/aqt/customstudy.py:63
+#, python-format
+msgid "Reviews due in deck: %s"
+msgstr "Ôn tập đến hạn trong bộ thẻ: %s"
+
+#: ../dtop/anki/consts.py:76
+msgid "Right"
+msgstr "Phải"
+
+#: ../dtop/aqt/stats.py:27
+msgid "Save Image"
+msgstr "Lưu Ảnh"
+
+#: ../dtop/aqt/browser.py:1818
+msgid "Save search"
+msgstr ""
+
+#: ../dtop/anki/stats.py:727
+#, python-format
+msgid "Scope: %s"
+msgstr "Phạm vi: %s"
+
+#: ../dtop/aqt/browser.py:1392 ../dtop/aqt/forms/browser.py:270
+#: ../dtop/aqt/forms/dyndconf.py:98
+msgid "Search"
+msgstr "Tìm"
+
+#: ../dtop/aqt/forms/browseropts.py:84
+msgid "Search within formatting (slow)"
+msgstr "Tìm trong định dạng (chậm)"
+
+#: ../dtop/aqt/customstudy.py:78
+msgid "Select"
+msgstr "Chọn"
+
+#: ../dtop/aqt/forms/browser.py:277
+msgid "Select &All"
+msgstr "Chọn &Hết"
+
+#: ../dtop/aqt/forms/browser.py:294
+msgid "Select &Notes"
+msgstr "Chọn &Ghi chú"
+
+#: ../dtop/aqt/forms/taglimit.py:73
+msgid "Select tags to exclude:"
+msgstr "Chọn nhãn để loại trừ:"
+
+#: ../dtop/aqt/importing.py:259
+msgid ""
+"Selected file was not in UTF-8 format. Please see the importing section of "
+"the manual."
+msgstr ""
+"Tập tin được chọn không có định dạng UTF-8. Vui lòng tham khảo phần nhập vào "
+"của tài liệu hướng dẫn."
+
+#: ../dtop/aqt/forms/taglimit.py:71
+msgid "Selective Study"
+msgstr "Học tập Lựa chọn"
+
+#: ../dtop/aqt/importing.py:135
+msgid "Semicolon"
+msgstr "Dấu chấm phẩy"
+
+#: ../dtop/aqt/sync.py:180
+msgid ""
+"Server not found. Either your connection is down, or antivirus/firewall "
+"software is blocking Anki from connecting to the internet."
+msgstr ""
+"Không tìm thấy máy chủ. Hoặc là bạn đã bị mất kết nối, hoặc có phần mềm "
+"chống virus/tường lửa đang ngăn chặn Anki kết nối với internet."
+
+#: ../dtop/aqt/deckconf.py:140
+#, python-format
+msgid "Set all decks below %s to this option group?"
+msgstr "Đặt tất cả bộ thẻ dưới %s vào nhóm tùy chọn này?"
+
+#: ../dtop/aqt/deckconf.py:82
+msgid "Set for all subdecks"
+msgstr "Đặt cho tất cả bộ thẻ con"
+
+#: ../dtop/aqt/editor.py:380
+msgid "Set foreground colour (F7)"
+msgstr "Đặt màu mặt (F7)"
+
+#: ../dtop/aqt/main.py:59
+msgid ""
+"Shift key was held down. Skipping automatic syncing and add-on loading."
+msgstr ""
+"Phím Shift được nhấn giữ. Bỏ qua đồng bộ tự đồng và nạp phần gắn thêm."
+
+#: ../dtop/aqt/forms/reposition.py:85
+msgid "Shift position of existing cards"
+msgstr "Dịch chuyển vị trí các thẻ hiện hữu"
+
+#: ../dtop/aqt/browser.py:1019 ../dtop/aqt/deckbrowser.py:346
+#: ../dtop/aqt/main.py:498 ../dtop/aqt/overview.py:199
+#: ../dtop/aqt/reviewer.py:595 ../dtop/aqt/reviewer.py:605
+#: ../dtop/aqt/reviewer.py:663 ../dtop/aqt/toolbar.py:45
+#: ../dtop/aqt/toolbar.py:46 ../dtop/aqt/toolbar.py:47
+#, python-format
+msgid "Shortcut key: %s"
+msgstr "Phím tắt: %s"
+
+#: ../dtop/aqt/addcards.py:78
+#, python-format
+msgid "Shortcut: %s"
+msgstr "Phím tắt: %s"
+
+#: ../dtop/anki/template/hint.py:17
+#, python-format
+msgid "Show %s"
+msgstr "Hiện %s"
+
+#: ../dtop/aqt/reviewer.py:605
+msgid "Show Answer"
+msgstr "Hiện Đáp án"
+
+#: ../dtop/aqt/editor.py:518
+msgid "Show Duplicates"
+msgstr "Hiện Thẻ trùng"
+
+#: ../dtop/aqt/forms/dconf.py:380
+msgid "Show answer timer"
+msgstr "Hiện đồng hồ bấm giờ trả lời"
+
+#: ../dtop/anki/consts.py:68
+msgid "Show new cards after reviews"
+msgstr "Hiện thẻ mới sau phần ôn tập"
+
+#: ../dtop/anki/consts.py:69
+msgid "Show new cards before reviews"
+msgstr "Hiện các thẻ mới trước khi ôn tập"
+
+#: ../dtop/anki/consts.py:62
+msgid "Show new cards in order added"
+msgstr "Hiện các thẻ mới theo thứ tự thêm vào"
+
+#: ../dtop/anki/consts.py:61
+msgid "Show new cards in random order"
+msgstr "Hiện các thẻ mới theo thứ tự ngẫu nhiên"
+
+#: ../dtop/aqt/forms/preferences.py:216
+msgid "Show next review time above answer buttons"
+msgstr "Hiện thời gian ôn tập kế tiếp trên các nút trả lời"
+
+#: ../dtop/aqt/forms/preferences.py:217
+msgid "Show remaining card count during review"
+msgstr "Hiện số thẻ còn lại trong lúc ôn tập"
+
+#: ../dtop/aqt/toolbar.py:38
+#, python-format
+msgid "Show statistics. Shortcut key: %s"
+msgstr "Hiện thống kê. Phím tắt: %s"
+
+#: ../dtop/aqt/forms/addfield.py:88
+msgid "Size:"
+msgstr "Cỡ:"
+
+#: ../dtop/anki/sched.py:1186
+msgid "Some related or buried cards were delayed until a later session."
+msgstr "Vài thẻ liên quan hoặc thẻ chôn bị hoãn lại đến phiên sau."
+
+#: ../dtop/aqt/forms/preferences.py:242
+msgid "Some settings will take effect after you restart Anki."
+msgstr "Một số thiết lập chỉ có hiệu lực sau khi chạy lại Anki."
+
+#: ../dtop/anki/importing/anki2.py:116
+msgid "Some updates were ignored because note type has changed:"
+msgstr "Vài cập nhật bị bỏ qua vì kiểu ghi chú đã thay đổi:"
+
+#: ../dtop/aqt/browser.py:488
+msgid "Sort Field"
+msgstr "Trường Sắp xếp"
+
+#: ../dtop/aqt/forms/fields.py:120
+msgid "Sort by this field in the browser"
+msgstr "Sắp xếp theo trường này trong trình duyệt"
+
+#: ../dtop/aqt/browser.py:654
+msgid "Sorting on this column is not supported. Please choose another."
+msgstr "Không hỗ trợ sắp xếp trên cột này. Xin vui lòng chọn cột khác."
+
+#: ../dtop/aqt/upgrade.py:120
+msgid "Sounds & Images"
+msgstr "Âm thanh & Hình ảnh"
+
+#: ../dtop/aqt/importing.py:133 ../dtop/aqt/reviewer.py:605
+msgid "Space"
+msgstr "Khoảng trắng"
+
+#: ../dtop/aqt/forms/reposition.py:82
+msgid "Start position:"
+msgstr "Vị trí bắt đầu:"
+
+#: ../dtop/aqt/forms/dconf.py:348
+msgid "Starting ease"
+msgstr "Độ dễ ban đầu"
+
+#: ../dtop/aqt/forms/stats.py:86
+msgid "Statistics"
+msgstr "Thống kê"
+
+#: ../dtop/aqt/forms/reposition.py:83
+msgid "Step:"
+msgstr "Bước:"
+
+#: ../dtop/aqt/forms/dconf.py:353 ../dtop/aqt/forms/dconf.py:367
+msgid "Steps (in minutes)"
+msgstr "Bước (phút)"
+
+#: ../dtop/aqt/deckconf.py:245 ../dtop/aqt/dyndeckconf.py:110
+msgid "Steps must be numbers."
+msgstr "Bước phải là số"
+
+#: ../dtop/aqt/forms/preferences.py:218
+msgid "Strip HTML when pasting text"
+msgstr "Gỡ bỏ HTML khi dán văn bản"
+
+#: ../dtop/anki/stats.py:164 ../dtop/aqt/deckbrowser.py:166
+#, python-format
+msgid "Studied %(a)s in %(b)s today."
+msgstr "Đã học %(a)s trong %(b)s hôm nay."
+
+#: ../dtop/aqt/browser.py:805
+msgid "Studied Today"
+msgstr "Đã học Hôm nay"
+
+#: ../dtop/aqt/studydeck.py:46
+msgid "Study"
+msgstr "Học tập"
+
+#: ../dtop/aqt/forms/studydeck.py:56
+msgid "Study Deck"
+msgstr "Học Bộ thẻ"
+
+#: ../dtop/aqt/forms/main.py:165
+msgid "Study Deck..."
+msgstr "Học Bộ thẻ..."
+
+#: ../dtop/aqt/overview.py:146
+msgid "Study Now"
+msgstr "Học Bây giờ"
+
+#: ../dtop/aqt/forms/customstudy.py:111
+msgid "Study by card state or tag"
+msgstr "Học theo trạng thái thẻ hay nhãn"
+
+#: ../dtop/aqt/forms/template.py:119
+msgid "Styling"
+msgstr "Định kiểu"
+
+#: ../dtop/aqt/clayout.py:104
+msgid "Styling (shared between cards)"
+msgstr "Định kiểu (chia sẻ giữa các thẻ)"
+
+#: ../dtop/aqt/editor.py:376
+msgid "Subscript (Ctrl+=)"
+msgstr "Chỉ số dưới (Ctrl+=)"
+
+#: ../dtop/anki/importing/__init__.py:19
+msgid "Supermemo XML export (*.xml)"
+msgstr "Tập tin xuất XML của Sumermemo (*.xml)"
+
+#: ../dtop/aqt/editor.py:374
+msgid "Superscript (Ctrl+Shift+=)"
+msgstr "Chỉ số trên (Ctrl+Shift+=)"
+
+#: ../dtop/aqt/browser.py:1707 ../dtop/aqt/reviewer.py:732
+#: ../dtop/aqt/reviewer.py:739
+msgid "Suspend"
+msgstr "Dừng"
+
+#: ../dtop/aqt/reviewer.py:697 ../dtop/aqt/forms/dconf.py:374
+msgid "Suspend Card"
+msgstr "Dừng Thẻ"
+
+#: ../dtop/aqt/reviewer.py:698
+msgid "Suspend Note"
+msgstr "Dừng Ghi chú"
+
+#: ../dtop/aqt/browser.py:812
+msgid "Suspended"
+msgstr "Dừng"
+
+#: ../dtop/anki/stats.py:663
+msgid "Suspended+Buried"
+msgstr ""
+
+#: ../dtop/aqt/forms/preferences.py:231
+msgid "Synchronize audio and images too"
+msgstr "Đồng bộ cả âm thanh và hình ảnh"
+
+#: ../dtop/aqt/toolbar.py:40
+#, python-format
+msgid "Synchronize with AnkiWeb. Shortcut key: %s"
+msgstr "Đồng bộ hóa với AnkiWeb. Phím tắt: %s"
+
+#: ../dtop/aqt/sync.py:112
+msgid "Syncing Media..."
+msgstr "Đang đồng bộ dữ liệu Phương tiện..."
+
+#: ../dtop/aqt/sync.py:124
+#, python-format
+msgid ""
+"Syncing failed:\n"
+"%s"
+msgstr ""
+"Đồng bộ thất bại:\n"
+"%s"
+
+#: ../dtop/aqt/sync.py:96
+msgid "Syncing failed; internet offline."
+msgstr "Đồng bộ thất bại; kết nối ngoại tuyến."
+
+#: ../dtop/aqt/sync.py:259
+msgid ""
+"Syncing requires the clock on your computer to be set correctly. Please fix "
+"the clock and try again."
+msgstr ""
+"Để tiến hành đồng bộ, đồng hồ máy tính phải được đặt chính xác. Xin vui lòng "
+"chỉnh đồng hồ rồi thử lại."
+
+#: ../dtop/aqt/sync.py:103
+msgid "Syncing..."
+msgstr "Đang đồng bộ..."
+
+#: ../dtop/aqt/importing.py:129
+msgid "Tab"
+msgstr "Tab"
+
+#: ../dtop/aqt/browser.py:1401 ../dtop/aqt/browser.py:1424
+msgid "Tag Duplicates"
+msgstr "Nhãn Trùng"
+
+#: ../dtop/aqt/forms/dconf.py:375
+msgid "Tag Only"
+msgstr "Chỉ gắn Nhãn"
+
+#: ../dtop/aqt/browser.py:497 ../dtop/aqt/editor.py:633
+msgid "Tags"
+msgstr "Nhãn"
+
+#: ../dtop/aqt/deckchooser.py:29
+msgid "Target Deck (Ctrl+D)"
+msgstr "Bộ thẻ Đích (Ctrl+D)"
+
+#: ../dtop/aqt/forms/changemap.py:53
+msgid "Target field:"
+msgstr "Trường tin đích:"
+
+#: ../dtop/anki/stdmodels.py:69
+msgid "Text"
+msgstr "Văn bản"
+
+#: ../dtop/anki/importing/__init__.py:15
+msgid "Text separated by tabs or semicolons (*)"
+msgstr "Văn bản ngăn cách bởi ký tự Tab hay Dấu chấm phẩy (*)"
+
+#: ../dtop/anki/decks.py:233
+msgid "That deck already exists."
+msgstr "Bộ thẻ đã tồn tại."
+
+#: ../dtop/aqt/fields.py:66
+msgid "That field name is already used."
+msgstr "Tên trường tin này đã được dùng."
+
+#: ../dtop/aqt/clayout.py:269
+msgid "That name is already used."
+msgstr "Tên này đã được dùng."
+
+#: ../dtop/aqt/sync.py:152
+msgid ""
+"The connection to AnkiWeb timed out. Please check your network connection "
+"and try again."
+msgstr ""
+"Kết nối đến AnkiWeb bị quá thời gian. Xin vui lòng kiểm tra kết nối mạng rồi "
+"thử lại."
+
+#: ../dtop/aqt/browser.py:1815
+msgid ""
+"The current search terms will be added as a new item in the sidebar.\n"
+"Search name:"
+msgstr ""
+
+#: ../dtop/aqt/deckconf.py:124
+msgid "The default configuration can't be removed."
+msgstr "Không thể loại bỏ cấu hình mặc định."
+
+#: ../dtop/aqt/deckbrowser.py:314
+msgid "The default deck can't be deleted."
+msgstr "Không thể xóa bộ thẻ mặc định."
+
+#: ../dtop/anki/stats.py:682
+msgid "The division of cards in your deck(s)."
+msgstr "Sự phân chia thẻ trong bộ."
+
+#: ../dtop/aqt/addcards.py:139
+msgid "The first field is empty."
+msgstr "Trường tin đầu tiên trống."
+
+#: ../dtop/aqt/importing.py:147
+msgid "The first field of the note type must be mapped."
+msgstr "Trường tin đầu tiên của kiểu ghi chú phải được ánh xạ."
+
+#: ../dtop/aqt/utils.py:432
+#, python-format
+msgid "The following character can not be used: %s"
+msgstr "Không dùng được ký tự này: %s"
+
+#: ../dtop/aqt/reviewer.py:203
+msgid "The front of this card is empty. Please run Tools>Empty Cards."
+msgstr "Mặt trước thẻ này trống. Vui lòng chạy Công cụ > Thẻ Trống."
+
+#: ../dtop/aqt/about.py:44
+msgid ""
+"The icons were obtained from various sources; please see the Anki source\n"
+"for credits."
+msgstr ""
+"Các biểu tượng được lấy từ nhiều nguồn; xin vui lòng xem nguồn Anki\n"
+"để biết xuất xứ."
+
+#: ../dtop/aqt/addcards.py:150
+msgid ""
+"The input you have provided would make an empty question on all cards."
+msgstr ""
+"Phần nhập liệu bạn cung cấp sẽ tạo ra một câu hỏi trống trên mọi thẻ."
+
+#: ../dtop/anki/stats.py:292
+msgid "The number of questions you have answered."
+msgstr "Số câu hỏi đã trả lời."
+
+#: ../dtop/anki/stats.py:217
+msgid "The number of reviews due in the future."
+msgstr "Số thẻ ôn tập đến hạn trong tương lai."
+
+#: ../dtop/anki/stats.py:523
+msgid "The number of times you have pressed each button."
+msgstr "Số lần nhấn mỗi nút."
+
+#: ../dtop/aqt/errors.py:48
+msgid ""
+"The permissions on your system's temporary folder are incorrect, and Anki is "
+"not able to correct them automatically. Please search for 'temp folder' in "
+"the Anki manual for more information."
+msgstr ""
+"Phân quyền trên thư mục tạm thời trên hệ thống của bạn không chính xác, và "
+"Anki không thể chỉnh nó tự động được Vui lòng tìm 'thư mục tạm' trong hướng "
+"dẫn sử dụng Anki để có thêm thông tin."
+
+#: ../dtop/aqt/importing.py:387
+msgid "The provided file is not a valid .apkg file."
+msgstr "Tập tin đã cho không phải tập tin .apkg hợp lệ."
+
+#: ../dtop/aqt/dyndeckconf.py:83
+msgid ""
+"The provided search did not match any cards. Would you like to revise it?"
+msgstr ""
+"Yêu cầu tìm kiếm bạn cung cấp không khớp với bất kỳ thẻ nào. Bạn có muốn sửa "
+"lại không?"
+
+#: ../dtop/aqt/main.py:914
+msgid ""
+"The requested change will require a full upload of the database when you "
+"next synchronize your collection. If you have reviews or other changes "
+"waiting on another device that haven't been synchronized here yet, they will "
+"be lost. Continue?"
+msgstr ""
+"Thao tác thay đổi này yêu cầu tải lên toàn bộ cơ sở dữ liệu trong lần đồng "
+"bộ bộ sưu tập kế tiếp. Nếu bạn có phần ôn tập hoặc thay đổi khác trên thiết "
+"bị khác chưa được đồng bộ thì chúng sẽ bị mất. Tiếp tục chứ?"
+
+#: ../dtop/anki/stats.py:311
+msgid "The time taken to answer the questions."
+msgstr "Thời gian trả lời câu hỏi."
+
+#: ../dtop/aqt/upgrade.py:199
+#, python-format
+msgid ""
+"The upgrade has finished, and you're ready to start using Anki 2.0.\n"
+"<p>\n"
+"Below is a log of the update:\n"
+"<p>\n"
+"%s<br><br>"
+msgstr ""
+"Nâng cấp hoàn tất, bạn đã sẵn sàng sử dụng Anki 2.0.\n"
+"<p>\n"
+"Bên dưới là ghi chép cập nhật:\n"
+"<p>\n"
+"%s<br><br>"
+
+#: ../dtop/anki/sched.py:1176
+msgid ""
+"There are more new cards available, but the daily limit has been\n"
+"reached. You can increase the limit in the options, but please\n"
+"bear in mind that the more new cards you introduce, the higher\n"
+"your short-term review workload will become."
+msgstr ""
+"Vẫn còn nhiều thẻ nữa, nhưng đã đến giới hạn hàng ngày.\n"
+"Bạn có thể tăng thêm giới hạn trong phần tùy chọn, nhưng\n"
+"cần nhớ rằng bạn càng đưa ra nhiều thẻ mới thì gánh nặng ôn\n"
+"tập trong thời gian ngắn đối với bạn ngày càng cao hơn."
+
+#: ../dtop/aqt/main.py:202
+msgid "There must be at least one profile."
+msgstr "Phải có ít nhất một hồ sơ."
+
+#: ../dtop/aqt/browser.py:646
+msgid ""
+"This column can't be sorted on, but you can search for individual card "
+"types, such as 'card:Card 1'."
+msgstr ""
+"Cột này không dùng để sắp thứ tự được, nhưng bạn có thể tìm kiếm từng kiểu "
+"thẻ riêng, như là 'card:Card 1'."
+
+#: ../dtop/aqt/browser.py:650
+msgid ""
+"This column can't be sorted on, but you can search for specific decks by "
+"clicking on one on the left."
+msgstr ""
+"Cột này không dùng để sắp thứ tự được, nhưng bạn có thể nhấp vào một bộ thẻ "
+"bên trái để tìm kiếm bộ thẻ cụ thể."
+
+#: ../dtop/aqt/importing.py:356
+msgid ""
+"This file does not appear to be a valid .apkg file. If you're getting this "
+"error from a file downloaded from AnkiWeb, chances are that your download "
+"failed. Please try again, and if the problem persists, please try again with "
+"a different browser."
+msgstr ""
+"Tập tin này dường như không phải tập tip .apkg hợp lệ. Nếu bạn gặp lỗi này "
+"với tập tin tải xuống từ AnkiWeb, có khả năng bản tải của bạn đã hỏng. Vui "
+"lòng thử lại, và nếu vấn đề vẫn tồn tại, vui lòng thử lại với trình duyệt "
+"khác."
+
+#: ../dtop/aqt/utils.py:280
+msgid "This file exists. Are you sure you want to overwrite it?"
+msgstr "Tập tin này đã tồn tại. Bạn có chắc chắn muốn ghi đè không?"
+
+#: ../dtop/aqt/profiles.py:284
+#, python-format
+msgid ""
+"This folder stores all of your Anki data in a single location,\n"
+"to make backups easy. To tell Anki to use a different location,\n"
+"please see:\n"
+"\n"
+"%s\n"
+msgstr ""
+"Thư mục này lưu trữ tất cả dữ liệu Anki vào một vị trí duy nhất,\n"
+"để dễ sao lưu. Nếu muốn Anki dùng một vị trí khác,\n"
+"xin vui lòng tham khảo:\n"
+"\n"
+"%s\n"
+
+#: ../dtop/aqt/overview.py:103
+msgid "This is a special deck for studying outside of the normal schedule."
+msgstr "Đây là bộ thẻ đặc biệt để học ngoài thời khóa biểu bình thường."
+
+#: ../dtop/aqt/models.py:134
+msgid "This is a {{c1::sample}} cloze deletion."
+msgstr "Đây là một {{c1::ví dụ}} về chỗ điền trống."
+
+#: ../dtop/aqt/importing.py:369
+msgid ""
+"This will delete your existing collection and replace it with the data in "
+"the file you're importing. Are you sure?"
+msgstr ""
+"Thao tác này sẽ xóa bộ sưu tập bạn đang có và thay thế bằng dữ liệu trong "
+"tập tin bạn định nhập. Bạn có chắc chắn không?"
+
+#: ../dtop/aqt/upgrade.py:107
+msgid ""
+"This wizard will guide you through the Anki 2.0 upgrade process.\n"
+"For a smooth upgrade, please read the following pages carefully.\n"
+msgstr ""
+"Trình thuật sĩ này sẽ giúp bạn trong quá trình nâng cấp Anki 2.0.\n"
+"Để quá trình nâng cấp diễn ra suôn sẻ, xin vui lòng đọc kỹ những trang sau.\n"
+
+#: ../dtop/aqt/browser.py:909
+msgid "Time"
+msgstr "Thời gian"
+
+#: ../dtop/aqt/forms/preferences.py:225
+msgid "Timebox time limit"
+msgstr "Giới hạn khung thời gian"
+
+#: ../dtop/aqt/overview.py:145
+msgid "To Review"
+msgstr "Cần Ôn"
+
+#: ../dtop/aqt/forms/getaddons.py:60
+msgid ""
+"To browse add-ons, please click the browse button below.<br><br>When you've "
+"found an add-on you like, please paste its code below."
+msgstr ""
+"Để duyệt xem các phần gắn thêm, xin vui lòng nhấp nút Duyệt bên "
+"dưới.<br><br>Nếu tìm thấy phần gắn thêm nào thích, xin vui lòng dán mã của "
+"nó vào bên dưới."
+
+#: ../dtop/aqt/main.py:239
+msgid ""
+"To import into a password protected profile, please open the profile before "
+"attempting to import."
+msgstr ""
+"Để nhập vào một hồ sơ bảo vệ bằng mật khẩu, vui lòng mở hồ sơ trước khi nhập."
+
+#: ../dtop/aqt/editor.py:697
+msgid ""
+"To make a cloze deletion on an existing note, you need to change it to a "
+"cloze type first, via Edit>Change Note Type."
+msgstr ""
+"Để tạo chỗ điền trống trong ghi chú hiện có, trước tiên cần chuyển nó sang "
+"kiểu điền trống,  ở Chỉnh sửa>Đổi Kiểu Ghi chú."
+
+#: ../dtop/anki/sched.py:1183
+msgid "To see them now, click the Unbury button below."
+msgstr "Để xem ngay bây giờ, nhấp nút Bỏ chôn bên dưới."
+
+#: ../dtop/anki/sched.py:1189
+msgid ""
+"To study outside of the normal schedule, click the Custom Study button below."
+msgstr ""
+"Để học thêm ngoài thời khóa biểu bình thường, nhấp nút Học Tùy biến bên dưới."
+
+#: ../dtop/anki/stats.py:140
+msgid "Today"
+msgstr "Hôm nay"
+
+#: ../dtop/anki/sched.py:1171
+msgid ""
+"Today's review limit has been reached, but there are still cards\n"
+"waiting to be reviewed. For optimum memory, consider increasing\n"
+"the daily limit in the options."
+msgstr ""
+"Đã đến giới hạn trong ngày hôm nay, nhưng vẫn còn nhiều thẻ\n"
+"đang chờ ôn tập. Để giúp trí nhớ hoạt động hiệu quả hơn, bạn\n"
+"có thể xem xét tăng giới hạn hàng ngày trong phần tùy chọn."
+
+#: ../dtop/anki/stats.py:230 ../dtop/anki/stats.py:343
+msgid "Total"
+msgstr "Tổng"
+
+#: ../dtop/anki/stats.py:57
+msgid "Total Time"
+msgstr "Tổng Thời gian"
+
+#: ../dtop/anki/stats.py:670
+msgid "Total cards"
+msgstr "Tổng số thẻ"
+
+#: ../dtop/anki/stats.py:671
+msgid "Total notes"
+msgstr "Tổng số ghi chú"
+
+#: ../dtop/aqt/forms/findreplace.py:83
+msgid "Treat input as regular expression"
+msgstr "Xử lý dữ liệu nhập theo dạng biểu thức chính quy"
+
+#: ../dtop/aqt/browser.py:909 ../dtop/aqt/modelchooser.py:26
+#: ../dtop/aqt/forms/importing.py:107
+msgid "Type"
+msgstr "Kiểu"
+
+#: ../dtop/aqt/reviewer.py:390
+#, python-format
+msgid "Type answer: unknown field %s"
+msgstr "Kiểu trả lời: trường tin không biết %s"
+
+#: ../dtop/aqt/importing.py:339
+msgid "Unable to import from a read-only file."
+msgstr "Không thể nhập được từ tập tin chỉ đọc."
+
+#: ../dtop/aqt/overview.py:195
+msgid "Unbury"
+msgstr "Bỏ chôn"
+
+#: ../dtop/aqt/editor.py:372
+msgid "Underline text (Ctrl+U)"
+msgstr "Chữ gạch chân (Ctrl+U)"
+
+#: ../dtop/aqt/main.py:695
+msgid "Undo"
+msgstr "Hoàn tác"
+
+#: ../dtop/aqt/main.py:690
+#, python-format
+msgid "Undo %s"
+msgstr "Hoàn tác %s"
+
+#: ../dtop/aqt/importing.py:304
+msgid "Unknown file format."
+msgstr "Định dạng tập tin không xác định."
+
+#: ../dtop/anki/stats.py:662
+msgid "Unseen"
+msgstr "Chưa thấy"
+
+#: ../dtop/aqt/forms/importing.py:109
+msgid "Update existing notes when first field matches"
+msgstr "Cập nhật các ghi chú hiện hữu khi so khớp trường tin đầu tiên"
+
+#: ../dtop/anki/importing/anki2.py:113
+#, python-format
+msgid "Updated %(a)d of %(b)d existing notes."
+msgstr "Đã cập nhật %(a)d trong %(b)d ghi chú hiện hữu."
+
+#: ../dtop/aqt/upgrade.py:198
+msgid "Upgrade Complete"
+msgstr "Nâng cấp Hoàn tất"
+
+#: ../dtop/aqt/upgrade.py:89
+msgid "Upgrade Wizard"
+msgstr "Thuật sĩ Nâng cấp"
+
+#: ../dtop/aqt/upgrade.py:159
+msgid "Upgrading"
+msgstr "Đang nâng cấp"
+
+#: ../dtop/aqt/upgrade.py:247
+#, python-format
+msgid ""
+"Upgrading deck %(a)s of %(b)s...\n"
+"%(c)s"
+msgstr ""
+"Đang nâng cấp bộ thẻ %(a)s trong %(b)s...\n"
+"%(c)s"
+
+#: ../dtop/aqt/sync.py:246 ../dtop/aqt/sync.py:251
+msgid "Upload to AnkiWeb"
+msgstr "Tải lên AnkiWeb"
+
+#: ../dtop/aqt/sync.py:106
+msgid "Uploading to AnkiWeb..."
+msgstr "Đang tải lên AnkiWeb..."
+
+#: ../dtop/aqt/main.py:954
+msgid "Used on cards but missing from media folder:"
+msgstr ""
+"Phương tiện được thẻ sử dụng nhưng không có trong thư mục phương tiện:"
+
+#: ../dtop/aqt/profiles.py:282
+msgid "User 1"
+msgstr "Người dùng 1"
+
+#: ../dtop/aqt/about.py:25
+#, python-format
+msgid "Version %s"
+msgstr "Phiên bản %s"
+
+#: ../dtop/aqt/main.py:472
+msgid "Waiting for editing to finish."
+msgstr "Chờ hoàn tất chỉnh sửa."
+
+#: ../dtop/aqt/editor.py:694
+msgid ""
+"Warning, cloze deletions will not work until you switch the type at the top "
+"to Cloze."
+msgstr ""
+"Cảnh báo, xoá điền trống sẽ không hoạt động được cho đến khi bạn chuyển kiểu "
+"thẻ ở trên cùng sang kiểu Điền trống."
+
+#: ../dtop/aqt/upgrade.py:107
+msgid "Welcome"
+msgstr "Chào mừng"
+
+#: ../dtop/aqt/forms/preferences.py:220
+msgid "When adding, default to current deck"
+msgstr "Khi thêm mới, mặc định thực hiện với bộ thẻ hiện hành"
+
+#: ../dtop/aqt/forms/dconf.py:382
+msgid "When answer shown, replay both question and answer audio"
+msgstr "Khi hiện câu trả lời, phát lại cả câu hỏi và đáp án"
+
+#: ../dtop/aqt/upgrade.py:136
+msgid ""
+"When you're ready to upgrade, click the commit button to continue. The "
+"upgrade\n"
+"guide will open in your browser while the upgrade proceeds. Please read it\n"
+"carefully, as a lot has changed since the previous Anki version."
+msgstr ""
+"Khi đã sẳn sàng nâng cấp, nhấp nút Tiến hành để tiếp tục. Hướng dẫn\n"
+"nâng cấp sẽ được mở ra trong trình duyệt trong suốt quá trình. Xin\n"
+"vui lòng đọc kỹ, do đã có nhiều thay đổi so với phiên bản Anki trước."
+
+#: ../dtop/aqt/upgrade.py:120
+msgid ""
+"When your decks are upgraded, Anki will attempt to copy any sounds and "
+"images\n"
+"from the old decks. If you were using a custom DropBox folder or custom "
+"media\n"
+"folder, the upgrade process may not be able to locate your media. Later on, "
+"a\n"
+"report of the upgrade will be presented to you. If you notice media was not\n"
+"copied when it should have been, please see the upgrade guide for more\n"
+"instructions.\n"
+"<p>\n"
+"AnkiWeb now supports media syncing directly. No special setup is required, "
+"and\n"
+"media will be synchronized along with your cards when you sync to AnkiWeb."
+msgstr ""
+"Khi nâng cấp bộ thẻ, Anki sẽ cố gắng sao chép mọi âm thanh và hình ảnh từ\n"
+"bộ thẻ cũ. Nếu bạn có sử dụng thư mục DropBox hay thư mục phương tiện\n"
+"tùy biến thì Anki có thể sẽ không định vị được phương tiện. Sau đó, Anki sẽ\n"
+"trình bày một bản báo cáo nâng cấp cho bạn. Nếu có dữ liệu phương tiện\n"
+"nào không được sao chép, xin vui lòng xem hướng dẫn nâng cấp để được\n"
+"chỉ dẫn thêm.\n"
+"<p>\n"
+"Giờ đây AnkiWeb đã hỗ trợ đồng bộ phương tiện trực tiếp. Bạn không cần\n"
+"thiết đặt gì thêm, dữ liệu phương tiện sẽ được đồng bộ cùng với thẻ đến\n"
+"AnkiWeb."
+
+#: ../dtop/aqt/browser.py:802
+msgid "Whole Collection"
+msgstr "Cả Bộ sưu tập"
+
+#: ../dtop/aqt/update.py:60
+msgid "Would you like to download it now?"
+msgstr "Bạn có muốn tải xuống ngay bây giờ không?"
+
+#: ../dtop/aqt/about.py:29
+#, python-format
+msgid ""
+"Written by Damien Elmes, with patches, translation, testing and design "
+"from:<p>%(cont)s"
+msgstr ""
+"Viết bởi Damien Elmes, với sự tham gia đóng góp các bản vá, dịch thuật, chạy "
+"thử và thiết kế của:<p>%(cont)s"
+
+#: ../dtop/aqt/addcards.py:145
+msgid ""
+"You have a cloze deletion note type but have not made any cloze deletions. "
+"Proceed?"
+msgstr ""
+"Bạn có một kiểu ghi chú xoá điền trống nhưng chưa xoá chỗ này. Thực hiện ?"
+
+#: ../dtop/aqt/deckbrowser.py:175
+#, python-format
+msgid "You have a lot of decks. Please see %(a)s. %(b)s"
+msgstr "Bạn có nhiều bộ thẻ. Vui lòng xem %(a)s. %(b)s"
+
+#: ../dtop/aqt/reviewer.py:776
+msgid "You haven't recorded your voice yet."
+msgstr "Bạn chưa thu tiếng."
+
+#: ../dtop/aqt/browser.py:701
+msgid "You must have at least one column."
+msgstr "Bạn phải có ít nhất một cột."
+
+#: ../dtop/anki/stats.py:209 ../dtop/anki/stats.py:287
+#: ../dtop/anki/stats.py:301 ../dtop/anki/stats.py:526
+msgid "Young"
+msgstr "Trẻ"
+
+#: ../dtop/anki/stats.py:661
+msgid "Young+Learn"
+msgstr "Trẻ+Học"
+
+#: ../dtop/aqt/upgrade.py:113
+msgid "Your Decks"
+msgstr "Bộ thẻ của Bạn"
+
+#: ../dtop/aqt/deckconf.py:103
+msgid ""
+"Your changes will affect multiple decks. If you wish to change only the "
+"current deck, please add a new options group first."
+msgstr ""
+"Thay đổi của bạn sẽ tác động đến nhiều bộ thẻ. Nếu bạn chỉ muốn thay đổi bộ "
+"thẻ hiện tại, vui lòng thêm vào một nhóm tuỳ chọn mới trước."
+
+#: ../dtop/aqt/main.py:318
+msgid ""
+"Your collection file appears to be corrupt. This can happen when the file is "
+"copied or moved while Anki is open, or when the collection is stored on a "
+"network or cloud drive. Please see the manual for information on how to "
+"restore from an automatic backup."
+msgstr ""
+"Tập tin bộ sưu tập của bạn dường như đã hỏng. Điều này có thể xảy ra do tập "
+"tin bị di chuyển hoặc sao chép khi Anki đang mở, hoặc bộ sưu tập được lưu "
+"trữ trên ổ đĩa mạng hay đám mây. Vui lòng tham khảo tài liệu hướng dẫn để "
+"biết cách phục hồi từ bản sao lưu tự động."
+
+#: ../dtop/aqt/main.py:274
+msgid ""
+"Your collection is corrupt. Please create a new profile, then see the manual "
+"for how to restore from an automatic backup.\n"
+"\n"
+"Debug info:\n"
+msgstr ""
+
+#: ../dtop/aqt/sync.py:264
+msgid ""
+"Your collection is in an inconsistent state. Please run Tools>Check "
+"Database, then sync again."
+msgstr ""
+"Bộ sưu tập thẻ của bạn đang trong tình trạng thiếu nhất quán. Vui lòng chạy "
+"Công cụ > Kiểm tra Cơ sở dữ liệu, rồi đồng bộ lại."
+
+#: ../dtop/aqt/sync.py:185
+msgid "Your collection or a media file is too large to sync."
+msgstr "Bộ sưu tập hoặc tập tin phương tiện của bạn quá lớn để đồng bộ."
+
+#: ../dtop/aqt/sync.py:65
+msgid ""
+"Your collection was successfully uploaded to AnkiWeb.\n"
+"\n"
+"If you use any other devices, please sync them now, and choose to download "
+"the collection you have just uploaded from this computer. After doing so, "
+"future reviews and added cards will be merged automatically."
+msgstr ""
+"Bộ sưu tập của bạn đã được tải lên AnkiWeb thành công.\n"
+"\n"
+"Nếu có dùng thiết bị nào khác, xin vui lòng đồng bộ hóa nó ngay, và chọn tải "
+"về bộ sưu tập mà bạn vừa tải lên từ máy này. Sau đó, những bước ôn tập và "
+"thẻ mới thêm vào trong tương lai sẽ được tự động kết hợp lại."
+
+#: ../dtop/aqt/sync.py:231
+msgid ""
+"Your decks here and on AnkiWeb differ in such a way that they can't be "
+"merged together, so it's necessary to overwrite the decks on one side with "
+"the decks from the other.\n"
+"\n"
+"If you choose download, Anki will download the collection from AnkiWeb, and "
+"any changes you have made on your computer since the last sync will be "
+"lost.\n"
+"\n"
+"If you choose upload, Anki will upload your collection to AnkiWeb, and any "
+"changes you have made on AnkiWeb or your other devices since the last sync "
+"to this device will be lost.\n"
+"\n"
+"After all devices are in sync, future reviews and added cards can be merged "
+"automatically."
+msgstr ""
+"Bộ thẻ của bạn ở đây và trên AnkiWeb khác nhau đến nỗi không thể kết hợp với "
+"nhau được, vì vậy cần phải ghi đè một bộ lên bộ còn lại.\n"
+"\n"
+"Nếu chọn tải xuống, Anki sẽ tải xuống bộ sưu tập trên AnkiWeb, và mọi thay "
+"đổi trên máy tính từ lần đồng bộ trước sẽ bị mất.\n"
+"\n"
+"Nếu chọn tải lên, Anki sẽ tải bộ sưu tập của bạn lên AnkiWeb, và mọi thay "
+"đổi trên AnkiWeb hoặc các thiết bị khác từ lần đồng bộ trước sẽ bị mất.\n"
+"\n"
+"Sau khi mọi thiết bị đã được đồng bộ, những lần ôn tập và thêm thẻ mới trong "
+"tương lai sẽ được tự động kết hợp với nhau."
+
+#: ../dtop/anki/decks.py:383
+msgid "[no deck]"
+msgstr "[không có bộ thẻ]"
+
+#: ../dtop/aqt/forms/preferences.py:238
+msgid "backups"
+msgstr "sao lưu"
+
+#: ../dtop/aqt/customstudy.py:45
+msgid "cards"
+msgstr "thẻ"
+
+#: ../dtop/aqt/customstudy.py:79
+msgid "cards from the deck"
+msgstr "thẻ từ bộ thẻ"
+
+#: ../dtop/aqt/forms/dyndconf.py:99
+msgid "cards selected by"
+msgstr "thẻ được chọn theo"
+
+#: ../dtop/aqt/forms/stats.py:88
+msgid "collection"
+msgstr "bộ sưu tập"
+
+#: ../dtop/anki/stats.py:753
+msgid "d"
+msgstr "ng"
+
+#: ../dtop/aqt/customstudy.py:68 ../dtop/aqt/customstudy.py:72
+#: ../dtop/aqt/customstudy.py:75 ../dtop/aqt/forms/dconf.py:355
+#: ../dtop/aqt/forms/dconf.py:356 ../dtop/aqt/forms/dconf.py:364
+#: ../dtop/aqt/forms/dconf.py:373 ../dtop/aqt/forms/reschedule.py:89
+msgid "days"
+msgstr "ngày"
+
+#: ../dtop/aqt/forms/stats.py:87
+msgid "deck"
+msgstr "bộ thẻ"
+
+#: ../dtop/anki/stats.py:732 ../dtop/aqt/forms/stats.py:91
+msgid "deck life"
+msgstr "dòng đời bộ thẻ"
+
+#: ../dtop/aqt/browser.py:1428
+msgid "duplicate"
+msgstr "trùng"
+
+#: ../dtop/anki/collection.py:530
+msgid "help"
+msgstr "trợ giúp"
+
+#: ../dtop/aqt/deckbrowser.py:177
+msgid "hide"
+msgstr "ẩn"
+
+#: ../dtop/anki/stats.py:340
+msgid "hours"
+msgstr "giờ"
+
+#: ../dtop/aqt/forms/preferences.py:227
+msgid "hours past midnight"
+msgstr "giờ qua nửa đêm"
+
+#: ../dtop/aqt/forms/dconf.py:370
+msgid "lapses"
+msgstr "lần hỏng"
+
+#: ../dtop/anki/stats.py:359
+msgid "less than 0.1 cards/minute"
+msgstr ""
+
+#: ../dtop/aqt/importing.py:221
+#, python-format
+msgid "mapped to <b>%s</b>"
+msgstr "ánh xạ với <b>%s</b>"
+
+#: ../dtop/aqt/importing.py:219
+msgid "mapped to <b>Tags</b>"
+msgstr "ánh xạ với <b>Nhãn</b>"
+
+#: ../dtop/aqt/forms/preferences.py:224 ../dtop/aqt/forms/preferences.py:226
+msgid "mins"
+msgstr "phút"
+
+#: ../dtop/anki/stats.py:314
+msgid "minutes"
+msgstr "phút"
+
+#: ../dtop/anki/stats.py:753
+msgid "mo"
+msgstr "th"
+
+#: ../dtop/anki/stats.py:232 ../dtop/anki/stats.py:296
+msgid "reviews"
+msgstr "thẻ ôn tập"
+
+#: ../dtop/aqt/forms/dconf.py:379
+msgid "seconds"
+msgstr "giây"
+
+#: ../dtop/aqt/stats.py:52
+msgid "stats"
+msgstr "thống kê"
+
+#: ../dtop/aqt/deckbrowser.py:176
+msgid "this page"
+msgstr "trang này"
+
+#: ../dtop/anki/stats.py:753
+msgid "w"
+msgstr "t"
+
+#: ../dtop/anki/stats.py:724
+msgid "whole collection"
+msgstr "cả bộ sưu tập"
+
+#: ../dtop/aqt/forms/reschedule.py:88
+msgid "~"
+msgstr "~"
