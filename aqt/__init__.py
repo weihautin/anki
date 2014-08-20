@@ -10,11 +10,13 @@ import locale
 import gettext
 
 from aqt.qt import *
+#本目錄下qt.py 
 import anki.lang
 from anki.consts import HELP_SITE
 from anki.lang import langDir
 from anki.utils import isMac
 from anki import version as _version
+# version變數放在 anki/__init__.py內
 
 appVersion=_version
 appWebsite="http://ankisrs.net/"
