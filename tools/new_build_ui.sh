@@ -32,10 +32,13 @@ do
     base=$(basename $i .ui)
 #  抓取designer/*.ui下的檔名
     py="aqt/forms/${base}.py"
+    echo "I'm $py"
+    echo "I'm $i"
     echo "	\"$base\"," >> $init
     echo "import $base" >> $temp
 # 將結果輸入 init=aqt/forms/__init__.py 與 temp=aqt/forms/scratch檔案內
     if [ $i -nt $py ]; then
+#file1 -nt file2  如果 file1 比 file2 新，或者 file1 存在 file2 不存在，则为真
 #假設 .py檔尚未產生或是有建立新的*.ui檔
         echo " * "$py
 #IF成立,則於螢幕show出

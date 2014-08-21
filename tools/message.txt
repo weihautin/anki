@@ -1,0 +1,40 @@
+第一次執行會於視窗顯示:
+Generating forms..
+ * aqt/forms/about.py
+ * aqt/forms/addcards.py
+ * aqt/forms/addfield.py
+ * aqt/forms/addmodel.py
+ * aqt/forms/browserdisp.py
+ * aqt/forms/browseropts.py
+ * aqt/forms/browser.py
+ * aqt/forms/changemap.py
+ * aqt/forms/changemodel.py
+ * aqt/forms/customstudy.py
+ * aqt/forms/dconf.py
+ * aqt/forms/debug.py
+ * aqt/forms/dyndconf.py
+ * aqt/forms/editaddon.py
+ * aqt/forms/editcurrent.py
+ * aqt/forms/edithtml.py
+ * aqt/forms/exporting.py
+ * aqt/forms/fields.py
+ * aqt/forms/finddupes.py
+ * aqt/forms/findreplace.py
+ * aqt/forms/getaddons.py
+ * aqt/forms/importing.py
+ * aqt/forms/main.py
+ * aqt/forms/modelopts.py
+ * aqt/forms/models.py
+ * aqt/forms/preferences.py
+ * aqt/forms/preview.py
+ * aqt/forms/profiles.py
+ * aqt/forms/reposition.py
+ * aqt/forms/reschedule.py
+ * aqt/forms/setgroup.py
+ * aqt/forms/setlang.py
+ * aqt/forms/stats.py
+ * aqt/forms/studydeck.py
+ * aqt/forms/taglimit.py
+ * aqt/forms/template.py
+Building resources..
+
